@@ -2,7 +2,7 @@ import React from 'react';
 import './App.css';
 import { BrowserRouter, Route } from 'react-router-dom';
 
-import Navbar from './Navbar';
+import Navigation from './Navbar';
 import Home from './Home';
 import About from './About';
 import Music from './Music';
@@ -13,9 +13,9 @@ import Footer from './Footer';
 
 function App() {
   return (
-    <div className="App">
+    <div className="App black">
       <BrowserRouter >
-        <Navbar />
+        <Navigation />
         <Route exact path="/about">
           <About />
         </Route>

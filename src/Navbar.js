@@ -1,18 +1,36 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
 import './Navbar.css'
-
-function Navbar() {
+import Navbar from 'react-bootstrap/Navbar';
+import Nav from 'react-bootstrap/Nav';
+import logo from './img/gk-logo.png'
+function Navigation() {
   return (
     <div>
-      <ul>
-        <NavLink exact to="/"><li>HOME</li></NavLink>
-        <NavLink exact to="/about"><li>ABOUT</li></NavLink>
-        <NavLink exact to="/music"><li>MUSIC</li></NavLink>
-        <NavLink exact to="/contact"><li>CONTACT</li></NavLink>
-      </ul>
+      <Navbar className="justify-content-end" bg="dark" variant="dark">
+        <Navbar.Brand href="/">
+          <img
+            alt="gldkl logo"
+            src={logo}
+            className="logo"
+          />
+        </Navbar.Brand>
+        <Nav >
+          <Nav.Item>
+            <Nav.Link><NavLink exact to="/about">ABOUT</NavLink></Nav.Link>
+          </Nav.Item>
+          <Nav.Item>
+            <Nav.Link><NavLink exact to="/music">MUSIC</NavLink></Nav.Link>
+            </Nav.Item>
+          <Nav.Item>  
+            <Nav.Link><NavLink exact to="/contact">CONTACT</NavLink></Nav.Link>
+            </Nav.Item>
+        </Nav>
+
+      </Navbar>
+
     </div>
   )
 }
 
-export default Navbar;
+export default Navigation;

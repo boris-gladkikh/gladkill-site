@@ -1,0 +1,18 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  /* width: 100%; */ 
+}
+.black {
+  background-color: black;
+}
+
+
+.carousel-item {
+height: 450px;
+overflow: hidden;
+/* width: 100%; */
+}
+.carousel-item img {
+width: 100%;
+}
