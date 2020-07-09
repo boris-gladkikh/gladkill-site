@@ -25,8 +25,6 @@ export async function getAllAlbums(){
   }
 }
 
-//TODO - get post
-//TODO - get all posts
 //TODO - post formdata to queries 
 
 

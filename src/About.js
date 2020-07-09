@@ -75,12 +75,15 @@ function About() {
           <Card.Img variant="top" src={img6} />
           <Card.Text className="text-center mt-5 mb-5">
             <h6> You can find Gladkill on any of these platforms:</h6>
-            <div className="socials">
-              
-
+            <div className="socials mt-5">
+            <a href="https://open.spotify.com/artist/7Kpco2hTnFKHUP1Gj8dA17" rel="noopener noreferrer" target="_blank"><i className="fa-2x fab fa-spotify socialOne"></i></a>
+            <a href="https://itunes.apple.com/us/artist/gladkill/424432116" rel="noopener noreferrer" target="_blank"><i className="fa-2x fab fa-apple socialOne"></i></a>
+            <a href="https://soundcloud.com/gladkill" rel="noopener noreferrer" target="_blank"><i className="fa-2x fab fa-soundcloud socialOne"></i></a>
+            <a href="https://gladkill.bandcamp.com/" rel="noopener noreferrer" target="_blank"><i className="fa-2x fab fa-bandcamp socialOne"></i></a>
+            <a href="https://www.patreon.com/gladkill" rel="noopener noreferrer" target="_blank"><i className="fa-2x fab fa-patreon socialOne"></i></a>
+            <a href="https://twitter.com/Gladkill" rel="noopener noreferrer" target="_blank"><i className="fa-2x fab fa-twitter socialOne"></i></a>
+            <a href="https://www.facebook.com/gladkill/" rel="noopener noreferrer" target="_blank"><i className="fa-2x fab fa-facebook socialOne"></i></a>
             </div>
- 
-       
           </Card.Text>
 
         </Card.Body>

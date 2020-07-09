@@ -1,0 +1,15 @@
+.logoMain {
+  max-width: 30%;
+  height: auto;
+  margin: auto;
+}
+
+/* .ccCover {
+  max-width: 80%;
+  height: auto;
+  margin:auto;
+} */
+
+a {
+  display: inline;
+}

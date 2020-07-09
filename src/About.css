@@ -18,6 +18,22 @@ width: 100%;
 }
 
 .socials {
+  margin: 5px;
   display: flex;
   flex-direction: row;
+  justify-content:space-around;
+  margin: auto;
+  width: 70%;
+  padding: 10px;
+
 }
+
+
+.socialOne{
+color: white;
+}
+
+.socialOne:hover{
+  color: #0275d8;
+  
+} 
