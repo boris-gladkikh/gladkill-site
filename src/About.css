@@ -1,15 +1,16 @@
 .container {
   display: flex;
   flex-direction: column;
-  /* width: 100%; */ 
+  justify-content:start;
 }
 .black {
   background-color: black;
 }
 
 
+
 .carousel-item {
-height: 450px;
+height: 300px;
 overflow: hidden;
 /* width: 100%; */
 }
@@ -17,15 +18,25 @@ overflow: hidden;
 width: 100%;
 }
 
+
 .socials {
   margin: 5px;
   display: flex;
   flex-direction: row;
   justify-content:space-around;
   margin: auto;
-  width: 70%;
+  width: 75%;
   padding: 10px;
 
+}
+
+@media screen and (min-width: 800px) {
+  .carousel-item{
+    height: 600px;
+  }
+  .socials {
+    width:50%;
+  }
 }
 
 

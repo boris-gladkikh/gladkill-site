@@ -15,12 +15,12 @@ function Contact() {
           <Card.Text className="text-center mt-5 mb-5">
             For press and booking inquiries please contact:
             <a href="mailto:izzy@sophorosynesound.com"><h5>izzy@sophorosynesound.com</h5></a>
-            <h4 className="mt-5">For all other inquiries, please use the form below.</h4>
-
           </Card.Text>
+          <h5 className="mt-5">For all other inquiries, please use the form below.</h5>
+
         </Card.Body>
       </Card>
-      {/* <hr className="border-light" /> */}
+      <hr className="border-light" />
       <ContactForm />
 
 

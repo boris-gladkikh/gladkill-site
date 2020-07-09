@@ -4,12 +4,19 @@
   margin: auto;
 }
 
-/* .ccCover {
-  max-width: 80%;
+.ccCover {
+  max-width: 90%;
   height: auto;
   margin:auto;
-} */
+}
 
 a {
   display: inline;
+  color: lightgray;
+}
+
+a:hover {
+  /* color: #0275d8; */
+  color:tomato;
+  ;
 }
