@@ -16,3 +16,8 @@ overflow: hidden;
 .carousel-item img {
 width: 100%;
 }
+
+.socials {
+  display: flex;
+  flex-direction: row;
+}

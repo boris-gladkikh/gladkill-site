@@ -1,6 +1,5 @@
 import React from 'react';
-import Card from 'react-bootstrap/Card';
-import img1 from './img/gk-with-rock.jpg';
+// import Card from 'react-bootstrap/Card';
 
 
 function Home(){

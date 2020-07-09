@@ -74,11 +74,12 @@ function About() {
         <Card.Body>
           <Card.Img variant="top" src={img6} />
           <Card.Text className="text-center mt-5 mb-5">
-            VHS yr drinking vinegar, vice chambray etsy portland lomo occupy meh hot chicken photo booth 
-            tofu. Seitan twee snackwave, shaman umami fanny pack scenester paleo letterpress ethical VHS 
-            sriracha. Lo-fi man braid small batch meggings venmo quinoa ethical. Godard thundercats man 
-            braid fingerstache literally raclette dreamcatcher brunch beard XOXO readymade. <br />
-            Quinoa hot chicken truffaut fingerstache wayfarers brunch try-hard kombucha. YOLO godard cardigan 
+            <h6> You can find Gladkill on any of these platforms:</h6>
+            <div className="socials">
+              
+
+            </div>
+ 
        
           </Card.Text>
 

@@ -1,0 +1,252 @@
+{
+  "albums": [
+    {
+      "id": 1,
+      "title:": "Alpha",
+      "coverUrl":"",
+      "year": "2007",
+      "detail": "First Gladkill demo, originally self-released in 2007. Mellow glitchy IDM sounds.",
+      "tracks": [
+        "Why? - ft. Cam Gifford",
+        "That Shit - ft. Cam Gifford",
+        "I dont Mind",
+        "Definitely, Probably Not"
+      ],
+      "bandcamp": "https://gladkill.bandcamp.com/album/alpha",
+      "stream": "https://gladkill.bandcamp.com/album/alpha"
+    },
+    {
+      "id": 2,
+      "title:": "Ghostwork",
+      "detail":"Gladkill's first six-song EP, comprised of haunting melodies, complex rhythms, and flowing bass-lines.",
+      "coverUrl":"",
+      "year": "2010",
+      "tracks":[
+        "Lucky Me",
+        "A Moment of Clarity",
+        "Memories",
+        "Between Dreams and Nightmares",
+        "That Girl is Trouble"
+      ],
+      "bandcamp":"https://gladkill.bandcamp.com/album/ghostwork",
+      "stream":"https://open.spotify.com/album/0rih6BmnF8c0P1jkgeVCvb?lf=&%3F="
+    },
+    {
+      "id": 3,
+      "title:": "Lovelost",
+      "detail":"Gladkill's second EP - UK Purple influences meet the West Coast Bass sound for a unique sound Gladkill coined as 'Lovestep'.",
+      "coverUrl":"",
+      "year": "2011",
+      "tracks":[
+        "Stasis",
+        "Return To Form",
+        "Out Of Your Comfort",
+        "Star Gazing",
+        "Just a Thought"
+      ],
+      "bandcamp":"https://gladkill.bandcamp.com/album/lovelost",
+      "stream":"https://open.spotify.com/album/0QoHUzKdLNBkQBzwXWMvT4"
+    },
+    {
+      "id": 4,
+      "title:": "Promises",
+      "detail":"Three track EP released in late 2011 of melodic dubstep, serving as an addendum to the 'Lovelost' EP.",
+      "coverUrl":"",
+      "year": "2011",
+      "tracks":[
+        "Let You",
+        "Stay Awake",
+        "Promises"
+      ],
+      "bandcamp":"https://gladkill.bandcamp.com/album/promises",
+      "stream":"https://gladkill.bandcamp.com/album/promises"
+    },
+    {
+      "id":5,
+      "title":"Perception Volume 1",
+      "detail":"A collection of reworks, remixes and bootlegs in Gladkill's signature sexy and melodic, yet bass-heavy and kinetic style that has defined his sound and captivated audiences across the country.",
+      "coverUrl":"",
+      "year":2012,
+      "tracks": [
+        "Breathe",
+        "Waiting For You",
+        "What It Do",
+        "Good Ones",
+        "Back Where We Started",
+        "Found You"
+      ],
+      "bandcamp":"https://gladkill.bandcamp.com/album/perception-bonus-version-2"
+    },
+    {
+      "id":6,
+      "title":"Beta",
+      "detail":"Released October 2012, Beta features Gladkill's signature blend of ethereal melodic synths, meticulously crafted percussion and deep low end to create a truly unique auditory experience.",
+      "coverUrl":"",
+      "year":"2012",
+      "tracks": [
+        "Dearly Departed",
+        "Our Differeces",
+        "I Can't Change The Past",
+        "The Night and the Skyline - ft. Mimi Page",
+        "Number Fourteen"
+      ],
+      "bandcamp":"https://gladkill.bandcamp.com/album/beta",
+      "stream":"https://open.spotify.com/album/2iyPGRIP9tgAUOzbah2xRG"
+    },
+    {
+      "id":7,
+      "title":"What Goes On",
+      "detail":"Gladkill's EP What Goes On- A five-track collection of diverse sounds which draw influence from melodic bass, hip hop beats, house, future R&B and cinematic downtempo.",
+      "coverUrl":"",
+      "year":2013,
+      "tracks": [
+        "Space Travel",
+        "What Goes On",
+        "Feelin You",
+        "Home",
+        "Whenever"
+      ],
+      "bandcamp":"https://gladkill.bandcamp.com/album/what-goes-on",
+      "stream":"https://open.spotify.com/album/3ooFCsobsMQ9Ml0pnrixhW"
+    },
+    {
+      "id":8,
+      "title":"Accolades",
+      "detail":"The term 'accolade' is defined as an award or privilege granted as a special acknowledgment of merit. With this EP, Gladkill expresses that there are few actual accolades earned through independently creating and sharing art in this fast-paced digital society and over-saturated musical market. An artist must create his or her own rewards, with every release, song, and project becoming an accolade in itself; a milestone of one's catharsis, progression and accomplishment. While staying true to his melodic and musical roots, Gladkill seamlessly traverses through Bass music, beats, hip hop and trap influences, R&B, deep house, garage, 2 step and downtempo to create a diverse collection of six new songs.",
+      "coverUrl":"",
+      "year":2014,
+      "tracks": [
+        "Ether",
+        "Float Away",
+        "Accolades",
+        "Velvet",
+        "Let U Go",
+        "Queens"
+      ],
+      "bandcamp":"https://gladkill.bandcamp.com/album/accolades",
+      "stream":"https://open.spotify.com/album/7ta0AQdQAxxCYkQXFZjRBg"
+    },
+    {
+      "id":9,
+      "title":"Perception Volume 2",
+      "detail":"In the second volume of Gladkill's 'Perception' EP series, Gladkill reimagines seven tracks in his signature melodic forward-thinking bass music style.",
+      "coverUrl":"",
+      "year":2014,
+      "tracks": [
+        "The Dream - IV Play (Gladkill Remix)",
+        "Beyonce - Mine (Gladkill Remix)",
+        "That Way (Gladkill's BSB Flip)",
+        "The Hics - Russian Dolls (Gladkill Remix)",
+        "Busta Rhymes - Hands/Eyes (Gladkill's Big Booty Flip) ",
+        "KAASI - Work With Me (Gladkill Remix)",
+        "Marz Leon - Wavez (Gladkill Remix)"
+      ],
+      "bandcamp":"https://gladkill.bandcamp.com/album/perception-volume-two-2",
+      "stream":"https://gladkill.bandcamp.com/album/perception-volume-two-2"
+    },
+    {
+      "id":10,
+      "title":"Neverafter",
+      "detail":"Gladkill’s 'Neverafter' is a twelve track collection of unreleased songs and instrumentals spanning 2012–2014. From heavier bass-oriented productions to his more current beat-influenced melodic sound, Neverafter serves as a transitional piece highlighting Gladkill’s musical progression throughout the last few years. Though many of the songs featured in this collection have appeared on Gladkill’s 'SESSIONS' mix tape series as well as his live sets throughout the last year, every one of them has been remixed, reworked and remastered to fully realize every composition’s potential. This release provides a form of catharsis and marks the beginning of an exciting new step in Gladkill’s musical journey, paving the way for a full-length album of brand new material in 2015.",
+      "coverUrl":"",
+      "year":2015,
+      "tracks": [
+        "Finally I Can Breathe",
+        "Neverafter",
+        "Gutter Diamond",
+        "Stay",
+        "Ice That",
+        "Depth of Field",
+        "Are You",
+        "Stacks",
+        "Nephilim",
+        "Creams",
+        "Faded Hills",
+        "Unbeliever"
+      ],
+      "bandcamp":"https://gladkill.bandcamp.com/album/neverafter",
+      "stream":"https://open.spotify.com/album/39G30B2pSQVgT9NwqWHUf6"
+    },
+    {
+      "id":11,
+      "title":"Collected Works 2015",
+      "detail":"Gladkill's Collected Works- A compendium of released soundcloud originals & collaborations throughout 2015.",
+      "coverUrl":"",
+      "year":2015,
+      "tracks":[
+        "Spines",
+        "Sunflower Samurai",
+        "To Make A Cyborg",
+        "Show You - ft. KRANE",
+        "On My Own",
+        "No More",
+        "Winters"
+      ],
+      "bandcamp":"https://gladkill.bandcamp.com/album/collected-works-2015",
+      "stream":"https://gladkill.bandcamp.com/album/collected-works-2015"
+    },
+    {
+      "id":12,
+      "title":"After Death",
+      "detail":"Reflecting a darker, more instrumental approach to electronic music and beats, Gladkill merges his past influences with exciting new ventures into uncharted musical territory. An album spawned through love, loss, separation, death, catharsis and rebirth - This is life After Death.",
+      "coverUrl":"",
+      "year":2016,
+      "tracks": [
+        "Dawn Into Night",
+        "Not Perfect",
+        "By My Side",
+        "Feel So - ft Erica Dee",
+        "Nights Out",
+        "Codeine Eyes",
+        "Check The Pulse",
+        "Death",
+        "Chapels",
+        "Stay Dead",
+        "Flowers For a Funeral"
+      ],
+      "bandcamp":"https://gladkill.bandcamp.com/album/after-death",
+      "stream":"https://open.spotify.com/album/1pVn98RtpjLtcafp3vF4ir"
+    },
+    {
+      "id":13,
+      "title":"Seance/This Love",
+      "detail":"A two song EP showcasing Gladkill's matured melodic and deep post-dubstep sound, 'Seance/This Love' serves as a pre-cursor and introduction to Gladkill's forthcoming album 'Ossuary', due in late 2020.",
+      "coverUrl":"",
+      "year":2019,
+      "tracks":[
+        "Seance",
+        "This Love"
+      ],
+      "bandcamp":"https://gladkill.bandcamp.com/album/seance-this-love",
+      "stream":"https://open.spotify.com/album/1VvYN7fEg8IpDg606cfaFU"
+    },
+    {
+      "id":14,
+      "title":"Coven Collection",
+      "detail":"A collection of WIP's, live-only tracks, and soundcloud singles from the 2016-2019 era.",
+      "coverUrl":"",
+      "year":2020,
+      "tracks": [
+        "Mono-No-Aware",
+        "Rains",
+        "New Lows",
+        "$$$",
+        "Dusk",
+        "Guava",
+        "Hope Lost",
+        "Deadly",
+        "Gashadokuro",
+        "Graveyard Shift",
+        "I See",
+        "Higher",
+        "Angels",
+        "The Wrong Way",
+        "Burr",
+        "Demons",
+        "Labyrinth"
+      ],
+      "bandcamp":"https://gladkill.bandcamp.com/album/coven-collection",
+      "stream":"https://open.spotify.com/album/7pMQE3kI4iKJoUthxjBsIX"
+    }
+  ]
+}
