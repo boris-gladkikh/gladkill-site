@@ -1,0 +1,8 @@
+.albumContainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content:center;
+  border: 1px solid yellow;
+
+}

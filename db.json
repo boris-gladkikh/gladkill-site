@@ -3,7 +3,7 @@
     {
       "id": 1,
       "title:": "Alpha",
-      "coverUrl":"",
+      "coverUrl":"./img/covers/alpha-cover",
       "year": "2007",
       "detail": "First Gladkill demo, originally self-released in 2007. Mellow glitchy IDM sounds.",
       "tracks": [
@@ -19,7 +19,7 @@
       "id": 2,
       "title:": "Ghostwork",
       "detail":"Gladkill's first six-song EP, comprised of haunting melodies, complex rhythms, and flowing bass-lines.",
-      "coverUrl":"",
+      "coverUrl":"./img/covers/ghostwork-cover",
       "year": "2010",
       "tracks":[
         "Lucky Me",
@@ -35,7 +35,7 @@
       "id": 3,
       "title:": "Lovelost",
       "detail":"Gladkill's second EP - UK Purple influences meet the West Coast Bass sound for a unique sound Gladkill coined as 'Lovestep'.",
-      "coverUrl":"",
+      "coverUrl":"./img/covers/lovelost-cover",
       "year": "2011",
       "tracks":[
         "Stasis",
@@ -65,7 +65,7 @@
       "id":5,
       "title":"Perception Volume 1",
       "detail":"A collection of reworks, remixes and bootlegs in Gladkill's signature sexy and melodic, yet bass-heavy and kinetic style that has defined his sound and captivated audiences across the country.",
-      "coverUrl":"",
+      "coverUrl":"./img/covers/perception-one-cover",
       "year":2012,
       "tracks": [
         "Breathe",
@@ -81,7 +81,7 @@
       "id":6,
       "title":"Beta",
       "detail":"Released October 2012, Beta features Gladkill's signature blend of ethereal melodic synths, meticulously crafted percussion and deep low end to create a truly unique auditory experience.",
-      "coverUrl":"",
+      "coverUrl":"./img/covers/beta-cover",
       "year":"2012",
       "tracks": [
         "Dearly Departed",
