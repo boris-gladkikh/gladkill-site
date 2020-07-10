@@ -13,3 +13,29 @@
 .albumCard:active {
   opacity: .5;
 }
+
+.modalColumn{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+}
+
+.modalCover
+ {
+width: 300px;
+height:auto;
+}
+
+.darkColor {
+  background-color: #343a40	;
+}
+
+.close {
+  color: #fff; 
+  opacity: 1;
+}
+.close:hover {
+  color: tomato; 
+  opacity: 1;
+}

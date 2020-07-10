@@ -2,12 +2,18 @@ import React from 'react';
 import "./Home.css";
 import Card from 'react-bootstrap/Card';
 import ccCover from './img/covers/coven-collection-cover.jpg';
+import imgTree from "./img/gk-tree.jpg";
 
 
 
 function Home() {
   return (
     <div className="black container text-center text-white">
+       <Card className="black text-white m-5">
+         <Card.Img alt="cathedral tree by Steeve Teeps" variant="top" src={imgTree}></Card.Img>
+         <Card.Header className="text-center">Welcome.</Card.Header>
+       </Card>
+       <br />
       <Card className="black text-white mt-5 mb-2">
         <Card.Img className="ccCover" variant="top" src={ccCover} />
         <Card.Title className="mt-4"><h4>Coven Collection Now Available.</h4></Card.Title>

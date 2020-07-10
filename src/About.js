@@ -7,7 +7,7 @@ import img2 from './img/gk-live-tulsa-3.jpg'
 import img3 from './img/gk-live-bn-hollywood.jpg'
 import img4 from './img/gk-live-san-diego-2.jpg'
 import img5 from './img/gk-live-big-dub.jpg';
-import img6 from './img/gk-live-nn.jpg'
+import img6 from './img/gk-live-san-diego-3.jpg'
 
 function About() {
   return (
