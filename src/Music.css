@@ -2,7 +2,11 @@
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content:center;
-  border: 1px solid yellow;
+  justify-content:space-between;
+  /* border: 1px solid yellow; */
 
+}
+
+.column {
+  margin: auto;
 }

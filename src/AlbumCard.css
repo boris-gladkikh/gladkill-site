@@ -1,10 +1,15 @@
 
 .albumCard {
-  width: 200px;
-  height: 200px;
-  border: 1px solid white;
+  width: 275px;
+  height:275px;
+  padding:0px;
 }
 
 .albumCard:hover {
-  background-color: whitesmoke;
+  border: 1px solid white;
+
+}
+
+.albumCard:active {
+  opacity: .5;
 }

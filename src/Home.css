@@ -1,12 +1,11 @@
-.logoMain {
-  max-width: 30%;
-  height: auto;
-  margin: auto;
-}
+
 
 .ccCover {
-  max-width: 90%;
+  max-width: 75%;
   height: auto;
+  margin:auto;
+}
+.mauto {
   margin:auto;
 }
 

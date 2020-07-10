@@ -1,52 +1,81 @@
-import React from 'react';
-import Container from 'react-bootstrap/Container';
-import Row from 'react-bootstrap/Row'
+import React, { useState, useEffect } from 'react';
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Row';
 import AlbumCard from './AlbumCard';
+import {getAllAlbums} from './ApiCalls';
 import './Music.css';
 
 function Music() {
+  let [isLoading, setIsLoading] = useState(true);
+  let [albums, setAlbums] = useState([]);
+
 
   //mock data
   const albumsMock = [
     {
+      id: 1,
       title: "What Goes On",
-      coverUrl: ""
+      coverUrl: "/covers/what-goes-on-cover.jpg"
     },
     {
+      id: 2,
       title: "After Death",
-      coverUrl: ""
+      coverUrl: "/covers/after-death-cover.jpg"
     },
     {
+      id: 3,
       title: "Lovelost",
-      coverUrl: ""
+      coverUrl: "/covers/lovelost-cover.jpg"
     },
     {
-      title: "Coven Collection",
-      coverUrl: ""
+      id: 4,
+      title: "Beta",
+      coverUrl: "/covers/beta-cover.jpg"
     },
     {
+      id: 5,
       title: "Accolades",
-      coverUrl: "./img/covers/accolades-cover.jpg",
+      coverUrl: "/covers/accolades-cover.jpg",
     }
   ]
+  //useEffect
+  useEffect(() => {
+    async function fetchData() {
+      let albumsData = await getAllAlbums();
+      console.log(albumsData)
+      setAlbums(albumsData);
+    };
+    fetchData();
+    // console.log("this is album data", albums);
+    setIsLoading(false);
+    
 
-  const albumMock = albumsMock[0];
+  }
+   , [])
 
 
+  if (isLoading) {
+    return (
+      <div className="black container text-white text-center">
+        <h1>Loading...</h1>
+      </div>
+
+    )
+  }
   return (
 
     <div className="container">
-      <div className="albumContainer">
-
-        {/* this is where the code will go. */}
-        <AlbumCard album={albumMock}></AlbumCard>
-        <AlbumCard album={albumMock}></AlbumCard>
-        <AlbumCard album={albumMock}></AlbumCard>
-        <AlbumCard album={albumMock}></AlbumCard>
-        <AlbumCard album={albumMock}></AlbumCard>
-        <AlbumCard album={albumMock}></AlbumCard>
-        <AlbumCard album={albumMock}></AlbumCard>
-        <AlbumCard album={albumMock}></AlbumCard>
+      <div className="albumContainer mt-5">
+        <Row>
+          {albums.map((album) =>
+            <Col key={album.id} xs={12} mx={3} className="column" >
+              <AlbumCard
+                id={album.title}
+                key={album.id}
+                album={album}
+              />
+            </Col>)}
+        </Row>
       </div>
 
     </div>

@@ -1,7 +1,10 @@
-.logo {
-  /* border: 1px solid pink; */
-  width: 40%;
-  height: 40%;
+
+
+.logoMain {
+  max-width: 35%;
+  min-width: 20%;
+  height: auto;
+  margin: auto;
 }
 
 .line{

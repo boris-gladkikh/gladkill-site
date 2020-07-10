@@ -2,8 +2,8 @@
   "albums": [
     {
       "id": 1,
-      "title:": "Alpha",
-      "coverUrl":"./img/covers/alpha-cover",
+      "title": "Alpha",
+      "coverUrl":"/covers/alpha-cover.jpg",
       "year": "2007",
       "detail": "First Gladkill demo, originally self-released in 2007. Mellow glitchy IDM sounds.",
       "tracks": [
@@ -17,9 +17,9 @@
     },
     {
       "id": 2,
-      "title:": "Ghostwork",
+      "title": "Ghostwork",
       "detail":"Gladkill's first six-song EP, comprised of haunting melodies, complex rhythms, and flowing bass-lines.",
-      "coverUrl":"./img/covers/ghostwork-cover",
+      "coverUrl":"/covers/ghostwork-cover.jpg",
       "year": "2010",
       "tracks":[
         "Lucky Me",
@@ -33,9 +33,9 @@
     },
     {
       "id": 3,
-      "title:": "Lovelost",
+      "title": "Lovelost",
       "detail":"Gladkill's second EP - UK Purple influences meet the West Coast Bass sound for a unique sound Gladkill coined as 'Lovestep'.",
-      "coverUrl":"./img/covers/lovelost-cover",
+      "coverUrl":"/covers/lovelost-cover.jpg",
       "year": "2011",
       "tracks":[
         "Stasis",
@@ -49,9 +49,9 @@
     },
     {
       "id": 4,
-      "title:": "Promises",
+      "title": "Promises",
       "detail":"Three track EP released in late 2011 of melodic dubstep, serving as an addendum to the 'Lovelost' EP.",
-      "coverUrl":"",
+      "coverUrl":"/covers/promises-cover.jpg",
       "year": "2011",
       "tracks":[
         "Let You",
@@ -65,7 +65,7 @@
       "id":5,
       "title":"Perception Volume 1",
       "detail":"A collection of reworks, remixes and bootlegs in Gladkill's signature sexy and melodic, yet bass-heavy and kinetic style that has defined his sound and captivated audiences across the country.",
-      "coverUrl":"./img/covers/perception-one-cover",
+      "coverUrl":"/covers/perception-one-cover.jpg",
       "year":2012,
       "tracks": [
         "Breathe",
@@ -81,7 +81,7 @@
       "id":6,
       "title":"Beta",
       "detail":"Released October 2012, Beta features Gladkill's signature blend of ethereal melodic synths, meticulously crafted percussion and deep low end to create a truly unique auditory experience.",
-      "coverUrl":"./img/covers/beta-cover",
+      "coverUrl":"/covers/beta-cover.jpg",
       "year":"2012",
       "tracks": [
         "Dearly Departed",
@@ -97,7 +97,7 @@
       "id":7,
       "title":"What Goes On",
       "detail":"Gladkill's EP What Goes On- A five-track collection of diverse sounds which draw influence from melodic bass, hip hop beats, house, future R&B and cinematic downtempo.",
-      "coverUrl":"",
+      "coverUrl":"/covers/what-goes-on-cover.jpg",
       "year":2013,
       "tracks": [
         "Space Travel",
@@ -113,7 +113,7 @@
       "id":8,
       "title":"Accolades",
       "detail":"The term 'accolade' is defined as an award or privilege granted as a special acknowledgment of merit. With this EP, Gladkill expresses that there are few actual accolades earned through independently creating and sharing art in this fast-paced digital society and over-saturated musical market. An artist must create his or her own rewards, with every release, song, and project becoming an accolade in itself; a milestone of one's catharsis, progression and accomplishment. While staying true to his melodic and musical roots, Gladkill seamlessly traverses through Bass music, beats, hip hop and trap influences, R&B, deep house, garage, 2 step and downtempo to create a diverse collection of six new songs.",
-      "coverUrl":"",
+      "coverUrl":"/covers/accolades-cover.jpg",
       "year":2014,
       "tracks": [
         "Ether",
@@ -130,7 +130,7 @@
       "id":9,
       "title":"Perception Volume 2",
       "detail":"In the second volume of Gladkill's 'Perception' EP series, Gladkill reimagines seven tracks in his signature melodic forward-thinking bass music style.",
-      "coverUrl":"",
+      "coverUrl":"/covers/perception-two-cover.jpg",
       "year":2014,
       "tracks": [
         "The Dream - IV Play (Gladkill Remix)",
@@ -148,7 +148,7 @@
       "id":10,
       "title":"Neverafter",
       "detail":"Gladkill’s 'Neverafter' is a twelve track collection of unreleased songs and instrumentals spanning 2012–2014. From heavier bass-oriented productions to his more current beat-influenced melodic sound, Neverafter serves as a transitional piece highlighting Gladkill’s musical progression throughout the last few years. Though many of the songs featured in this collection have appeared on Gladkill’s 'SESSIONS' mix tape series as well as his live sets throughout the last year, every one of them has been remixed, reworked and remastered to fully realize every composition’s potential. This release provides a form of catharsis and marks the beginning of an exciting new step in Gladkill’s musical journey, paving the way for a full-length album of brand new material in 2015.",
-      "coverUrl":"",
+      "coverUrl":"/covers/neverafter-cover.jpg",
       "year":2015,
       "tracks": [
         "Finally I Can Breathe",
@@ -171,7 +171,7 @@
       "id":11,
       "title":"Collected Works 2015",
       "detail":"Gladkill's Collected Works- A compendium of released soundcloud originals & collaborations throughout 2015.",
-      "coverUrl":"",
+      "coverUrl":"/covers/collected-works-cover.jpg",
       "year":2015,
       "tracks":[
         "Spines",
@@ -189,7 +189,7 @@
       "id":12,
       "title":"After Death",
       "detail":"Reflecting a darker, more instrumental approach to electronic music and beats, Gladkill merges his past influences with exciting new ventures into uncharted musical territory. An album spawned through love, loss, separation, death, catharsis and rebirth - This is life After Death.",
-      "coverUrl":"",
+      "coverUrl":"/covers/after-death-cover.jpg",
       "year":2016,
       "tracks": [
         "Dawn Into Night",
@@ -211,7 +211,7 @@
       "id":13,
       "title":"Seance/This Love",
       "detail":"A two song EP showcasing Gladkill's matured melodic and deep post-dubstep sound, 'Seance/This Love' serves as a pre-cursor and introduction to Gladkill's forthcoming album 'Ossuary', due in late 2020.",
-      "coverUrl":"",
+      "coverUrl":"/covers/seance-this-love-cover.jpg",
       "year":2019,
       "tracks":[
         "Seance",
@@ -224,7 +224,7 @@
       "id":14,
       "title":"Coven Collection",
       "detail":"A collection of WIP's, live-only tracks, and soundcloud singles from the 2016-2019 era.",
-      "coverUrl":"",
+      "coverUrl":"/covers/coven-collection-cover.jpg",
       "year":2020,
       "tracks": [
         "Mono-No-Aware",

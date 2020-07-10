@@ -11,7 +11,7 @@ function Home() {
       <Card className="black text-white mt-5 mb-2">
         <Card.Img className="ccCover" variant="top" src={ccCover} />
         <Card.Title className="mt-4"><h4>Coven Collection Now Available.</h4></Card.Title>
-        <Card.Text>
+        <Card.Text className="w-75 mauto text-center">
         Introducing the Coven Collection:
           19 tracks from 2016-2019 that have not seen the light of day, from WiPs to mixtape exclusives to live-only tracks.
            <a href="https://gladkill.bandcamp.com/album/coven-collection">Download here</a>. <br/>

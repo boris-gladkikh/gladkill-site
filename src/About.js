@@ -2,12 +2,12 @@ import React from 'react';
 import Card from 'react-bootstrap/Card';
 import Carousel from 'react-bootstrap/Carousel';
 import "./About.css";
-import img1 from './img/gk-live-symbiosis.jpg'
+import img1 from './img/gk-live-lib.jpg'
 import img2 from './img/gk-live-tulsa-3.jpg'
 import img3 from './img/gk-live-bn-hollywood.jpg'
 import img4 from './img/gk-live-san-diego-2.jpg'
 import img5 from './img/gk-live-big-dub.jpg';
-import img6 from './img/gk-live-lib.jpg'
+import img6 from './img/gk-live-nn.jpg'
 
 function About() {
   return (
