@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Row';
 import AlbumCard from './AlbumCard';
-import {getAllAlbums} from './ApiCalls';
+import { getAllAlbums } from './ApiCalls';
 import './Music.css';
 
 function Music() {
@@ -38,20 +38,20 @@ function Music() {
       coverUrl: "/covers/accolades-cover.jpg",
     }
   ]
-  //useEffect
+  //fetch data from backend if albums empty
   useEffect(() => {
     async function fetchData() {
       let albumsData = await getAllAlbums();
       console.log(albumsData)
       setAlbums(albumsData);
     };
-    fetchData();
-    // console.log("this is album data", albums);
+    if (albums.length === 0) {
+      fetchData();
+    }
     setIsLoading(false);
-    
 
   }
-   , [])
+    , [albums])
 
 
   if (isLoading) {

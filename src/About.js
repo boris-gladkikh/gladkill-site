@@ -54,7 +54,7 @@ function About() {
           <Card.Title className="text-center"><h3>ABOUT</h3></Card.Title>
           <Card.Text className="text-center">
             Refusing to stick to the comfort of one musical genre,
-            Boris Gladkikh aka Gladkill has rewarded audiences through the sheer
+            Gladkill has rewarded audiences through the sheer
             diversity of his compositions, as he deftly moves between dominating dance
             floors with his sultry, bass-heavy club sounds, to captivating home
             stereo speakers with more downtempo and melodic material.
