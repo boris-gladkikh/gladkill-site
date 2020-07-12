@@ -14,7 +14,7 @@ function Contact() {
           {/* <Card.Title > <h3>CONTACT</h3></Card.Title> */}
           <Card.Title className="text-center mt-5 mb-5">
             For press and booking inquiries please contact:
-            <a href="mailto:izzy@sophorosynesound.com"><h5>izzy@sophorosynesound.com</h5></a>
+            <a href="mailto:izzy@sophrosynesound.com"><h5>izzy@sophorosynesound.com</h5></a>
           </Card.Title>
           <h5 className="mt-5">For all other inquiries, please use the form below.</h5>
 
