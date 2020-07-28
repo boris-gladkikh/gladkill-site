@@ -1,7 +1,7 @@
 import React from 'react';
 import "./Home.css";
 import Card from 'react-bootstrap/Card';
-import ccCover from './img/covers/coven-collection-cover.jpg';
+import ccCover from './img/coven-collection-cover.jpg';
 import imgTree from "./img/gk-tree.jpg";
 
 

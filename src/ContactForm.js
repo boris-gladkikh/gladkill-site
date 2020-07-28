@@ -2,10 +2,26 @@ import React from 'react';
 import Form from 'react-bootstrap/Form';
 import Button from 'react-bootstrap/Button';
 import './ContactForm.css';
+import { postEmail } from './ApiCalls';
+import { useState } from 'react';
 
 function ContactForm() {
+  let [formData, setFormData] = useState();
+
+
+  function handleChange() { };
+
+  function handleSubmit(e) {
+    e.preventDefault();
+    postEmail(formData);
+    set
+   };
+
+
+
+
   return (
-    <Form className="text-left mb-5 input-sm">
+    <Form onSubmit={handleSubmit} className="text-left mb-5 input-sm">
       <Form.Group>
         <Form.Label>Name</Form.Label>
         <Form.Control type="text" placeholder="Ex: Danny Trejo" />
@@ -17,7 +33,7 @@ function ContactForm() {
       </Form.Group>
       <Form.Group>
         <Form.Label>Details</Form.Label>
-        <Form.Control as="textarea" rows="3"/>
+        <Form.Control as="textarea" rows="3" />
       </Form.Group>
       <Button className="round" variant="dark" type="submit">
         Submit

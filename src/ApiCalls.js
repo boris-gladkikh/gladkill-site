@@ -25,7 +25,17 @@ export async function getAllAlbums(){
   }
 }
 
-//TODO - post formdata to queries 
+//post form data to backend
+export async function postEmail(email) {
+  try{
+    let response = await axios.post(`${BASEURL}/emails`, email);
+    return response.data;
+    
+  }
+  catch(err){
+    console.log(err);
+  }
+}
 
 
 
