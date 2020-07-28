@@ -1,0 +1,23 @@
+.spinner-container {
+  text-align:center;
+  margin-top: 50px;
+  margin-bottom: 50vh;
+}
+
+.spinner {
+  margin-left: auto;
+  margin-right: auto;
+  width: 25%;
+  height: auto;
+  border-radius: 100%;
+  animation: 2s linear infinite spin;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
