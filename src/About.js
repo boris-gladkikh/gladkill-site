@@ -7,7 +7,7 @@ import img2 from './img/gk-live-tulsa-3.jpg'
 import img3 from './img/gk-live-bn-hollywood.jpg'
 import img4 from './img/gk-live-san-diego-2.jpg'
 import img5 from './img/gk-live-big-dub.jpg';
-import img6 from './img/gk-live-san-diego-3.jpg'
+import img6 from './img/gk-bw-lib.jpg';
 
 function About() {
   return (
@@ -52,14 +52,14 @@ function About() {
       <Card className="black text-white">
         <Card.Body>
           <Card.Title className="text-center"><h3>ABOUT</h3></Card.Title>
-          <Card.Text className="text-center">
+          <Card.Text className="text-center font18">
             Refusing to stick to the comfort of one musical genre,
             Gladkill has rewarded audiences through the sheer
             diversity of his compositions, as he deftly moves between dominating dance
             floors with his sultry, bass-heavy club sounds, to captivating home
             stereo speakers with more downtempo and melodic material.
           </Card.Text>
-          <Card.Text className="text-center pt-3">
+          <Card.Text className="text-center pt-3 font18">
             With over 10 years of extensive touring and releases, Gladkill has risen to legacy artist status
             with a diverse catalog that spans over several genres, flavors and interpretations of the
             melodic bass sound he has helped pioneer. With a new album on the way in late 2020 and
