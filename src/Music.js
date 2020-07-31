@@ -46,7 +46,7 @@ function Music() {
   if (somethingWrong) {
     return (
       <div>
-        <h4 className="text-white text-center mt-5 mb-5">Something went wrong...</h4>
+        <h4 className="text-danger text-center mt-5 mb-5">Something went wrong...</h4>
       </div>
     )
   }
