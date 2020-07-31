@@ -11,32 +11,37 @@ const defaultData = {
 /**
  * TODO: 
  * set form fields to required (client validation)
- * finish handleChange function
  * finish handleSubmit function
- * figure out how to toggle classes on message area
- * figure out if you can use bootstrap classes directly in React
  * set up backend information
  */
 function ContactForm() {
   let [formData, setFormData] = useState({ ...defaultData });
   let [submitMsg, setSubmitMsg] = useState("");
+  let msgClass;
 
 
-  function handleChange() { };
+  function handleChange(evt) {
+    let {name, value} = evt.target
+    setFormData(currentData => (
+      {
+        ...currentData, 
+        [name]:value
+      }
+    ));
+  };
 
   //submits form to backend server
-  async function handleSubmit(e) {
-    e.preventDefault();
+  async function handleSubmit(evt) {
+    evt.preventDefault();
     try {
       let response = await postEmail(formData);
       console.log("email sent!\n", response);
+      msgClass = "msg-pos";
       setSubmitMsg("Successfully Submitted!");
-      //figure out how to toggle class to msg-pos!
-
     }
     catch (err) {
+      msgClass = "msg-neg";
       setSubmitMsg(err.message);
-      //figure out how to toggle class - with another state?
     }
 
   };
@@ -63,7 +68,7 @@ function ContactForm() {
         Submit
   </Button>
       <div>
-        <h5 className="msg-pos">{submitMsg}
+        <h5 className={msgClass}>{submitMsg}
         </h5>
       </div>
 
