@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 //goes to JSON server right now, will change to production server 
-const BASEURL = "https://gladkill-backend.herokuapp.com/";
+const BASEURL = "https://gladkill-backend.herokuapp.com";
 
 //get individual album
 export async function getAlbum(id){
