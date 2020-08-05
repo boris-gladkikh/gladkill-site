@@ -19,7 +19,7 @@ function Music() {
       let albumsData = await getAllAlbums();
       // console.log(albumsData);
       if(albumsData === undefined){
-        return setSomethingWrong(true);
+        setSomethingWrong(true);
       }
       setAlbums(albumsData);
       sessionStorage.setItem('albums',albumsData);
