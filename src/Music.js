@@ -10,19 +10,18 @@ function Music() {
   let [somethingWrong, setSomethingWrong] = useState(false);
   let [isLoading, setIsLoading] = useState(true);
   let [albums, setAlbums] = useState([]);
-  let sessionAlbums = sessionStorage.getItem('albums');
+  let sessionAlbums = JSON.parse(sessionStorage.albums);
 
 
   //fetch data from backend if albums or sessionStorage empty
   useEffect(() => {
     async function fetchData() {
       let albumsData = await getAllAlbums();
-      // console.log(albumsData);
       if(albumsData === undefined){
         setSomethingWrong(true);
       }
       setAlbums(albumsData);
-      sessionStorage.setItem('albums',albumsData);
+      sessionStorage.setItem('albums',JSON.stringify(albumsData));
       
     };
     if (albums.length === 0) {
