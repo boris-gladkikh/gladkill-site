@@ -51,7 +51,7 @@ function AlbumCard({ album }) {
                       <Accordion.Collapse eventKey="0">
                         <ul className="text-left px-4">
                           {album.tracks.map((track) =>
-                            <li>{track}</li>
+                            <li key={album.title}>{track}</li>
                           )}
                         </ul>
                       </Accordion.Collapse>

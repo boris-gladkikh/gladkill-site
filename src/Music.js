@@ -10,14 +10,14 @@ function Music() {
   let [somethingWrong, setSomethingWrong] = useState(false);
   let [isLoading, setIsLoading] = useState(true);
   let [albums, setAlbums] = useState([]);
-  let sessionAlbums = sessionStorage.getItem('albums')
+  let sessionAlbums = sessionStorage.getItem('albums');
 
 
   //fetch data from backend if albums or sessionStorage empty
   useEffect(() => {
     async function fetchData() {
       let albumsData = await getAllAlbums();
-      console.log(albumsData);
+      // console.log(albumsData);
       if(albumsData === undefined){
         return setSomethingWrong(true);
       }
@@ -26,9 +26,9 @@ function Music() {
       
     };
     if (albums.length === 0) {
-      if(sessionAlbums){
-        setAlbums(sessionAlbums)
-      }
+      // if(sessionAlbums.length !== 0 ){
+      //   setAlbums(sessionAlbums)
+      // }
       fetchData();
     }
     setIsLoading(false);
@@ -56,10 +56,10 @@ function Music() {
       <div className="albumContainer mt-5">
         <Row>
           {albums.map((album) =>
-            <Col key={album.id} xs={12} mx={3} className="column" >
+            <Col key={album.title} xs={12} mx={3} className="column" >
               <AlbumCard
                 id={album.title}
-                key={album.id}
+                key={album.title}
                 album={album}
               />
             </Col>)}
