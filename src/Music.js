@@ -17,7 +17,7 @@ function Music() {
   useEffect(() => {
     async function fetchData() {
       let albumsData = await getAllAlbums();
-      if(albumsData === undefined){
+      if(albumsData === null){
         setSomethingWrong(true);
       }
       setAlbums(albumsData);
