@@ -33,6 +33,7 @@ function ContactForm() {
   //submits form to backend server
   async function handleSubmit(evt) {
     evt.preventDefault();
+    console.log("this is form data", formData);
     try {
       let response = await postEmail(formData);
       console.log("email sent!\n", response);
@@ -50,16 +51,16 @@ function ContactForm() {
     <Form onSubmit={handleSubmit} className="text-left mb-5 input-sm">
       <Form.Group>
         <Form.Label>Name</Form.Label>
-        <Form.Control onChange={handleChange} type="text" placeholder="Ex: Danny Trejo" />
+        <Form.Control required onChange={handleChange} type="text" placeholder="Ex: Corban Dallas" />
       </Form.Group>
       <Form.Group>
         <Form.Label>Email address</Form.Label>
-        <Form.Control onChange={handleChange} placeholder="Ex: name@mail.com" type="email" />
+        <Form.Control required onChange={handleChange} placeholder="Ex: name@mail.com" type="email" />
         <Form.Text>Your email will never be shared with anyone else.</Form.Text>
       </Form.Group>
       <Form.Group>
         <Form.Label>Details</Form.Label>
-        <Form.Control onChange={handleChange} placeholder="Be Descriptive!" as="textarea" rows="3" />
+        <Form.Control required onChange={handleChange} placeholder="Be Descriptive!" as="textarea" rows="3" />
       </Form.Group>
       <Button className="round" variant="dark" type="submit">
         Submit
