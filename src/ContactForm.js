@@ -55,7 +55,7 @@ function ContactForm() {
     <Form onSubmit={handleSubmit} className="text-left mb-5 input-sm">
       <Form.Group>
         <Form.Label htmlFor="name">Name</Form.Label>
-        <Form.Control required onChange={handleChange} name="name" type="text" placeholder="Ex: Corban Dallas" />
+        <Form.Control required onChange={handleChange} name="name" type="text" placeholder="Ex: Korben Dallas" />
       </Form.Group>
       <Form.Group>
         <Form.Label htmlFor="email">Email address</Form.Label>
