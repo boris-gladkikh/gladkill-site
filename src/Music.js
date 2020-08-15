@@ -8,30 +8,48 @@ import './Music.css';
 
 function Music() {
   let [somethingWrong, setSomethingWrong] = useState(false);
-  let [isLoading, setIsLoading] = useState(true);
+  let [isLoading, setIsLoading] = useState(false);
   let [albums, setAlbums] = useState([]);
   let [sessionAlbums, setSessionAlbums] = useState();
+  let [errorMessage, setErrorMessage] = useState([]);
 
   //fetch data from backend if albums or sessionStorage empty
   useEffect(() => {
     async function fetchData() {
-      let albumsData = await getAllAlbums();
-      if(albumsData === null){
-        setSomethingWrong(true);
+      try{
+        let albumsData = await getAllAlbums();
+        if(albumsData === null){
+          setSomethingWrong(true);
+        }
+        setAlbums(albumsData);
+        sessionStorage.setItem('albums',JSON.stringify(albumsData));
+        setSessionAlbums(JSON.parse(sessionStorage.albums)); 
       }
-      setAlbums(albumsData);
-      sessionStorage.setItem('albums',JSON.stringify(albumsData));
-      setSessionAlbums(JSON.parse(sessionStorage.albums)
-      ) 
-      
+      catch(err){
+        console.log("API call error", err);
+        setErrorMessage(err=> (
+          [...err, err.message]
+        ));
+        setSomethingWrong(true);
+        setIsLoading(false);
+        
+      }
+      finally{
+        setIsLoading(false);
+      }
     };
-    if (albums.length === 0) {
-      // if(sessionAlbums){
-      //   setAlbums(sessionAlbums)
-      // }
-      fetchData();
+    if((!albums) || albums === null) {
+      setSomethingWrong(true)
+      setErrorMessage(err=> [...err, "Error Status: 500 - Cannot connect to server"]);
+      setIsLoading(false);
     }
-    setIsLoading(false);
+    if(albums.length === 0){
+      setIsLoading(true);
+      fetchData();
+
+    }
+ 
+
     
   }
     , [albums, sessionAlbums])
@@ -45,8 +63,10 @@ function Music() {
   }
   if (somethingWrong) {
     return (
-      <div>
-        <h4 className="text-danger text-center mt-5 mb-5">Something went wrong...</h4>
+      <div className="container">
+        <h4 className="text-danger text-center mt-5 mb-5">{errorMessage.map(
+          err=> err
+        )}</h4>
       </div>
     )
   }

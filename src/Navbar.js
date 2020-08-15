@@ -8,7 +8,7 @@ function Navigation() {
   return (
     <div>
      
-        <Nav className="justify-content-center" >
+        <Nav className="justify-content-center text-white" >
           <Nav.Item>
             <Nav.Link href="/">HOME</Nav.Link>
           </Nav.Item>
