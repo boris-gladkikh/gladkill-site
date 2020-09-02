@@ -1,0 +1,14 @@
+.blog-img{
+/* max-width: 100%; */
+width:100%;
+display: block;
+margin: auto;
+
+}
+
+
+.blog-card {
+  background-color: rgb(12, 11, 11);
+  width: 90%;
+  margin: auto;
+}

@@ -1,21 +1,21 @@
 import React from 'react';
 import Card from 'react-bootstrap/Card';
+import './BlogPostCard.css';
 
 //Card component for posts. Child of bloglist component. basic card with image/description. 
 
 
-function BlogPostCard({ title, imageUrl, body, createdOn }) {
+function BlogPostCard({ title, imgSrc, body, createdOn }) {
   return (
-    <Card>
+    <Card className=" blog-card text-white my-3">
       <Card.Header>
-        <h1>{title}</h1>
-        <h6>{createdOn}</h6>
+        <h3>{title}</h3>
+        <small>{createdOn}</small>
       </Card.Header>
       <Card.Body>
-        <img href={imageUrl} alt="post detail" />
-        <p>{body}</p>
+        <img className="blog-img mb-3"  src={imgSrc} alt={`detail img for "${title}"`} />
+        <p className="px-4">{body}</p>
       </Card.Body>
-
     </Card>
   )
 }

@@ -2,20 +2,20 @@ const blogPosts = [
   {
     title:"Sophrosyne Sound",
     createdOn:"August 12th, 2020",
-    imgSrc:"",
-    body:"", 
+    imgSrc:"/blogImg/sophro-mini-2.jpg",
+    body:"The Gladkill project is now being represented by Sophrosyne Sound. This marks the beginning of an amazing new chapter in my musical journey and I can't wait to share what the future of my music holds. Reach out to izzy@sophrosynesound.com for booking and general inquiries.", 
   },
   {
     title:"Welcome To The New Site.",
     createdOn:"July 10th, 2020",
-    imgSrc:"",
-    body:"Welcome to the new and improved Gladkill site. You can find all news, releases, free music, show announcements and more", 
+    imgSrc:"/blogImg/gk-tree.jpg",
+    body:"Welcome to the new and improved Gladkillmusic.com, where you can find all news, releases, free music, show announcements and more. Stay tuned for new releases, exclusive merch drops, and up to date information. ", 
   },
   {
   title:"Coven Collection Now Available!",
   createdOn:"March 20th, 2020",
-  imgSrc:"",
-  body:"introducing the Coven Collection. 19 tracks from 2016-2019 that have not seen the light of day, from WiPs to mixtape-exclusives to Live-only tracks. Now available everywhere you listen to music.", 
+  imgSrc:"/blogImg/coven-cover-mini.jpg",
+  body:`Introducing the Coven Collection. 19 tracks from 2016-2019 that have not seen the light of day, from WiPs to mixtape-exclusives to Live-only tracks. Now available everywhere you listen to music.`, 
 }
 ]
 
