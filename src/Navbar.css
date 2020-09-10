@@ -7,7 +7,21 @@
   margin: auto;
 }
 
-.line{
-  width: 80%;
-  margin: auto;
+
+nav a {
+  color: #bfbfbf;
+  transition: 300ms ease-in;
+  margin-right: 5px;
+}
+
+nav a.active {
+  font-weight:bold;
+  color:white;
+}
+
+nav a:hover {
+  color: tomato;
+  font-weight:bold;
+  text-decoration: none;
+
 }
