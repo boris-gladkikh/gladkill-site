@@ -24,7 +24,26 @@ width: 100%;
   width: 75%;
   padding: 10px;
 
+  
 }
+.socials a {
+  color: white;
+  transition: 200ms ease-in;
+}
+.socials a:hover {
+  color: #0275d8;
+  font-size: x-large;
+
+
+}
+.socials a.active {
+  color: #0275d8;
+
+}
+
+.font18 {
+  font-size:18px;
+} 
 
 @media screen and (min-width: 800px) {
   .carousel-item{
@@ -33,18 +52,4 @@ width: 100%;
   .socials {
     width:50%;
   }
-}
-
-
-.socialOne{
-color: white;
-}
-
-.socialOne:hover{
-  color: #0275d8;
-  
-} 
-
-.font18 {
-  font-size:18px;
 }

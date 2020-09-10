@@ -11,8 +11,7 @@ function Contact() {
       <Card className="black text-white mt-5 mb-2">
         <Card.Body>
           <Card.Img className="contactPic img-fluid" variant="top" src={img1} />
-          {/* <Card.Title > <h3>CONTACT</h3></Card.Title> */}
-          <Card.Title className="text-center mt-5 mb-5">
+          <Card.Title className="text-center mt-5 mb-5 title">
             For press and booking inquiries please contact:
             <a href="mailto:izzy@sophrosynesound.com"><h5>izzy@sophrosynesound.com</h5></a>
           </Card.Title>

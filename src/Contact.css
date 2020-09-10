@@ -2,3 +2,13 @@
 max-height: 600px;
 width: auto;
 }
+
+.title a {
+  transition: 200ms ease-in;
+}
+
+.title a:hover {
+  color: tomato;
+  text-decoration: none;
+
+}
