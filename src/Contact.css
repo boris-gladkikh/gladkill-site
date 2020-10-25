@@ -1,13 +1,12 @@
 .contactPic {
-max-height: 600px;
-width: auto;
+  width: 100%;
 }
 
-.title a {
+ a {
   transition: 200ms ease-in;
 }
 
-.title a:hover {
+ a:hover {
   color: tomato;
   text-decoration: none;
 

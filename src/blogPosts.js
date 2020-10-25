@@ -1,5 +1,11 @@
 const blogPosts = [
   {
+    title:"Satellite Respond: Fugue State",
+    createdOn:"September 22th, 2020",
+    imgSrc:"/blogImg/sr-fugue-state.jpg",
+    body:"The first single from Gladkill’s other project ‘Satellite Respond’ is available now, everywhere you listen to music. Live guitar, vocals, and piano meet glitchy drums, ambient soundscapes and haunting melodies to create Satellite Respond’s nuanced other-worldly sound.  Next single coming very soon, as well as the debut EP “Transmission Zero” in early 2021."
+  },
+  {
     title:"Sophrosyne Sound",
     createdOn:"August 12th, 2020",
     imgSrc:"/blogImg/sophro-mini-2.jpg",

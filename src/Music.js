@@ -14,7 +14,8 @@ function Music() {
   let [errorMessage, setErrorMessage] = useState([]);
 
   //fetch data from backend if albums or sessionStorage empty
-  useEffect(() => {
+
+useEffect(() => {
     async function fetchData() {
       try{
         let albumsData = await getAllAlbums();
@@ -47,12 +48,9 @@ function Music() {
       setIsLoading(true);
       fetchData();
 
-    }
- 
-
-    
+    }  
   }
-    , [albums, sessionAlbums])
+    , [albums, sessionAlbums])  
 
 
   if (isLoading) {
