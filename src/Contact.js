@@ -1,6 +1,4 @@
 import React from "react";
-import Card from "react-bootstrap/Card";
-import img1 from "./img/gk-live-big-dub.jpg";
 import "./Contact.css";
 import ContactForm from "./ContactForm";
 
