@@ -12,8 +12,11 @@
 }
 
 .blog-post-container h1 {
-  font-size: 3rem;
+  font-size: 2rem;
   padding: 2rem;
+  font-family: 'Quicksand', sans-serif;
+
+  
 }
 
 .blog-post-body {
