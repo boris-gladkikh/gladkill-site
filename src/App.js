@@ -8,7 +8,7 @@ import About from './About';
 import Music from './Music';
 import Contact from './Contact';
 import Footer from './Footer';
-
+import BlogPostDetail from './BlogPostDetail';
 
 
 function App() {
@@ -24,6 +24,10 @@ function App() {
         </Route>
         <Route exact path="/contact">
           <Contact />
+        </Route>
+        <Route exact path="/blog/:title">
+          <BlogPostDetail />
+
         </Route>
         <Route exact path="/">
           <Home />

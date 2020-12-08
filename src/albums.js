@@ -1,4 +1,4 @@
- {
+let albums =  {
   "albums": [
     {
       "order": 1,
@@ -251,3 +251,7 @@
     }
   ]
 }
+
+// let albums = JSON.parse(albumsJSON);
+
+export default albums

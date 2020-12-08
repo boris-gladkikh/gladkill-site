@@ -1,5 +1,11 @@
 const blogPosts = [
   {
+    title:"Satellite Respond: Medusa",
+    createdOn:"October 26th, 2020",
+    imgSrc:"/blogImg/sr-medusa.jpg",
+    body:"The second single from Gladkill’s project ‘Satellite Respond’ is available now, everywhere you listen to music.",
+  },
+  {
     title:"Satellite Respond: Fugue State",
     createdOn:"September 22th, 2020",
     imgSrc:"/blogImg/sr-fugue-state.jpg",
