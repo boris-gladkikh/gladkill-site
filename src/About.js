@@ -12,6 +12,7 @@ import img6 from './img/gk-bw-lib.jpg';
 function About() {
   return (
     <div className="black mt-5 px-3 container">
+      <h3 className="mt-3 text-white text-center">ABOUT</h3>
       <Carousel className="pt-3">
         <Carousel.Item>
           <img
@@ -51,7 +52,6 @@ function About() {
       </Carousel>
       <Card className="black text-white">
         <Card.Body>
-          <Card.Title className="text-center"><h3>ABOUT</h3></Card.Title>
           <Card.Text className="text-center font18">
             Refusing to stick to the comfort of one musical genre,
             Gladkill has rewarded audiences through the sheer

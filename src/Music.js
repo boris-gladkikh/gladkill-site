@@ -11,6 +11,7 @@ import "./Music.css";
 function Music() {
   return (
     <div className="container">
+      <h3 className="mt-3 text-white text-center">DISCOGRAPHY</h3>
       <div className="albumContainer mt-5">
         <Row>
           {albums.albums.map((album) => (

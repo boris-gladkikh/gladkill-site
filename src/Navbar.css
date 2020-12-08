@@ -1,12 +1,15 @@
+.logo-container {
+  margin: auto;
+  width: fit-content;
+  text-align: center;
 
+}
 
-.logoMain {
-  max-width: 35%;
-  min-width: 20%;
+.logo-main {
+  width: 75%;
   height: auto;
   margin: auto;
 }
-
 
 nav a {
   color: #bfbfbf;
@@ -15,13 +18,20 @@ nav a {
 }
 
 nav a.active {
-  font-weight:bold;
-  color:white;
+  font-weight: bold;
+  color: white;
 }
 
 nav a:hover {
   color: tomato;
-  font-weight:bold;
+  font-weight: bold;
   text-decoration: none;
+}
+
+@media screen and (max-width: 1200px){
+  .logo-main {
+    width: 50%;
+   
+  }
 
 }
