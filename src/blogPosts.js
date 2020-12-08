@@ -4,7 +4,7 @@ const blogPosts = [
     createdOn: "October 26th, 2020",
     imgSrc: "/blogImg/sr-medusa.jpg",
     body:
-      "The second single from Gladkill’s project ‘Satellite Respond’ is available now, everywhere you listen to music. 'Medusa' features haunting vocoded vocals of loss,love and reconciliation mixed with evolving analog synth textures overl aid on complex percusion.",
+      "The second single from Gladkill’s project ‘Satellite Respond’ is available now, everywhere you listen to music. 'Medusa' features haunting vocoded vocals of loss,love and reconciliation mixed with evolving analog synth textures overlaid on complex percusion.",
   },
   {
     title: "Satellite Respond: Fugue State",
