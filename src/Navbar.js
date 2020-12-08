@@ -3,7 +3,6 @@ import './Navbar.css';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import {NavLink} from 'react-router-dom';
-import Card from 'react-bootstrap/Card';
 import logo from './img/gk-logo.png';
 function Navigation() {
   return (
