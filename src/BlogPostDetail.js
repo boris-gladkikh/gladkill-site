@@ -24,7 +24,7 @@ function BlogPostDetail() {
           <p>{currentPost.body}</p>
         </div>
         <NavLink exact to="/">
-          <p id="blog-detail-back-btn">Go Back</p>
+          <p id="blog-detail-back-btn">Back</p>
         </NavLink>
       </div>
     </div>

@@ -248,10 +248,29 @@ let albums =  {
       ],
       "bandcamp": "https://gladkill.bandcamp.com/album/coven-collection",
       "stream": "https://open.spotify.com/album/7pMQE3kI4iKJoUthxjBsIX"
+    },
+    {
+      "order": 15,
+      "title": "Ossuary",
+      "detail": "Gladkill's long-awaited new album; a collection of 10 tracks highlighting Gladkill's  refined melodic sound, musical prowess and versatility.",
+      "coverUrl": "/covers/ossuary-cover.jpg",
+      "year": 2021,
+      "tracks": [
+       'The Right Way',
+       'Ossuary',
+       'Analog Whispers',
+       'Doe',
+       'In Absentia',
+       'Slivers',
+       'Ashes',
+       'Fireproof',
+       'Vivisepulture',
+       'Painkiller'
+      ],
+      "bandcamp": "https://gladkill.bandcamp.com/album/ossuary",
+      "stream": "https://open.spotify.com/album/2A0O93A2o1J9mf0OovwSnf"
     }
   ]
 }
 
-// let albums = JSON.parse(albumsJSON);
-
-export default albums
+export default albums;

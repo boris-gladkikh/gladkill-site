@@ -1,5 +1,11 @@
 const blogPosts = [
   {
+    title: "Ossuary Out Now!",
+    createdOn: "May 18, 2021",
+    imgSrc: "/covers/ossuary-cover.jpg",
+    body: 'Presenting \'Ossuary\'. A collection of ten tracks written over the last several years, with influences ranging from wave, garage, grime, bass music, trap, melodic hip hop to everything in-between. This is a very special album to me and a huge cathartic experience finally releasing it into the world. Thank you for listening.'
+  },
+  {
     title: "Satellite Respond: Medusa",
     createdOn: "October 26th, 2020",
     imgSrc: "/blogImg/sr-medusa.jpg",
