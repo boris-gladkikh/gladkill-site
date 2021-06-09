@@ -12,25 +12,33 @@ function BlogPostDetail() {
 
   currentPost = currentPost[0];
 
-  let links = currentPost.links?.map((link)=>{
-    return(
-     <li><a href={link.url} target="_blank" rel="noreferrer noopener">{link.name}</a></li> 
-    )
-  })
+  let links = currentPost.links?.map((link) => {
+    return (
+      <li>
+        <a href={link.url} target="_blank" rel="noreferrer noopener">
+          {link.name}
+        </a>
+      </li>
+    );
+  });
 
   return (
     <div className="App">
       <div className="blog-post-container">
-        <img className="blog-post-img" src={currentPost.imgSrc} alt={currentPost.title}></img>
-          <h6>{currentPost.createdOn}</h6>
+        <img
+          className="blog-post-img"
+          src={currentPost.imgSrc}
+          alt={currentPost.title}
+        ></img>
         <div className="blog-post-body">
-        <h1>{currentPost.title}</h1>
+          <h6>
+            <em>Published {currentPost.createdOn}</em>
+          </h6>
+          <h1>{currentPost.title}</h1>
           <p>{currentPost.body}</p>
-          <ul>
-          {links}
-          </ul>
+          <ul>{links}</ul>
         </div>
-    
+
         <NavLink exact to="/">
           <p id="blog-detail-back-btn">Back</p>
         </NavLink>

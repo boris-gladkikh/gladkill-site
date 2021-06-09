@@ -57,25 +57,97 @@ const blogPosts = [
     createdOn: "May 4, 2021",
     imgSrc: "/blogImg/ashes-cover.jpg",
     featured: true,
+    links: [
+      {
+        name: 'Buy on Bandcamp',
+        url: 'https://gladkill.bandcamp.com/track/ashes',
+      },
+      {
+        name: 'Listen on Soundcloud',
+        url: 'https://soundcloud.com/.../ashes-ossuary-coming-may-18-2021',
+      },
+      {
+        name: 'Listen on Spotify',
+        url: 'https://open.spotify.com/album/2A0O93A2o1J9mf0OovwSnf',
+      },
+    ],
     body: 'The first single off of Gladkill\'s long awaited album \'Ossuary\', \'Ashes\' is a return to form, setting the mood with haunting vocal ambience intertwined with melancholy piano and deep rich bass. \'Ossuary\' will be available everywhere you stream music on May 18, 2021.'
   },
   {
     title: "Gladkill Is Now On Audius.",
     createdOn: "May 4, 2021",
     imgSrc: "/blogImg/audius-admat.jpg",
+    links: [
+      {
+        name: 'Audius Link',
+        url: 'https://audius.co/gladkill'
+      },
+    ],
     body: 'Gladkill is now on Audius! Come check out my latest compilation, \'Coven Collection\', as well as future upcoming tunes on this platform.',
+  },
+  {
+    title: "Satellite Respond: August Falls",
+    createdOn: "December 15th, 2020",
+    imgSrc: "/blogImg/sr-august-falls-cover.jpg",
+    links: [
+      {
+        name: 'The Untz write-up',
+        url: 'www.theuntz.com/news/gladkill-rei…e-respond-outfit/',
+      },
+      {
+        name: 'Buy on Bandcamp',
+        url: 'https://satelliterespond.bandcamp.com/track/august-falls',
+      },
+      {
+        name: 'Listen on Soundcloud',
+        url: 'https://soundcloud.com/theuntz/satellite-respond-august-falls?fbclid=IwAR2KZp4SUZQOU_X2gzHUHTb8iqrZ0pdV9Ej63QwgKkTc-KHrEst570daal4',
+      },
+      {
+        name: 'Listen on Spotify',
+        url: 'https://open.spotify.com/album/56ScyI3j56ssa4G8m3Achx',
+      },
+    ],
+    body: 'The third single from the Satellite Respond project, "August Falls" shows yet another facet of the Satellite Respond sound, taking a more traditionally instrumental indie rock approach. Special thanks to the Untz for featuring this single and doing a write-up for the project, which you can find below.',
   },
   {
     title: "Satellite Respond: Medusa",
     createdOn: "October 26th, 2020",
-    imgSrc: "/blogImg/sr-medusa.jpg",
+    imgSrc: "/blogImg/sr-medusa-cover.jpg",
+    links: [
+      {
+        name: 'Buy on Bandcamp',
+        url: 'https://satelliterespond.bandcamp.com/track/medusa',
+      },
+      {
+        name: 'Listen on Soundcloud',
+        url: 'https://soundcloud.com/satellite-respond/medusa',
+      },
+      {
+        name: 'Listen on Spotify',
+        url: 'https://open.spotify.com/album/4Fic00AoJ0nTiDqBqCVzzj',
+      },
+    ],
     body:
       "The second single from Gladkill’s project ‘Satellite Respond’ is available now, everywhere you listen to music. 'Medusa' features haunting vocoded vocals of loss,love and reconciliation mixed with evolving analog synth textures overlaid on complex percusion.",
   },
   {
     title: "Satellite Respond: Fugue State",
     createdOn: "September 22th, 2020",
-    imgSrc: "/blogImg/sr-fugue-state.jpg",
+    imgSrc: "/blogImg/sr-fugue-state-cover.jpg",
+    links: [
+      {
+        name: 'Buy on Bandcamp',
+        url: 'https://satelliterespond.bandcamp.com/track/fugue-state',
+      },
+      {
+        name: 'Listen on Soundcloud',
+        url: 'https://soundcloud.com/satellite-respond/fugue-state',
+      },
+      {
+        name: 'Listen on Spotify',
+        url: 'https://open.spotify.com/album/0GrGoapuXsN9in1XWZmkNG',
+      },
+    ],
     body:
       "The first single from Gladkill’s other project ‘Satellite Respond’ is available now, everywhere you listen to music. Live guitar, vocals, and piano meet glitchy drums, ambient soundscapes and haunting melodies to create Satellite Respond’s nuanced other-worldly sound.  Next single coming very soon, as well as the debut EP “Transmission Zero” in early 2021.",
   },
@@ -83,6 +155,16 @@ const blogPosts = [
     title: "Sophrosyne Sound",
     createdOn: "August 12th, 2020",
     imgSrc: "/blogImg/sophro-mini-2.jpg",
+    links: [
+      {
+         name:'Booking Contact',
+         url:'mailto:izzy@sophrosynesound.com'
+      },
+      {
+        name:'Sophrosyne Sound Home',
+        url:'https://sophrosynesound.com',
+      },
+    ],
     body:
       "The Gladkill project is now being represented by Sophrosyne Sound. This marks the beginning of an amazing new chapter in my musical journey and I can't wait to share what the future of my music holds. Reach out to izzy@sophrosynesound.com for booking and general inquiries.",
   },
@@ -97,6 +179,16 @@ const blogPosts = [
     title: "Coven Collection Now Available!",
     createdOn: "March 20th, 2020",
     imgSrc: "/blogImg/coven-cover-mini.jpg",
+    links: [
+      {
+        name: 'Buy on Bandcamp',
+        url: 'https://gladkill.bandcamp.com/album/coven-collection',
+      },
+      {
+        name: 'Listen on Spotify',
+        url: 'https://open.spotify.com/album/7pMQE3kI4iKJoUthxjBsIX',
+      },
+    ],
     body: `Introducing the Coven Collection. 19 tracks from 2016-2019 that have not seen the light of day, from WiPs to mixtape-exclusives to Live-only tracks. Now available everywhere you listen to music.`,
   },
 ];
