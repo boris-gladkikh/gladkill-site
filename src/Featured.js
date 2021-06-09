@@ -11,7 +11,7 @@ function Featured() {
       <Carousel.Item>
           <NavLink exact to={`/blog/${post.title}`}>
           <div className="carousel-text">
-            <h2>{post.title}</h2>
+            <h5>{post.title}</h5>
           </div>
           <img
             className="carousel-img d-block w-100 img-fluid"
