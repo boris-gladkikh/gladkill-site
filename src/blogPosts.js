@@ -1,9 +1,33 @@
 const blogPosts = [
   {
+    title: "July SoCal Show Announcement!",
+    createdOn: "June 2, 2021",
+    imgSrc: "/blogImg/kb-flyer.jpeg",
+    featured: true,
+    body: 'SoCal -  coming back  your way with a stacked lineup in July. Sound Xperiment presents: Kick Back at the Park, Featuring Yheti, Truth, Tsuruda, Jantsen, myself + Many More on July 10-11th, 2021 from 12:00pm - 10:00pm.'
+    
+  },
+  {
     title: "Ossuary Out Now!",
     createdOn: "May 18, 2021",
     imgSrc: "/covers/ossuary-cover.jpg",
+    featured: true,
     body: 'Presenting \'Ossuary\'. A collection of ten tracks written over the last several years, with influences ranging from wave, garage, grime, bass music, trap, melodic hip hop to everything in-between. This is a very special album to me and a huge cathartic experience finally releasing it into the world. Thank you for listening.'
+  },
+  {
+    title: "Analog Whispers - Second Single From 'Ossuary'.",
+    createdOn: "May 4, 2021",
+    imgSrc: "/blogImg/analog-whispers-cover.jpg",
+    featured: true,
+    body: 'Presenting \'Analog Whispers\', the second single off of \'Ossuary\'. Special shout out to The Untz for premiering this single - it is definitely one of my favorites off of the album. You  can find their awesome write-up about it below. '
+
+  },
+  {
+    title: "Ashes - First Single From 'Ossuary'.",
+    createdOn: "May 4, 2021",
+    imgSrc: "/blogImg/ashes-cover.jpg",
+    featured: true,
+    body: 'The first single off of Gladkill\'s long awaited album \'Ossuary\', \'Ashes\' is a return to form, setting the mood with haunting vocal ambience intertwined with melancholy piano and deep rich bass. \'Ossuary\' will be available everywhere you stream music on May 18, 2021.'
   },
   {
     title: "Satellite Respond: Medusa",
