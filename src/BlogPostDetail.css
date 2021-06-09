@@ -1,17 +1,12 @@
-.blog-post-container {
+.blog-post-body {
   color: white;
-  width: 50%;
-  margin:auto;
+  padding: .5rem;
+  margin: auto;
   text-align:center;
-  min-height: 100vh;
   background-color: rgb(24, 22, 22);
-  padding-bottom: 2rem;
-  box-shadow: 1px 1px 8px rgb(97, 96, 96);
-
-
 }
 
-.blog-post-container h1 {
+.blog-post-body h1 {
   font-size: 2rem;
   padding: 2rem;
   font-family: 'Quicksand', sans-serif;
@@ -19,10 +14,6 @@
   
 }
 
-.blog-post-body {
-  padding: .5rem;
-  margin: auto;
-}
 
 #blog-detail-back-btn {
   cursor: pointer;
@@ -46,10 +37,8 @@
 }
 
 @media screen  and (max-width: 1100px) {
-  .blog-post-container {
-    width: 90%;
-  }
-  .blog-post-container h1 {
+
+  .blog-post-body h1 {
     font-size: 2rem;
   }
 
