@@ -1,0 +1,24 @@
+.carousel-img {
+  opacity:1;
+  transition: 300ms all;
+}
+
+.carousel-img:hover {
+  opacity: .5
+}
+
+/* TODO: figure out how to affect another div by hovering one div */
+/* .carousel-text {
+  opacity: 0;
+  transition: 300ms all;
+  position:absolute;
+  top:50%;
+  background:none;
+  z-index: 22;
+  height: 100%;
+  width: 100%;
+  margin: auto;
+ 
+} */
+
+

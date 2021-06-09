@@ -2,6 +2,7 @@ import React from "react";
 import blogPosts from "./blogPosts";
 import Carousel from "react-bootstrap/Carousel";
 import { NavLink } from "react-router-dom";
+import './Featured.css'
 
 function Featured() {
   let featuredPosts = blogPosts.filter((post) => post.featured);
@@ -9,8 +10,11 @@ function Featured() {
     return (
       <Carousel.Item>
           <NavLink exact to={`/blog/${post.title}`}>
+          <div className="carousel-text">
+            <h2>{post.title}</h2>
+          </div>
           <img
-            className="d-block w-100 img-fluid"
+            className="carousel-img d-block w-100 img-fluid"
             src={post.imgSrc}
             alt={post.title}
           />
