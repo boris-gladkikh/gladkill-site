@@ -1,19 +1,47 @@
-.blog-post-body {
+#post-detail-header {
+  text-align: center;
   color: white;
-  padding: .5rem;
-  margin: auto;
-  text-align:center;
-  background-color: rgb(24, 22, 22);
+  padding: 1rem;
 }
 
-.blog-post-body h1 {
+#post-detail-header h1 {
   font-size: 2rem;
-  padding: 2rem;
-  font-family: 'Quicksand', sans-serif;
-
-  
+  font-family: "Quicksand", sans-serif;
 }
 
+.detail-img-container {
+  overflow:hidden;
+  width: 100%;
+  border: .2px solid white;
+
+}
+
+#post-detail-img {
+  max-width: 100%;
+}
+
+#post-detail-text {
+  color: white;
+  /* background-color: rgb(23,23,23); */
+  height: 100%;
+  padding: 1rem;
+  width: 100%;
+
+}
+
+#post-detail-text a {
+  font-style: italic;
+  color: lightblue;
+}
+#post-detail-text a:hover {
+  font-style: italic;
+  color: tomato;
+}
+
+#post-detail-text a:active {
+  font-style: italic;
+  color: tomato;
+}
 
 #blog-detail-back-btn {
   cursor: pointer;
@@ -23,26 +51,27 @@
   margin: auto;
   padding: 4px;
   margin-bottom: 2rem;
+  margin-top: 2rem;
   transition: 150ms all;
 }
 
 #blog-detail-back-btn:hover {
   color: orangered;
   border: 1px solid orangered;
-
 }
 
-.blog-post-img {
-  width: 100%;
-}
-
-@media screen  and (max-width: 1100px) {
-
-  .blog-post-body h1 {
-    font-size: 2rem;
+@media screen and (max-width: 1100px) {
+  #post-detail-header h1 {
+    font-size: 1.2rem;
   }
 
-  .blog-post-body p {
+  .detail-img-container {
+    width: 90%;
+    margin:auto;
+  
+  }
+
+  .post-detail-text p {
     width: 100%;
     text-align: left;
   }

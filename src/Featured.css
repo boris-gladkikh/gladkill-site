@@ -24,3 +24,9 @@
 .carousel-interior:hover .carousel-text {
   opacity: 1;
 }
+
+@media screen and (max-width: 800px) {
+  .carousel-text {
+    font-size: .75rem;
+  }
+}

@@ -2,8 +2,10 @@ import React from "react";
 import { NavLink, useParams } from "react-router-dom";
 import blogPosts from "./blogPosts";
 import "./BlogPostDetail.css";
+import Row from "react-bootstrap/Row";
+import Col from "react-bootstrap/Col";
 
-function BlogPostDetail() {
+export default function BlogPostDetail() {
   const blogTitle = useParams("title");
 
   let currentPost = blogPosts.filter(
@@ -23,28 +25,39 @@ function BlogPostDetail() {
   });
 
   return (
-    <div className="App">
-      <div className="container">
-   
-        <div className="blog-post-body mt-5">
-          <h6>
-            <em>Published {currentPost.createdOn}</em>
-          </h6>
-          <h1>{currentPost.title}</h1>
-          <p>{currentPost.body}</p>
-          <ul>{links}</ul>
-          <NavLink exact to="/">
-            <p id="blog-detail-back-btn">Back</p>
-          </NavLink>
-        </div>
-        <img
-          className="blog-post-img"
-          src={currentPost.imgSrc}
-          alt={currentPost.title}
-        ></img>
+    <div className="container">
+      <div id="post-detail-header">
+        <h1>{currentPost.title}</h1>
+        <h6>
+          <em>Published {currentPost.createdOn}</em>
+        </h6>
       </div>
+
+        <div className="grid-contain">
+
+        <Row>
+          <Col md={12} lg={6} className="px-0">
+            <div className="detail-img-container">
+              <img
+                id="post-detail-img"
+                src={currentPost.imgSrc}
+                alt={currentPost.title}
+              />
+            </div>
+          </Col>
+          <Col md={12} lg={6} className="px-0">
+            <div id="post-detail-text">
+              <p>{currentPost.body}</p>
+              <ul>{links}</ul>
+            </div>
+          </Col>
+        </Row>
+        </div>
+      <NavLink exact to="/">
+        <p id="blog-detail-back-btn">Back</p>
+      </NavLink>
+
     </div>
   );
 }
 
-export default BlogPostDetail;

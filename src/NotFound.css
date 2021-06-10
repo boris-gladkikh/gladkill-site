@@ -1,0 +1,12 @@
+.not-found-img {
+  max-width: 75%;
+  margin:auto;
+}
+
+#not-found-text {
+  text-align: center;
+  color:white;
+  font-size: larger;
+  margin: 2rem;
+  font-style:italic;
+}
