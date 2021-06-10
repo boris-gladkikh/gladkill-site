@@ -4,7 +4,6 @@ import blogPosts from "./blogPosts";
 import "./BlogPostDetail.css";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
-import Container from "react-bootstrap/Container";
 
 export default function BlogPostDetail() {
   const blogTitle = useParams("title");
