@@ -8,12 +8,7 @@ const defaultData = {
   originSite: "gladkill-site",
 };
 
-/**
- * TODO:
- * set form fields to required (client validation)
- * finish handleSubmit function
- * set up backend information
- */
+
 function ContactForm() {
   let [formData, setFormData] = useState({ ...defaultData });
   let [submitMsg, setSubmitMsg] = useState("");
