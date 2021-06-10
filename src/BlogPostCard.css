@@ -1,29 +1,38 @@
-.blog-img{
-max-width:100%;
-display: block;
-margin: auto;
-
+.img-box {
+  width: 100%;
+  height: 175px;
+  overflow: hidden;
+}
+.blog-img {
+  width: 100%;
+  display: block;
+  margin: auto;
 }
 
-
 .blog-card {
-  background-color: rgb(24, 22, 22);
-  width: 75%;
+  background-color: rgb(20, 20, 20);
   margin: auto;
-  box-shadow: 1px 1px 8px grey;
+  box-shadow: 1px 0px 2px grey;
   transition: 150ms all;
 }
 
 .blog-card:hover {
-  box-shadow: 1px 1px 8px rgb(190, 190, 190);
-  transform: translate(4px,4px);
-  cursor: pointer;
+  box-shadow: 1px 1px 4px rgb(190, 190, 190);
+  background-color: rgb(39, 39, 39);
 
+  transform: translate(2px, 2px);
+  cursor: pointer;
+}
+
+.text-area {
+  height: 100px;
 }
 
 @media screen and (max-width: 1100px) {
   .blog-card h3 {
     font-size: 1rem;
-    
+  }
+  .img-box {
+    height: 300px;
   }
 }

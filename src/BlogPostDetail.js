@@ -11,21 +11,37 @@ function BlogPostDetail() {
   );
 
   currentPost = currentPost[0];
-  console.log(currentPost);
+
+  let links = currentPost.links?.map((link) => {
+    return (
+      <li>
+        <a href={link.url} target="_blank" rel="noreferrer noopener">
+          {link.name}
+        </a>
+      </li>
+    );
+  });
 
   return (
     <div className="App">
-      <div className="blog-post-container">
-        <img className="blog-post-img" src={currentPost.imgSrc} alt={currentPost.title}></img>
-
-        <h1>{currentPost.title}</h1>
-          <h6>{currentPost.createdOn}</h6>
-        <div className="blog-post-body">
+      <div className="container">
+   
+        <div className="blog-post-body mt-5">
+          <h6>
+            <em>Published {currentPost.createdOn}</em>
+          </h6>
+          <h1>{currentPost.title}</h1>
           <p>{currentPost.body}</p>
+          <ul>{links}</ul>
+          <NavLink exact to="/">
+            <p id="blog-detail-back-btn">Back</p>
+          </NavLink>
         </div>
-        <NavLink exact to="/">
-          <p id="blog-detail-back-btn">Back</p>
-        </NavLink>
+        <img
+          className="blog-post-img"
+          src={currentPost.imgSrc}
+          alt={currentPost.title}
+        ></img>
       </div>
     </div>
   );

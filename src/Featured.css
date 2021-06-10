@@ -1,0 +1,26 @@
+.carousel-img {
+  opacity: 1;
+  transition: 300ms all;
+}
+
+.carousel-text {
+  opacity: 0;
+  transition: 150ms all;
+  position: absolute;
+  width: fit-content;
+  height: fit-content;
+  color:white;
+  top: 0;
+  z-index: 22;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  margin: auto;
+}
+
+.carousel-interior:hover .carousel-img {
+  opacity: .25;
+}
+.carousel-interior:hover .carousel-text {
+  opacity: 1;
+}
