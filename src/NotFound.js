@@ -7,7 +7,7 @@ function NotFound() {
   return (
     <div className="container text-center">
       <img src={skull404} alt="custom 404"/>
-      <h5 id="not-found-text">What you seek does not exist.</h5>
+      <p id="not-found-text">What you seek does not exist.</p>
       <NavLink exact to="/">
         <p id="blog-detail-back-btn">GO HOME</p>
       </NavLink>

@@ -23,25 +23,24 @@ function BlogPostDetail() {
   });
 
   return (
-    <div className="App">
-      <div className="container">
-   
-        <div className="blog-post-body mt-5">
-          <h6>
-            <em>Published {currentPost.createdOn}</em>
-          </h6>
-          <h1>{currentPost.title}</h1>
-          <p>{currentPost.body}</p>
-          <ul>{links}</ul>
-          <NavLink exact to="/">
-            <p id="blog-detail-back-btn">Back</p>
-          </NavLink>
-        </div>
-        <img
-          className="blog-post-img"
-          src={currentPost.imgSrc}
-          alt={currentPost.title}
-        ></img>
+    <div className="container">
+      <div id="post-detail-header">
+        <h1>{currentPost.title}</h1>
+        <h6>
+          <em>Published {currentPost.createdOn}</em>
+        </h6>
+      </div>
+      <img
+        id="post-detail-img"
+        src={currentPost.imgSrc}
+        alt={currentPost.title}
+      />
+      <div id="post-detail-text">
+        <p>{currentPost.body}</p>
+        <ul>{links}</ul>
+        <NavLink exact to="/">
+          <p id="blog-detail-back-btn">Back</p>
+        </NavLink>
       </div>
     </div>
   );
