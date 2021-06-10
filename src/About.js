@@ -9,6 +9,7 @@ import img4 from './img/gk-live-san-diego-2.jpg'
 import img5 from './img/gk-live-big-dub.jpg';
 import img6 from './img/gk-bw-lib.jpg';
 import Socials from './Socials';
+import AlbumFeature from './AlbumFeature';
 
 function About() {
   return (
@@ -53,25 +54,27 @@ function About() {
       </Carousel>
       <Card className="black text-white">
         <Card.Body>
-          <Card.Text className="text-center font18">
+          <Card.Text className="bio-text">
             Refusing to stick to the comfort of one musical genre,
             Gladkill has rewarded audiences through the sheer
             diversity of his compositions, as he deftly moves between dominating dance
             floors with his sultry, bass-heavy club sounds, to captivating home
             stereo speakers with more downtempo and melodic material.
           </Card.Text>
-          <Card.Text className="text-center pt-3 font18">
+          <Card.Text className=" pt-3  bio-text">
             With over 10 years of extensive touring and releases, Gladkill has risen to legacy artist status
             with a diverse catalog that spans over several genres, flavors and interpretations of the
-            melodic bass sound he has helped pioneer. With a new album on the way in late 2020 and
-            multiple other exciting projects in his pipeline, Gladkill continues to deliver thoughtful,
-            progressive music that is sure to stand the test of time.
+            melodic bass sound he has helped pioneer. With the release of his latest album <em>Ossuary</em>, 
+            upcoming live shows, and more releases in store for late 2021 and beyond, Gladkill continues to deliver thoughtful,
+            progressive sounds that are sure to stand the test of time.
           </Card.Text>
         </Card.Body>
       </Card>
-      <hr className="border-light mt-5" />
+      <hr className="border-light mt-2" />
+      <AlbumFeature />
+      <hr className="border-light mt-2" />
 
-      <Card className="black text-white mt-5 mb-5">
+      <Card className="black text-white my-2 ">
         <Card.Body>
           <Card.Img variant="top" src={img6} />
           <Card.Text className="text-center mt-5 mb-5">
