@@ -1,6 +1,7 @@
 import React from "react";
 import "./Contact.css";
 import ContactForm from "./ContactForm";
+import Socials from "./Socials";
 
 function Contact() {
   return (
@@ -16,6 +17,7 @@ function Contact() {
       <hr className="border-light" />
       <ContactForm />
       <hr className="border-light" />
+      <Socials />
     </div>
   );
 }

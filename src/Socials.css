@@ -1,0 +1,23 @@
+.socials {
+  margin: 5px;
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+  width: fit-content;
+  padding: 5px;
+
+}
+.socials a {
+  color: white;
+  transition: 200ms ease-in;
+  padding: 10px;
+}
+
+.socials a:hover {
+  color: #0275d8;
+  font-size: x-large;
+}
+
+.socials a.active {
+  color: #0275d8;
+}

@@ -8,6 +8,7 @@ import img3 from './img/gk-live-bn-hollywood.jpg'
 import img4 from './img/gk-live-san-diego-2.jpg'
 import img5 from './img/gk-live-big-dub.jpg';
 import img6 from './img/gk-bw-lib.jpg';
+import Socials from './Socials';
 
 function About() {
   return (
@@ -74,15 +75,7 @@ function About() {
         <Card.Body>
           <Card.Img variant="top" src={img6} />
           <Card.Text className="text-center mt-5 mb-5">
-            <h6> You can find Gladkill on any of these platforms:</h6>
-            <div className="socials mt-5">
-            <a href="https://open.spotify.com/artist/7Kpco2hTnFKHUP1Gj8dA17" rel="noopener noreferrer" target="_blank"><i className="fa-2x fab fa-spotify "></i></a>
-            <a href="https://itunes.apple.com/us/artist/gladkill/424432116" rel="noopener noreferrer" target="_blank"><i className="fa-2x fab fa-apple "></i></a>
-            <a href="https://soundcloud.com/gladkill" rel="noopener noreferrer" target="_blank"><i className="fa-2x fab fa-soundcloud "></i></a>
-            <a href="https://gladkill.bandcamp.com/" rel="noopener noreferrer" target="_blank"><i className="fa-2x fab fa-bandcamp "></i></a>
-            <a href="https://twitter.com/Gladkill" rel="noopener noreferrer" target="_blank"><i className="fa-2x fab fa-twitter "></i></a>
-            <a href="https://www.facebook.com/gladkill/" rel="noopener noreferrer" target="_blank"><i className="fa-2x fab fa-facebook "></i></a>
-            </div>
+           <Socials />
           </Card.Text>
 
         </Card.Body>
