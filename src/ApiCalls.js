@@ -1,7 +1,8 @@
 import axios from 'axios';
 
-//goes to JSON server right now, will change to production server 
 const BASEURL = "https://gladkill-backend.herokuapp.com";
+
+//NOT USING THESE FUNCTIONS FOR NOW OTHER THAN BOTTOM FUNCTION.
 
 //get individual album
 export async function getAlbum(id){
@@ -36,6 +37,23 @@ export async function postEmail(email) {
     console.log(err);
   }
 }
+
+export const submitEmailData = async(dataObject) => {
+  const headers =  {"Content-Type": "application/x-www-form-urlencoded" };
+
+  const encode = (data) => {
+    return Object.keys(data)
+        .map(key => encodeURIComponent(key) + "=" + encodeURIComponent(data[key]))
+        .join("&");
+  }
+  const encodedData = encode({"form-name": "contact-form", ...dataObject});
+  try{
+  const res = await axios.post("/", encodedData,{headers});
+  return res.data;
+  } catch (err){
+    console.error(err);
+  }
+};
 
 
 
