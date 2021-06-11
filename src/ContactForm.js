@@ -29,6 +29,7 @@ function ContactForm() {
 
   function handleSubmit(evt) {
     evt.preventDefault();
+    setIsLoading(true);
   }
 
   useEffect(
@@ -46,7 +47,7 @@ function ContactForm() {
         }
       }
       if (isLoading) {
-        postData();
+        postData(formData);
         setIsLoading(false);
         setTimeout(function () {
           setFormData({ ...defaultData });
