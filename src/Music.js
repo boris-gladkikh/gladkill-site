@@ -8,12 +8,12 @@ import albums from "./albums.js";
 
 function Music() {
   return (
-    <div className="container">
+    <div className="container text-center">
       <h3 className="mt-3 text-white text-center">DISCOGRAPHY</h3>
       <Container>
         <Row>
           {albums.albums.map((album) => (
-            <Col key={album.title} xs={12} md={3} mx={2} className="column">
+            <Col key={album.title} xs={12} md={6} lg={4} xl={3} mx={2} >
               <AlbumCard id={album.title} key={album.title} album={album} />
             </Col>
           ))}
