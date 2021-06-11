@@ -11,6 +11,12 @@
 
 }
 
+.modal-border, .modal-header-border {
+  border: .5px solid white;
+
+}
+
+
 .albumCard:active {
   opacity: .5;
 }
@@ -24,7 +30,7 @@
 
 .modalCover
  {
-width: 300px;
+width: 100%;
 height:auto;
 }
 
