@@ -6,12 +6,7 @@ let albums =  {
       "coverUrl": "/covers/alpha-cover.jpg",
       "year": "2007",
       "detail": "First Gladkill demo, originally self-released in 2007. Mellow glitchy IDM sounds.",
-      "tracks": [
-        "Why? - ft. Cam Gifford",
-        "That Shit - ft. Cam Gifford",
-        "I dont Mind",
-        "Definitely, Probably Not"
-      ],
+      "embed": "2456071795",
       "bandcamp": "https://gladkill.bandcamp.com/album/alpha",
       "stream": "https://gladkill.bandcamp.com/album/alpha"
     },
@@ -21,13 +16,7 @@ let albums =  {
       "detail": "Gladkill's first six-song EP, comprised of haunting melodies, complex rhythms, and flowing bass-lines.",
       "coverUrl": "/covers/ghostwork-cover.jpg",
       "year": "2010",
-      "tracks": [
-        "Lucky Me",
-        "A Moment of Clarity",
-        "Memories",
-        "Between Dreams and Nightmares",
-        "That Girl is Trouble"
-      ],
+      "embed": "277026674",
       "bandcamp": "https://gladkill.bandcamp.com/album/ghostwork",
       "stream": "https://open.spotify.com/album/0rih6BmnF8c0P1jkgeVCvb?lf=&%3F="
     },
@@ -37,13 +26,7 @@ let albums =  {
       "detail": "Gladkill's second EP - UK Purple influences meet the West Coast Bass sound for a unique sound Gladkill coined as 'Lovestep'.",
       "coverUrl": "/covers/lovelost-cover.jpg",
       "year": "2011",
-      "tracks": [
-        "Stasis",
-        "Return To Form",
-        "Out Of Your Comfort",
-        "Star Gazing",
-        "Just a Thought"
-      ],
+      "embed": '1733657265',
       "bandcamp": "https://gladkill.bandcamp.com/album/lovelost",
       "stream": "https://open.spotify.com/album/0QoHUzKdLNBkQBzwXWMvT4"
     },
