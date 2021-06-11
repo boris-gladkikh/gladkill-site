@@ -1,6 +1,7 @@
 .not-found-img {
-  max-width: 75%;
+  max-width: 65%;
   margin:auto;
+  margin-top: 40px;
 }
 
 #not-found-text {
@@ -9,4 +10,10 @@
   font-size: larger;
   margin: 2rem;
   font-style:italic;
+}
+
+@media screen and (max-width: 1000px) {
+  .not-found-img {
+    max-width: 90%;
+  }
 }
