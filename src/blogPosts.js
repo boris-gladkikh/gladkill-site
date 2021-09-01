@@ -1,9 +1,35 @@
 const blogPosts = [
   {
+    title: "Gladkill Live - Denver, CO 9/8/2021",
+    createdOn: "August 30, 2021",
+    imgSrc: "/blogImg/denver-flyer-sep-2021.png",
+    featured: true,
+    links: [
+      {
+        name: 'tickets',
+        url: 'https://www.universe.com/events/wormhole-wednesday-tickets-LT8M1B',
+      }
+    ],
+    body: 'Starting next month, the awesome humans at Wormhole Entertainment will be bringing back wormhole Wednesdays - not only to the bay area, but to Denver as well. I am beyond excited to kick things off in Denver on 9/8/21. See you there!'
+  },
+  {
+    title: "Gladkill Live - Eugene, OR 9/2/2021",
+    createdOn: "August 20, 2021",
+    imgSrc: "/blogImg/eugene-flyer-sep-2021.png",
+    featured: true,
+    links: [
+      {
+        name: 'tickets',
+        url: 'https://www.ticketweb.com/event/wormhole-thursdays-w-gladkill-the-big-dirty-tickets/11303515',
+      }
+    ],
+    body: 'Very excited to be coming back to Eugene, OR with labrat on sept 2! Wormhole Entertainment continues expanding and I\'m honored to kick off wormhole thursdays at the Big Dirty.'
+  },
+  {
     title: "Mobilecoin Radio Live Stream",
     createdOn: "June 21, 2021",
     imgSrc: "/blogImg/mobilecoinradio.png",
-    featured: true,
+    featured: false,
     links: [
       {
         name: 'stream link',
@@ -17,7 +43,7 @@ const blogPosts = [
     title: "July SoCal Show Announcement!",
     createdOn: "June 2, 2021",
     imgSrc: "/blogImg/kb-flyer.jpeg",
-    featured: true,
+    featured: false,
     links: [
       {
         name: 'ticket link',
