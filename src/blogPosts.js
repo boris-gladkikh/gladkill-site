@@ -1,6 +1,6 @@
 const blogPosts = [
   {
-    title: "Gladkill Live - Denver, CO 9/8/2021",
+    title: "Gladkill Live - Denver, CO September 8 2021",
     createdOn: "August 30, 2021",
     imgSrc: "/blogImg/denver-flyer-sep-2021.jpeg",
     featured: true,
@@ -13,7 +13,7 @@ const blogPosts = [
     body: 'Starting next month, the awesome humans at Wormhole Entertainment will be bringing back wormhole Wednesdays - not only to the bay area, but to Denver as well. I am beyond excited to kick things off in Denver on 9/8/21. See you there!'
   },
   {
-    title: "Gladkill Live - Eugene, OR 9/2/2021",
+    title: "Gladkill Live - Eugene, OR September 2 2021",
     createdOn: "August 20, 2021",
     imgSrc: "/blogImg/eugene-flyer-sep-2021.png",
     featured: true,
