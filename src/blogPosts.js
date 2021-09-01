@@ -2,7 +2,7 @@ const blogPosts = [
   {
     title: "Gladkill Live - Denver, CO 9/8/2021",
     createdOn: "August 30, 2021",
-    imgSrc: "/blogImg/denver-flyer-sep-2021.png",
+    imgSrc: "/blogImg/denver-flyer-sep-2021.jpeg",
     featured: true,
     links: [
       {
