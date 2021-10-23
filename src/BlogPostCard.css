@@ -50,6 +50,23 @@
     font-size: 1rem;
   }
   .img-box {
-    height: 300px;
+    width:100%;
+  }
+
+  .blog-img {
+    width: 100%;
+    height: auto;
+  }
+
+  .blog-card {
+    height:fit-content;
+  }
+  .blog-card-body {
+    flex-direction: 'row';
+    flex-wrap: wrap;
+  }
+  .text-area {
+text-align:center;
+    width: 100%;
   }
 }
