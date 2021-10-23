@@ -9,6 +9,7 @@ function BlogPostCard({ title, imgSrc, body, createdOn }) {
   return (
     <NavLink exact to={`/blog/${title}`}>
       <Card className=" blog-card text-white my-2">
+        <Card.Body  className="blog-card-body">
           <div className="img-box">
             <img
               className="blog-img "
@@ -16,11 +17,12 @@ function BlogPostCard({ title, imgSrc, body, createdOn }) {
               alt={`detail img for "${title}"`}
             />
           </div>
-        <Card.Body>
 
           <div className=" text-area ">
             <small>{createdOn}</small>
             <h5>{title}</h5>
+            <p className="text-paragraph">{body}</p>
+            <em>click for more...</em>
           </div>
         </Card.Body>
       </Card>
