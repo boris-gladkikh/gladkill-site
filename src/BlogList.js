@@ -9,7 +9,7 @@ import Container from "react-bootstrap/Container";
 
 function BlogList() {
   let blogPostList = blogPosts.map((p) => (
-    <Col key={p.title} lg="3" md="6" sm="12">
+    <Col key={p.title} md="12">
       <BlogPostCard
         key={p.title}
         title={p.title}
