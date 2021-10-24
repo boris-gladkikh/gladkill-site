@@ -10,6 +10,7 @@ import Contact from "./Contact";
 import Footer from "./Footer";
 import NotFound from "./NotFound";
 import BlogPostDetail from "./BlogPostDetail";
+import Tour from './Tour';
 
 function App() {
   return (
@@ -22,6 +23,9 @@ function App() {
           </Route>
           <Route exact path="/music">
             <Music />
+          </Route>
+          <Route exact path="/tour">
+            <Tour />
           </Route>
           <Route exact path="/contact">
             <Contact />

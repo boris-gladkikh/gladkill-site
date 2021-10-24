@@ -2,8 +2,7 @@ import React from "react";
 import { NavLink, useParams } from "react-router-dom";
 import blogPosts from "./blogPosts";
 import "./BlogPostDetail.css";
-import Row from "react-bootstrap/Row";
-import Col from "react-bootstrap/Col";
+
 
 export default function BlogPostDetail() {
   const blogTitle = useParams("title");
