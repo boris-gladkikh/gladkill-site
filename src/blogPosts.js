@@ -1,16 +1,16 @@
 const blogPosts = [
   {
-    title: "Gladkill Live - Reflections NYE, Portland OR December 31 2021",
+    title: "Gladkill Live - Reflections NYE, Portland OR -  December 31 2021",
     createdOn: "October 21, 2021",
     imgSrc: "/blogImg/reflections-nye-portland.jpg",
     featured: true,
     links: [
       {
         name: 'tickets',
-        url: ''
+        url: 'https://aftontickets.com/reflectionsnye?fbclid=IwAR1zTSoyANVJTIiIlglBz_jvcbK-S65Ap0UKSgMxiHU-c7_rXVgTTcCVhuE',
       }
     ],
-    body: "I'm stoked to announce that I will be spending New Year's in Portland, OR with the most packed line-up of the year. I will be sharing the stage with such folks as DMVU, Yheti, Digital Ethos, Supertask, Chase Manhattan and much more. Make sure to get your tickets ASAP - an event like this is bound to sell out"
+    body: "I'm stoked to announce that I will be spending New Year's in Portland, OR with the most packed line-up of the year. I will be sharing the stage with such folks as DMVU, Yheti, Digital Ethos, Supertask, Chase Manhattan and much more. Make sure to get your tickets ASAP - an event like this is bound to sell out."
   },
   {
     title: "Gladkill Live - NYC, December 17 2021",
