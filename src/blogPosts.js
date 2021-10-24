@@ -1,7 +1,7 @@
 const blogPosts = [
   {
     title: "Gladkill Live - Reflections NYE, Portland OR December 31 2021",
-    createdOn: "September 15, 2021",
+    createdOn: "October 21, 2021",
     imgSrc: "/blogImg/reflections-nye-portland.jpg",
     featured: true,
     links: [
