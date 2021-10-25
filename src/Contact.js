@@ -5,7 +5,7 @@ import Socials from "./Socials";
 
 function Contact() {
   return (
-    <div className="black container text-center text-white">
+    <div className="mt-5 black container text-center text-white">
       <h3 className="mt-3">CONTACT</h3>
       For press and booking inquiries please contact:
       <a href="mailto:izzy@sophrosynesound.com">

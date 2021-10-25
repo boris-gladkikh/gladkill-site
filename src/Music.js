@@ -8,7 +8,7 @@ import albums from "./albums.js";
 
 function Music() {
   return (
-    <div className="container text-center">
+    <div className="mt-5 container text-center">
       <h3 className="mt-3 text-white text-center">DISCOGRAPHY</h3>
       <Container>
         <Row>
