@@ -24,7 +24,7 @@ export default function BlogPostDetail() {
   });
 
   return (
-    <div className="container">
+    <div className="mt-5 container">
       <div id="post-detail-header">
         <h1>{currentPost.title}</h1>
       </div>
