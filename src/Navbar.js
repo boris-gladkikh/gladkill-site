@@ -18,6 +18,9 @@ function Navigation() {
           <Nav.Item>
             <NavLink to="/music">MUSIC</NavLink>
             </Nav.Item>
+          <Nav.Item>
+            <NavLink to="/tour">TOUR</NavLink>
+            </Nav.Item>
           <Nav.Item>  
             <NavLink to="/contact">CONTACT</NavLink>
             </Nav.Item>

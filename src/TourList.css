@@ -1,0 +1,41 @@
+.tour-item {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  border-bottom: 1px solid white;
+  color: white;
+  padding: 0 10px;
+  margin-top: 3rem;
+}
+
+.tour-item-section {
+  text-align: left;
+  width: 25%;
+  padding: 0 10px;
+}
+
+.ticket-btn {
+  background: none;
+  color: white;
+  margin-bottom: 10px;
+  padding: 5px;
+}
+
+.ticket-btn:active {
+  color: red;
+}
+
+#venue-section {
+  width: 30%;
+}
+#button-section {
+  text-align: right;
+  width: 15%;
+}
+
+.no-posts {
+  color: white;
+  margin-top: 5rem;
+}
+

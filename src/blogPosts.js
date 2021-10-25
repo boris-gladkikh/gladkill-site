@@ -1,9 +1,48 @@
 const blogPosts = [
   {
+    title: "Gladkill Live - Reflections NYE, Portland OR -  December 31 2021",
+    createdOn: "October 21, 2021",
+    imgSrc: "/blogImg/reflections-nye-portland.jpg",
+    featured: true,
+    links: [
+      {
+        name: 'tickets',
+        url: 'https://aftontickets.com/reflectionsnye?fbclid=IwAR1zTSoyANVJTIiIlglBz_jvcbK-S65Ap0UKSgMxiHU-c7_rXVgTTcCVhuE',
+      }
+    ],
+    body: "I'm stoked to announce that I will be spending New Year's in Portland, OR with the most packed line-up of the year. I will be sharing the stage with such folks as DMVU, Yheti, Digital Ethos, Supertask, Chase Manhattan and much more. Make sure to get your tickets ASAP - an event like this is bound to sell out."
+  },
+  {
+    title: "Gladkill Live - NYC, December 17 2021",
+    createdOn: "September 15, 2021",
+    imgSrc: "/blogImg/vibe-digital-nyc.png",
+    featured: true,
+    links: [
+      {
+        name: 'tickets',
+        url: 'https://mercuryeastpresents.com/event/vibe-digital-nyc-showcase/?fbclid=IwAR33uhRWn2lpsBoNjVENkE8Y1XK5buo9rdvnimwbuApGo6GmfsCfVmBc16c'
+      }
+    ],
+    body: "Finally coming back to NYC with my Vibe.Digital fam for a night of melodic bass, wave and post-dubstep sounds. I'm delighted to share the stage with fellow Vibe.Digital artists Noah B, WEVLTH, KTrek, and label owner Djedi. Get your tickets below. Make sure not to miss this show, since my reduced touring schedule means this may be my last east coast performance for a while."
+  },
+  {
+    title: "Gladkill Live - Oakland, CA November 26 2021",
+    createdOn: "September 14, 2021",
+    imgSrc: "/blogImg/wormhole-oakland-9-year.jpeg",
+    featured: true,
+    links: [
+      {
+        name: 'tickets',
+        url: 'https://www.ticketweb.com/event/wormhole-9-year-anniversary-the-new-parish-tickets/11348155?pl=newparish&fbclid=IwAR2ER8FKGkv086-C8fWk4oOj-cHKhwINahgfAD7fqxltHppmGKbE1MEeLL8',
+      }
+    ],
+    body: "Super excited to be coming back to the bay area with Wormhole's 9 year anniversary. Stacked line-up full of amazing sounds. Joining me are Ternion Sound, Chmura, Mythm, Matheny, and more. This is going to be a special one. Grab your tickets now!"
+  },
+  {
     title: "Gladkill Live - Denver, CO September 8 2021",
     createdOn: "August 30, 2021",
     imgSrc: "/blogImg/denver-flyer-sep-2021.jpeg",
-    featured: true,
+    featured: false,
     links: [
       {
         name: 'tickets',
@@ -16,7 +55,7 @@ const blogPosts = [
     title: "Gladkill Live - Eugene, OR September 2 2021",
     createdOn: "August 20, 2021",
     imgSrc: "/blogImg/eugene-flyer-sep-2021.png",
-    featured: true,
+    featured: false,
     links: [
       {
         name: 'tickets',

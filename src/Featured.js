@@ -27,7 +27,7 @@ function Featured() {
   console.log("featured", featuredPosts);
   return (
     <>
-      <Carousel className="pt-3">{posts}</Carousel>
+      <Carousel  className="carousel-root">{posts}</Carousel>
     </>
   );
 }
