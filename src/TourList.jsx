@@ -21,7 +21,7 @@ export default function TourList(){
             {post.location}
             </span>
             <span className="tour-item-section" id="button-section">
-              <button className="ticket-btn">Tickets</button>
+              <a href={post.tickets} rel="noopener noreferrer" target="_blank" className="ticket-btn">Tickets</a>
             </span>
 
           </div>)
