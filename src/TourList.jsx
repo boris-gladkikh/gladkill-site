@@ -9,7 +9,7 @@ export default function TourList(){
         tourPosts.map((post) => {
  
           return(
-          <div className="tour-item">
+          <div className="tour-item" key={post.date}>
             <span className="tour-item-section">
               <strong> {post.date}</strong>
            

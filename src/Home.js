@@ -1,9 +1,13 @@
-import React from 'react';
+import React,  {useEffect} from 'react';
 import "./Home.css";
 import BlogList from './BlogList';
 
 
 function Home() {
+  useEffect(()=>{
+    window.scrollTo(0, 0)
+
+  },[])
 
   return (
     <div className="mt-5 black container text-center"> 

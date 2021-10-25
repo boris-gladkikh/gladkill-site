@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { NavLink, useParams } from "react-router-dom";
 import blogPosts from "./blogPosts";
 import "./BlogPostDetail.css";
@@ -6,6 +6,11 @@ import "./BlogPostDetail.css";
 
 export default function BlogPostDetail() {
   const blogTitle = useParams("title");
+
+  useEffect(()=>{
+    window.scrollTo(0, 0)
+
+  },[])
 
   let currentPost = blogPosts.filter(
     (album) => album.title === blogTitle.title
@@ -15,7 +20,7 @@ export default function BlogPostDetail() {
 
   let links = currentPost.links?.map((link) => {
     return (
-      <li>
+      <li key={link}>
         <a href={link.url} target="_blank" rel="noreferrer noopener">
           {link.name}
         </a>
