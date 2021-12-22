@@ -2,7 +2,7 @@ import React from 'react';
 import './Navbar.css';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
-import {NavLink} from 'react-router-dom';
+import {NavLink, Link} from 'react-router-dom';
 import logo from './img/gk-logo.png';
 function Navigation() {
   return (
@@ -11,6 +11,9 @@ function Navigation() {
         <Nav className="m-auto" >
           <Nav.Item>
             <NavLink exact to="/">HOME</NavLink>
+          </Nav.Item>
+          <Nav.Item>
+            <Link to={{pathname:"https://gladkillmusic.bigcartel.com"}} target="_blank">SHOP</Link>
           </Nav.Item>
           <Nav.Item>
             <NavLink to="/about">ABOUT</NavLink>
