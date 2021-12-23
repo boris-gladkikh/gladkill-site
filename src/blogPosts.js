@@ -1,5 +1,18 @@
 const blogPosts = [
   {
+    title: "Gladkill Merch is back!",
+    createdOn: "December 22, 2021",
+    imgSrc: "/blogImg/gladkill-merch-2021.jpg",
+    featured: true,
+    links: [
+      {
+        name: 'Shop Now',
+        url: 'https://gladkillmusic.bigcartel.com/',
+      }
+    ],
+    body: "Get laced up from the waist up! You can click the shop button above, or the link below to visit the all-new Gladkill merch store. Shirts, hats and bucket hats now available - new designs coming in 2022."
+  },
+  {
     title: "Gladkill Live - Reflections NYE, Portland OR -  December 31 2021",
     createdOn: "October 21, 2021",
     imgSrc: "/blogImg/reflections-nye-portland.jpg",
