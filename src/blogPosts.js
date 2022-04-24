@@ -1,4 +1,50 @@
 const blogPosts = [
+  // {
+  //   title:"",
+  //   createdOn:"",
+  //   imgSrc:"",
+  //   featured:false,
+  //   links:[{name:'',url:''}],
+  //   body:"",
+  // },
+  {
+    title:"Gladkill - Wardubs S3 - 'Destined'",
+    createdOn:"April 21, 2022",
+    imgSrc:"/blogImg/gladkill-wardub-cover.jpg",
+    featured:true,
+    links:[
+      {name:'Stream/Listen',
+      url:'https://soundcloud.com/gladkill/destined-wardub-s3-reply-to-aekae'
+    }],
+    body:"The wave music community is deep in Wardub season. For my submission, here's a beat I made in about 4 hours. This was a really fun exercise and I love how this came out -  I'll be mastering it and releasing it on all streaming pretty soon too.",
+  },
+  {
+    title:"Gladkill - 'Expired'",
+    createdOn:"April 19, 2022",
+    imgSrc:"/blogImg/gladkill-expired-cover.jpg",
+    featured:true,
+    links:[
+      {
+        name:'Stream/Listen',
+        url:'https://soundcloud.com/gladkill/expired',
+      }],
+    body:"Here's a quick 2 hour beat I made for ONHELL's twitch stream beat battle the other day. Using  some samples from ONHELL & Gangus 'Mushrooms and tequila' sample pack. You can swoop that directly from ONHELL's site.",
+  },
+  {
+    title:"'Ghost In The Machine' EP",
+    createdOn:"February 22, 2022",
+    imgSrc:"/blogImg/gladkill-ghost-in-machine-cover.jpg",
+    featured:true,
+    links:[{
+      name:'Spotify',
+      url:'https://open.spotify.com/artist/7Kpco2hTnFKHUP1Gj8dA17/discography/all?uri=spotify:album:7r5Qps2zfIOOxmT3o0QVE2'
+    },
+    {
+      name:'Stream/Downoad',
+      url:'https://wormholemusicgroup.fanlink.to/gladkillghostinthemachine'
+    },],
+    body:"Wormhole Music Group is pleased to present Gladkill's Ghost in the Machine. Dripped out in haunting melodies, brooding textures, and rich basslines, this release is a brilliant example of expertly executed minimalism and craftsmanship. Gladkill further cements himself as a true legend in bass music with yet another scintillating and thoroughly satisfying release. ",
+  },
   {
     title: "Gladkill Merch is back!",
     createdOn: "December 22, 2021",
@@ -16,7 +62,7 @@ const blogPosts = [
     title: "Gladkill Live - Reflections NYE, Portland OR -  December 31 2021",
     createdOn: "October 21, 2021",
     imgSrc: "/blogImg/reflections-nye-portland.jpg",
-    featured: true,
+    featured: false,
     links: [
       {
         name: 'tickets',
@@ -29,7 +75,7 @@ const blogPosts = [
     title: "Gladkill Live - NYC, December 17 2021",
     createdOn: "September 15, 2021",
     imgSrc: "/blogImg/vibe-digital-nyc.png",
-    featured: true,
+    featured: false,
     links: [
       {
         name: 'tickets',
@@ -42,7 +88,7 @@ const blogPosts = [
     title: "Gladkill Live - Oakland, CA November 26 2021",
     createdOn: "September 14, 2021",
     imgSrc: "/blogImg/wormhole-oakland-9-year.jpeg",
-    featured: true,
+    featured: false,
     links: [
       {
         name: 'tickets',
