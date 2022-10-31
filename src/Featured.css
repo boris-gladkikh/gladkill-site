@@ -6,6 +6,8 @@
 .carousel-img {
   opacity: 1;
   transition: 300ms all;
+  max-width: 50%;
+  margin: auto;
 }
 
 .carousel-text {
@@ -33,5 +35,8 @@
 @media screen and (max-width: 800px) {
   .carousel-text {
     font-size: .75rem;
+  }
+  .carousel-img {
+    max-width: 75%;
   }
 }

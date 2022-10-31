@@ -1,6 +1,5 @@
 import React from "react";
 import "./Contact.css";
-import ContactForm from "./ContactForm";
 import Socials from "./Socials";
 
 function Contact() {
@@ -11,12 +10,7 @@ function Contact() {
       <a href="mailto:izzy@sophrosynesound.com">
         <h5>izzy@sophrosynesound.com</h5>
       </a>
-      <h5 className="mt-5">
-        For all other inquiries, please use the form below.
-      </h5>
-      <hr className="border-light" />
-      <ContactForm />
-      <hr className="border-light" />
+
       <Socials />
     </div>
   );

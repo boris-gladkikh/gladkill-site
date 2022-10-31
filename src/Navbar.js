@@ -3,7 +3,7 @@ import './Navbar.css';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import {NavLink, Link} from 'react-router-dom';
-import logo from './img/gk-logo.png';
+import logo from './img/Gladkill-white.png';
 function Navigation() {
   return (
     <div>

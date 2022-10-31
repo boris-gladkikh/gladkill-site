@@ -8,6 +8,68 @@ const blogPosts = [
   //   body:"",
   // },
   {
+    title:"Gladkill - 'Orbital' ",
+    createdOn:"September 13, 2022",
+    imgSrc:"/blogImg/orbital-cover.jpeg",
+    featured:true,
+    links:[
+      {name:'Bandcamp',
+      url:'https://gladkill.bandcamp.com/track/orbital'
+    },
+    {name:'Spotify',
+    url:'https://open.spotify.com/album/64U2X6KI4zRxlILUNnf74m',
+  }],
+    body: "Presenting my new single 'Orbital'. A sci-fi breaks and DnB inspired tune. Mastering by Starkey, artwork by Yama. Now available everywhere you listen to music.",
+  },
+  {
+    title:"Pantheon Live Show Announce",
+    createdOn:"September 13, 2022",
+    imgSrc:"/blogImg/pantheon-announce.jpeg",
+    featured:true,
+    links:[
+      {name:'tickets',
+      url:'https://www.eventbrite.com/e/pantheon-tickets-386517553407'
+    }],
+    body: "I am honored to be a part of the largest wave event in North America so far, presented by SoulFood Music Collective, Human Error Collective and Vibe Digital! A three day event featuring a multitude of Wave music acts from North America, Canada and beyond. This is a cant-miss event if you are a fan of forward-thinking melodic bass music. Get your tickets now!!",
+  },
+  {
+    title:"Potions Live Show Announce",
+    createdOn:"August 25, 2022",
+    imgSrc:"/blogImg/potions-cervantes-show-flyer.jpeg",
+    featured:false,
+    links:[
+      {name:'tickets',
+      url:'https://open.spotify.com/album/0yu8O63x0ZUkUoUEUEPldx'
+    }],
+    body: "Super stoked to be coming back to Denver this October with an incredible curated line-up Got an emotional melodic wave/bass set planned. Can't wait!",
+  },
+  {
+    title:"Gladkill - Vibe Digital Stream",
+    createdOn:"May 28, 2022",
+    imgSrc:"/blogImg/vibe-digital-stream.jpeg",
+    featured:false,
+    links:[
+      {name:'Vibe.Digital Twitch',
+      url:'https://www.twitch.tv/vibedigitalusa?fbclid=IwAR1YUOna0qjAeKez6CH3_7LJxqzVl9n8MRQ24QOK1jMG7kjEd801nN5SO0A'
+    },
+      {name:'Stream on Soundcloud',
+      url:'https://soundcloud.com/vibe-digital/episode112?in=vibe-digital/sets/vibe-digital-archives'
+    },
+  ],
+    body:"Announcing a special episode of Vibe Digital’s stream for my EP release. I’ve curated a line-up of forward thinking bass & wave artists, and I’ll be playing a 30 min all original mix. Can’t wait for this one! \n Featuring FRQ NCY, Arael and Aekae. Streaming live via Twitch on Saturday, May 28, 2022.", 
+  },
+  {
+    title:"Gladkill - 'Cold Comfort' EP",
+    createdOn:"May 27, 2022",
+    imgSrc:"/blogImg/cold-comfort-cover.jpg",
+    featured:true,
+    links:[
+      {name:'Stream/Listen',
+      url:'https://open.spotify.com/album/0yu8O63x0ZUkUoUEUEPldx'
+    }],
+    body:"In his debut release on vibe.digital Recordings, Gladkill strikes the listeners heart in his ‘Cold Comfort’ EP, made for the veteran bass music connoisseur and newcomer alike. ‘Words Inside’ is a heartfelt ballad, setting the tone for the emotional direction of the release. The title track, ‘Cold Comfort,’ maintains the emotional edge and brings the listener into a new depth, both icy and sanguine, while ‘The Way You Like’ is a well built, purple bass inspired banger, suited for nightclubs worldwide. ‘Waterways’ brings it back to Gladkill’s roots and what made him the west coast bass aficionado in the first place, with gorgeous soundscapes in the intro and proper, danceable bass stabs at the drop, and ‘Fragile’ rounds us out with a perfect, vibey set finisher which completes the message for the EP, hitting the balance between attentive poignancy, and energetic brawn.Artwork by Noah B",
+  },
+  {
     title:"Gladkill - Wardubs S3 - 'Destined'",
     createdOn:"April 21, 2022",
     imgSrc:"/blogImg/gladkill-wardub-cover.jpg",
@@ -22,7 +84,7 @@ const blogPosts = [
     title:"Gladkill - 'Expired'",
     createdOn:"April 19, 2022",
     imgSrc:"/blogImg/gladkill-expired-cover.jpg",
-    featured:true,
+    featured:false,
     links:[
       {
         name:'Stream/Listen',
@@ -34,7 +96,7 @@ const blogPosts = [
     title:"'Ghost In The Machine' EP",
     createdOn:"February 22, 2022",
     imgSrc:"/blogImg/gladkill-ghost-in-machine-cover.jpg",
-    featured:true,
+    featured:false,
     links:[{
       name:'Spotify',
       url:'https://open.spotify.com/artist/7Kpco2hTnFKHUP1Gj8dA17/discography/all?uri=spotify:album:7r5Qps2zfIOOxmT3o0QVE2'
@@ -49,7 +111,7 @@ const blogPosts = [
     title: "Gladkill Merch is back!",
     createdOn: "December 22, 2021",
     imgSrc: "/blogImg/gladkill-merch-2021.jpg",
-    featured: true,
+    featured: false,
     links: [
       {
         name: 'Shop Now',
@@ -155,7 +217,7 @@ const blogPosts = [
     title: "Ossuary Out Now!",
     createdOn: "May 18, 2021",
     imgSrc: "/covers/ossuary-cover.jpg",
-    featured: true,
+    featured: false,
     links: [
       {
         name: 'Buy on Bandcamp',
@@ -186,7 +248,7 @@ const blogPosts = [
         url: 'https://gladkill.bandcamp.com/track/analog-whispers',
       },
     ],
-    featured: true,
+    featured: false,
     body: 'Presenting \'Analog Whispers\', the second single off of \'Ossuary\'. Special shout out to The Untz for premiering this single - it is definitely one of my favorites off of the album. You  can find their awesome write-up about it below. '
 
   },
@@ -194,7 +256,7 @@ const blogPosts = [
     title: "Ashes - First Single From 'Ossuary'.",
     createdOn: "May 4, 2021",
     imgSrc: "/blogImg/ashes-cover.jpg",
-    featured: true,
+    featured: false,
     links: [
       {
         name: 'Buy on Bandcamp',

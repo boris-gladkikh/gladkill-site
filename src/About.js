@@ -64,9 +64,11 @@ function About() {
           <Card.Text className=" pt-3  bio-text">
             With over 10 years of extensive touring and releases, Gladkill has risen to legacy artist status
             with a diverse catalog that spans over several genres, flavors and interpretations of the
-            melodic bass sound he has helped pioneer. With the release of his latest album <em>Ossuary</em>, 
-            upcoming live shows, and more releases in store for late 2021 and beyond, Gladkill continues to deliver thoughtful,
-            progressive sounds that are sure to stand the test of time.
+            melodic bass sound he has helped pioneer. 2022 has brought multiple new Gladkill releases, including
+            the 2 track "Ghost In The Machine" EP, a more bass-heavy 140 inspired endeavor, and the more melodic and
+            wave-influenced sounds of his "Cold Comfort" EP, on Wormhole and Vibe.Digital, repectively. With new releases
+            and exciting performances in store for 2023 and beyond, Gladkill continues to carve his own path in the ever-changing landscape
+            of underground electronic music. 
           </Card.Text>
         </Card.Body>
       </Card>
