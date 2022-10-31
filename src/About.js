@@ -14,7 +14,7 @@ import AlbumFeature from './AlbumFeature';
 function About() {
   return (
     <div className="black mt-5 px-3 container">
-      <h3 className="mt-3 text-white text-center">ABOUT</h3>
+      <h5 className="mt-3 text-white text-center">ABOUT</h5>
       <Carousel className="pt-3">
         <Carousel.Item>
           <img

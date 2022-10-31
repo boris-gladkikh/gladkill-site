@@ -11,6 +11,10 @@
   margin: auto;
 }
 
+.text-white {
+  color: white;
+}
+
 nav a {
   color: #bfbfbf;
   transition: 300ms ease-in;

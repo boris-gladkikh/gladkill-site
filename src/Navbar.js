@@ -7,7 +7,9 @@ import logo from './img/Gladkill-white.png';
 function Navigation() {
   return (
     <div>
-     <Navbar>
+     <Navbar bg="black" variant="dark" expand="xl" >
+     <Navbar.Toggle aria-controls="navigation" />
+     <Navbar.Collapse id="navigation" className="text-center  justify-content-end">
         <Nav className="m-auto" >
           <Nav.Item>
             <NavLink exact to="/">HOME</NavLink>
@@ -28,6 +30,8 @@ function Navigation() {
             <NavLink to="/contact">CONTACT</NavLink>
             </Nav.Item>
         </Nav>
+        </Navbar.Collapse>
+
      </Navbar>
 
 

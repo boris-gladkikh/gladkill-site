@@ -9,7 +9,7 @@ import albums from "./albums.js";
 function Music() {
   return (
     <div className="mt-5 container text-center">
-      <h3 className="mt-3 text-white text-center">DISCOGRAPHY</h3>
+      <h5 className="mt-3 text-white text-center">DISCOGRAPHY</h5>
       <Container>
         <Row>
           {albums.albums.map((album) => (
