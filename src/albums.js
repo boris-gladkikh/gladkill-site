@@ -166,6 +166,28 @@ let albums = {
       bandcamp: "https://gladkill.bandcamp.com/album/ossuary",
       stream: "https://open.spotify.com/album/2A0O93A2o1J9mf0OovwSnf",
     },
+    {
+      order: 15,
+      title: "Ghost In The Machine",
+      detail:
+        "Gladkill's first release of 2022, a 2 track EP featured on Wormhole Music Group, venturing into heavier 140 territory.",
+      coverUrl: "/blogImg/gladkill-ghost-in-machine-cover.jpg",
+      year: 2022,
+      embed: "633649467",
+      bandcamp: "https://wormholemusicgroup.bandcamp.com/album/gladkill-ghost-in-the-machine",
+      stream: "https://open.spotify.com/album/7r5Qps2zfIOOxmT3o0QVE2",
+    },
+    {
+      order: 15,
+      title: "Cold Comfort",
+      detail:
+        "Released by Vibe.Digital, Gladkill's 'Cold Comfort' EP is a foray into wave music influences, blending the OG wave sound with Gladkill's melodic forward-thinking bass roots.",
+      coverUrl: "/blogImg/cold-comfort-cover.jpg",
+      year: 2022,
+      embed: "2205820106",
+      bandcamp: "https://gladkill.bandcamp.com/album/cold-comfort-ep",
+      stream: "https://open.spotify.com/album/0yu8O63x0ZUkUoUEUEPldx",
+    },
   ],
 };
 
