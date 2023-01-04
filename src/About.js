@@ -66,7 +66,7 @@ function About() {
             with a diverse catalog that spans over several genres, flavors and interpretations of the
             melodic bass sound he has helped pioneer. 2022 has brought multiple new Gladkill releases, including
             the 2 track "Ghost In The Machine" EP, a more bass-heavy 140 inspired endeavor, and the more melodic and
-            wave-influenced sounds of his "Cold Comfort" EP, on Wormhole and Vibe.Digital, repectively. With new releases
+            wave-influenced sounds of his "Cold Comfort" EP, on Wormhole and Vibe.Digital, respectively. With new releases
             and exciting performances in store for 2023 and beyond, Gladkill continues to carve his own path in the ever-changing landscape
             of underground electronic music. 
           </Card.Text>
