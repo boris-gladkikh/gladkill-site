@@ -8,6 +8,50 @@ const blogPosts = [
   //   body:"",
   // },
   {
+    title:"Gladkill - Dissociate",
+    createdOn:"February 24, 2023",
+    imgSrc:"/blogImg/dissociate-cover.jpg",
+    featured:true,
+    links:[
+      {name:'Spotify',
+      url:"https://open.spotify.com/album/0DQdOsDBAA826plFeLN4Y5",
+    },
+      {name:'Soundcloud',
+      url:"https://soundcloud.com/gladkill/dissociate",
+    },
+    
+      {name:'Bandcamp',
+      url:"https://gladkill.bandcamp.com/track/dissociate",
+    },
+    
+],
+body: "My new single 'Dissociate' is out now, everywhere you listen to music. It is a harmonious blend of the OG wave sound and the signature Gladkill bass music vibe."
+  },
+  {
+    title:"Los Angeles Show Announce",
+    createdOn:"February 21, 2023",
+    imgSrc:"/blogImg/wormhole-la-2023.jpg",
+    featured:true,
+    links:[
+      {name:'Tickets',
+      url:'https://www.eventbrite.com/e/317-dtla-shenanigans-ft-wormhole-music-group-bass-waffles-tickets-557303799667?fbclid=IwAR3OvsnJuUJGy8OeW3RVBp9qm2n09Px0kx9fp1mKo76BsLrFknCzafMAR58'
+    },
+],
+  body:"Very excited to be coming back to Los Angeles next month with my wormhole fam. The line-up features a Wormhole Music Group showcase as well as a Bass Waffles crew showcase. Don't miss out on this one - It's sure to be a crazy time..",
+  },
+  {
+    title:"Triple A Agency",
+    createdOn:"January 6, 2023",
+    imgSrc:"/blogImg/triple-a.jpg",
+    featured:true,
+    links:[
+      {name:'Triple A Agency',
+      url:'https://https://triplea.agency/'
+    },
+],
+  body: "Excited to announce that I’ve joined the talented roster over at Triple A agency. Contact Taryn for Gladkill bookings in your area for 2023 and beyond. With plenty of exciting releases and collaborations in the works, I can’t wait to see what this year has in store.",
+  },
+  {
     title:"Gladkill - 'Orbital' ",
     createdOn:"September 13, 2022",
     imgSrc:"/blogImg/orbital-cover.jpeg",
