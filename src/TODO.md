@@ -1,3 +1,1 @@
--add upcoming dates to news
--create tour list doc
--finish tour page and tour list
+-make blog details 'back' button bigger and more obvious

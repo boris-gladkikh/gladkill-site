@@ -1,10 +1,16 @@
  const tourPosts = [
    {
-     date:'March 17, 2023',
-     venue: 'Wormhole Presents - Shenanigans',
-     location: 'Los Angeles, CA, United States ',
-     tickets: 'https://www.eventbrite.com/e/317-dtla-shenanigans-ft-wormhole-music-group-bass-waffles-tickets-557303799667?fbclid=IwAR3OvsnJuUJGy8OeW3RVBp9qm2n09Px0kx9fp1mKo76BsLrFknCzafMAR58',
+     date:'September 13-14, 2024',
+     venue: 'Symmetry Festival',
+     location: 'Libertyville, IA, United States ',
+     tickets:"https://www.tixr.com/groups/symmetryfestival/events/smf-95010"
    },
+   {
+     date:'September 3, 2024',
+     venue: 'Afterburn Party',
+     location: 'Reno, NV, United States ',
+     tickets: ''
+   }
 
  ];
 
