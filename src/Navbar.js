@@ -15,9 +15,6 @@ function Navigation() {
             <NavLink exact to="/">HOME</NavLink>
           </Nav.Item>
           <Nav.Item>
-            <Link to={{pathname:"https://gladkillmusic.bigcartel.com"}} target="_blank">SHOP</Link>
-          </Nav.Item>
-          <Nav.Item>
             <NavLink to="/about">ABOUT</NavLink>
           </Nav.Item>
           <Nav.Item>
@@ -26,6 +23,9 @@ function Navigation() {
           <Nav.Item>
             <NavLink to="/tour">TOUR</NavLink>
             </Nav.Item>
+          <Nav.Item>
+            <Link to={{pathname:"https://gladkillmusic.bigcartel.com"}} target="_blank">SHOP</Link>
+          </Nav.Item>
           <Nav.Item>  
             <NavLink to="/contact">CONTACT</NavLink>
             </Nav.Item>

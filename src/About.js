@@ -2,12 +2,13 @@ import React from 'react';
 import Card from 'react-bootstrap/Card';
 import Carousel from 'react-bootstrap/Carousel';
 import "./About.css";
-import img1 from './img/gk-live-lib.jpg'
-import img2 from './img/gk-live-tulsa-3.jpg'
-import img3 from './img/gk-live-bn-hollywood.jpg'
+import img1 from './img/gk-live-mission-ballroom-2023-one.jpg'
+import img2 from './img/gk-live-lib.jpg'
+import img3 from './img/gladkill-live-mission-ballroom-2023-three.jpg'
 import img4 from './img/gk-live-san-diego-2.jpg'
 import img5 from './img/gk-live-big-dub.jpg';
-import img6 from './img/gk-bw-lib.jpg';
+// import img6 from './img/gk-bw-lib.jpg';
+import img7 from './img/gladkill-live-mission-ballroom-2023-two.jpg';
 import Socials from './Socials';
 import AlbumFeature from './AlbumFeature';
 
@@ -55,7 +56,7 @@ function About() {
       <Card className="black text-white">
         <Card.Body>
           <Card.Text className="bio-text">
-            Refusing to stick to the comfort of one musical genre,
+            Refusing to stick to the comfort of a single musical genre,
             Gladkill has rewarded audiences through the sheer
             diversity of his compositions, as he deftly moves between dominating dance
             floors with his sultry, bass-heavy club sounds, to captivating home
@@ -64,10 +65,8 @@ function About() {
           <Card.Text className=" pt-3  bio-text">
             With over 10 years of extensive touring and releases, Gladkill has risen to legacy artist status
             with a diverse catalog that spans over several genres, flavors and interpretations of the
-            melodic bass sound he has helped pioneer. 2022 has brought multiple new Gladkill releases, including
-            the 2 track "Ghost In The Machine" EP, a more bass-heavy 140 inspired endeavor, and the more melodic and
-            wave-influenced sounds of his "Cold Comfort" EP, on Wormhole and Vibe.Digital, respectively. With new releases
-            and exciting performances in store for 2023 and beyond, Gladkill continues to carve his own path in the ever-changing landscape
+            melodic bass sound he has helped pioneer. With new releases
+            and exciting performances in store for 2025 and beyond, Gladkill continues to carve his own path in the ever-changing landscape
             of underground electronic music. 
           </Card.Text>
         </Card.Body>
@@ -78,7 +77,7 @@ function About() {
 
       <Card className="black text-white my-2 ">
         <Card.Body>
-          <Card.Img variant="top" src={img6} />
+          <Card.Img variant="top" src={img7} />
           <Card.Text className="text-center mt-5 mb-5">
            <Socials />
           </Card.Text>
