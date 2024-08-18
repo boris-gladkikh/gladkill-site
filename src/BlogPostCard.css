@@ -60,9 +60,10 @@
 @media screen and (max-width: 760px) {
 
   .text-paragraph {
+    margin-top: 0px;
     display: -webkit-box;
     -webkit-box-orient: vertical;
-    -webkit-line-clamp: 4;
+    -webkit-line-clamp: 2;
   }
 
   .blog-card {
