@@ -14,7 +14,7 @@ function BlogPostCard({ title, imgSrc, body, createdOn }) {
         />
 
         <div className=" text-area ">
-          <small>{createdOn}</small>
+          <small className="created-on">{createdOn}</small>
           <h5>{title}</h5>
           <p className="text-paragraph">{body}</p>
           <div className="text-footer">
