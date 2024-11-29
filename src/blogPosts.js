@@ -8,24 +8,51 @@ const blogPosts = [
   //   body:"",
   // },
   {
-    title:"Gladkill - Future Unknown",
-    createdOn:"July 10, 2024",
-    imgSrc:"/blogImg/future-unknown-cover.jpg",
+    title:"Symmetry Festival 2024",
+    createdOn:"September 11, 2024",
+    imgSrc:"/blogImg/symmetry-artist-card-2024.jpg",
     featured:false,
     links:[
-      {name:'Spotify',
-        url:"https://open.spotify.com/artist/7Kpco2hTnFKHUP1Gj8dA17",
-      },
-        {name:'Soundcloud',
-        url:"https://soundcloud.com/gladkill/future-unknown",
-      },
-      
-        {name:'Bandcamp',
-        url:"https://gladkill.bandcamp.com/track/future-unknown",
-      },
+      {name:'tickets',
+        url:"https://symmetryfestival.com/",
+      }
     ],
     body:
-    "Presenting 'Future Unknown' - A contemplation on the impermanence of all things.Out now everywhere you listen to music. Thank you for listening.",
+    "Stoked to announce I'll be joining many of my wave & bass homies at @symmetryfestival this September. Massive line up full of some of my favorite artists with a whole stage dedicated to the wave sound. See you there."
+  },
+  {
+    title:"'Dark Mode Volume 1'",
+    createdOn:"September 9, 2024",
+    imgSrc:"/blogImg/dark-mode-cover.jpg",
+    featured:false,
+    links:[
+      {name:'Soundcloud',
+        url:"https://soundcloud.com/beatlabradio/gladkill-darkmode-vol-1-beat-lab-radio-481",
+      },
+        {name:'Bandcamp',
+        url:"https://gladkill.bandcamp.com/track/dark-mode-volume-1",
+      }
+    ],
+    body:
+    "I'm very happy to officially announce 'Dark/Mode' volume 1. 'Dark/Mode' is a curated collection of originals, unreleased previews and upcoming cuts, as well as other artists’ songs, ranging from downtempo, trip hop, bass music, to wave, garage, phonk, trap, and everything in between, that lean more towards the silky, melodic, sexy and introspective. A perfect soundtrack for a night drive, a chill evening, relaxing, meditation, and assorted after-hours activities. 'Dark/Mode' is dropping exclusively through Beat Lab Radio this Thursday, 9/12/24."
+  },
+  {
+    title:"Fall 2024 Shows & Releases",
+    createdOn:"August 29, 2024",
+    imgSrc:"/blogImg/fall-2024-shows-releases.jpg",
+    featured:false,
+    links:[],
+    body:
+    "Gladkill season is approaching. Fall is always my fav time of year. September kicking off proper with shows & releases!"
+  },
+  {
+    title:"Reno, NV Show Announced",
+    createdOn:"August 28, 2024",
+    imgSrc:"/blogImg/reno-afterburn-2024.jpg",
+    featured:false,
+    links:[],
+    body:
+    "Reno, NV! Catch me at Dead Ringer on 9/3 for this dope after burn party with a super stacked lineup. No presales on this one - tix will be at the door. See you there."
   },
   {
     title:"Beat Lab Radio 10 Yr Anniversary Announced",

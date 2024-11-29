@@ -33,13 +33,6 @@ function Socials() {
           <i className="fa-2x fab fa-bandcamp "></i>
         </a>
         <a
-          href="https://twitter.com/Gladkill"
-          rel="noopener noreferrer"
-          target="_blank"
-        >
-          <i className="fa-2x fab fa-twitter "></i>
-        </a>
-        <a
           href="https://www.facebook.com/gladkill/"
           rel="noopener noreferrer"
           target="_blank"
