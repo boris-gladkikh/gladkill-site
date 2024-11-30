@@ -55,6 +55,25 @@ const blogPosts = [
     "Reno, NV! Catch me at Dead Ringer on 9/3 for this dope after burn party with a super stacked lineup. No presales on this one - tix will be at the door. See you there."
   },
   {
+    title:"Future Unknown",
+    createdOn:"July 10, 2024",
+    imgSrc:"/blogImg/future-unknown-cover.jpg",
+    featured:false,
+    links:[
+      {name:'Spotify',
+        url:"https://open.spotify.com/artist/7Kpco2hTnFKHUP1Gj8dA17",
+      },
+      {name:'Soundcloud',
+        url:"https://soundcloud.com/gladkill/future-unknown",
+      },
+      {name:'Bandcamp',
+        url:"https://gladkill.bandcamp.com/track/future-unknown",
+      }
+    ],
+    body:
+    "Presenting 'Future Unknown' - A contemplation on the impermanence of all things.Out now everywhere you listen to music. Thank you for listening."
+  },
+  {
     title:"Beat Lab Radio 10 Yr Anniversary Announced",
     createdOn:"May 15, 2024",
     imgSrc:"/blogImg/beat-lab-10-year.jpg",
