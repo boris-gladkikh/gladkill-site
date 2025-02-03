@@ -8,6 +8,45 @@ const blogPosts = [
   //   body:"",
   // },
   {
+    title:"Archive 002: Pragmatic",
+    createdOn:"February 05, 2025",
+    imgSrc:"/blogImg/gladkill-archives-pragmatic.jpg",
+    featured:false,
+    links:[
+      {name:'Listen Here',
+        url:"https://patreon.com/gladkill",
+      }
+    ],
+    body:
+    "Presenting the next single in the Archives series - Pragmatic. Listen now and learn more about the track exclusively on my Patreon."
+  },
+  {
+    title:"Archive 001: Systems Critical",
+    createdOn:"January 22, 2025",
+    imgSrc:"/blogImg/gladkill-archives-systems-critical.jpg",
+    featured:false,
+    links:[
+      {name:'Listen Here',
+        url:"https://patreon.com/gladkill",
+      }
+    ],
+    body:
+    "Presenting the 'Archives' series - Unreleased music from multiple Gladkill eras spanning over multiple genres. Available exclusively via Patreon. You can now listen to the first single, Systems Critical, for free."
+  },
+  {
+    title:"Gladkill Patreon Announce",
+    createdOn:"January 16, 2025",
+    imgSrc:"/blogImg/gladkill-patreon-announce.jpg",
+    featured:false,
+    links:[
+      {name:'Sign Up Free',
+        url:"https://patreon.com/gladkill",
+      }
+    ],
+    body:
+    "This year I've decided to bring back my Patreon page, with exclusive monthly releases, synth & studio content, A/V art projects, samples & melody packs, and much more. First exclusive single coming very soon."
+  },
+  {
     title:"Symmetry Festival 2024",
     createdOn:"September 11, 2024",
     imgSrc:"/blogImg/symmetry-artist-card-2024.jpg",
