@@ -59,6 +59,10 @@
     display: none;
   }
 
+  .text-area {
+    opacity: 1;
+  }
+
   .text-paragraph {
     margin-top: 0px;
     display: -webkit-box;
