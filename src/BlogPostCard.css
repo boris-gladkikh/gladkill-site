@@ -5,7 +5,6 @@
   height: 275px;
   aspect-ratio: 1/1;
   overflow: hidden;
-  /* border: 1px solid  rgb(190, 190, 190); */
 }
 
 .blog-img {
@@ -19,11 +18,11 @@
 .text-area {
   padding: 0 8px;
   position: absolute;
-  bottom: 0;
+  bottom: 30%;
   height: 45%;
   width: 100%;
   background-color: black;
-  opacity: .8;
+  opacity: 0;
   transition: all .5s ease 0s;
 }
 .text-paragraph {
@@ -42,18 +41,16 @@
 
 .blog-card:hover {
   transition: all .5s ease 0s;
-  border: 1px solid  rgb(190, 190, 190);
+  /* border: 1px solid  rgb(190, 190, 190); */
   cursor: pointer;
 
   .text-area {
-    background-color:  rgb(190, 190, 190);
-    color:black;
     opacity: .9;
-
   }
 
   .blog-img {
     filter: brightness(50%);
+    opacity: .9;
   }
 }
 

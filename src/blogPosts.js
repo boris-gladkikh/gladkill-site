@@ -8,6 +8,25 @@ const blogPosts = [
   //   body:"",
   // },
   {
+    title:"Gladkill: HEXES",
+    createdOn:"March 7, 2025",
+    imgSrc:"/blogImg/hexes-cover.jpg",
+    featured:false,
+    links:[
+      {name:'soundcloud',url:'https://soundcloud.com/gladkill/hexes'},
+      {name:'bandcamp',url:'https://gladkill.bandcamp.com/track/hexes'},
+    ],
+    body:"Presenting my newest single: 'HEXES'. Now streaming everywhere you listen to music. Thanks for listening. ",
+  },
+  {
+    title:"Gladkill Hardware Series 001",
+    createdOn:"February 26, 2025",
+    imgSrc:"/blogImg/hardware-series-001.jpg",
+    featured:false,
+    links:[{name:'Watch now',url:''}],
+    body:"The first of my new 'Hardware Series' videos is now up -  beats synthesized and performed on assorted hardware synths and set ups. I've been having a lot of fun writing outside of the computer ecosystem and taking a more tactile approach to my song writing.  Go check it out - more coming soon.",
+  },
+  {
     title:"Archive 002: Pragmatic",
     createdOn:"February 05, 2025",
     imgSrc:"/blogImg/gladkill-archives-pragmatic.jpg",
