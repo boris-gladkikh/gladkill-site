@@ -1,7 +1,19 @@
+.detail-section {
+  display: flex;
+  flex-direction: row;
+}
+
 #post-detail-header {
-  text-align: center;
-  color: white;
-  padding: 1rem;
+  /* text-align: center; */
+  color: black;
+  font-size: 72px;
+  /* padding: 1rem; */
+}
+
+.sub-header {
+  font-style: italic;
+  font-size: 14px;
+  padding: 15px 0;
 }
 
 #post-detail-header h1 {
@@ -10,10 +22,10 @@
 }
 
 
+
 .detail-img-container {
   width: 750px;
-  margin:auto;
-  border: 1px solid white;
+  /* margin:auto; */
 
 }
 
@@ -22,33 +34,42 @@
 }
 
 
-#post-detail-text {
-  color: white;
+#detail-text-container {
+  color: black;
+  background: white;
   padding: 1rem;
   width: 750px;
-  font-size: larger;
-  margin: auto;
+  font-size: large;
+  /* margin: auto; */
 
+} 
+ul {
+  /* background: white; */
+  width: 100%;
 }
 
-#post-detail-text a {
-  font-style: italic;
-  color: lightblue;
+#detail-text-container a {
+  color: #242424;
+  font-weight: 800;
 }
-#post-detail-text a:hover {
+#detail-text-container a:hover {
   font-style: italic;
   color: tomato;
 }
 
-#post-detail-text a:active {
+#detail-text-container a:active {
   font-style: italic;
   color: tomato;
+}
+
+#detail-text-container p {
+  overflow-y: scroll;
 }
 
 #blog-detail-back-btn {
   cursor: pointer;
   color: white;
-  width: fit-content;
+  font-weight: 800;
   margin: auto;
   padding: 4px;
   margin-bottom: 2rem;
@@ -62,7 +83,7 @@
 
 @media screen and (max-width: 1100px) {
   #post-detail-header h1 {
-    font-size: 1.2rem;
+    font-size: 2rem;
     padding-top: 1rem;
   }
 
@@ -81,4 +102,14 @@
     width: 100%;
   
   }
+
+  .detail-section {
+    flex-direction: column-reverse;
+  }
+
+  #detail-text-container {
+    width: 100%;
+  }
+
+
 }
