@@ -6,6 +6,7 @@ import "./Featured.css";
 
 function Featured() {
   let featuredPosts = blogPosts.filter((post) => post.featured);
+  
   let posts = featuredPosts.map((post) => {
     return (
       <Carousel.Item>
@@ -14,7 +15,7 @@ function Featured() {
           <h3 className="carousel-text">{post.title.toUpperCase()}</h3>
           <NavLink exact to={`/blog/${post.title}`}>
             <img
-              className="carousel-img d-block w-100 img-fluid"
+              className="carousel-img"
               src={post.imgSrc}
               alt={post.title}
             />
@@ -26,9 +27,9 @@ function Featured() {
 
   console.log("featured", featuredPosts);
   return (
-    <>
+    <div className="featured-container">
       <Carousel  className="carousel-root">{posts}</Carousel>
-    </>
+    </div>
   );
 }
 export default Featured;

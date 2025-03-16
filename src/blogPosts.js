@@ -11,7 +11,7 @@ const blogPosts = [
     title:"Gladkill: HEXES",
     createdOn:"March 7, 2025",
     imgSrc:"/blogImg/hexes-cover.jpg",
-    featured:false,
+    featured:true,
     links:[
       {name:'soundcloud',url:'https://soundcloud.com/gladkill/hexes'},
       {name:'bandcamp',url:'https://gladkill.bandcamp.com/track/hexes'},
@@ -22,15 +22,15 @@ const blogPosts = [
     title:"Gladkill Hardware Series 001",
     createdOn:"February 26, 2025",
     imgSrc:"/blogImg/hardware-series-001.jpg",
-    featured:false,
-    links:[{name:'Watch now',url:''}],
+    featured:true,
+    links:[{name:'Watch now',url:'https://www.youtube.com/watch?v=IGHzkTUMHiA'}],
     body:"The first of my new 'Hardware Series' videos is now up -  beats synthesized and performed on assorted hardware synths and set ups. I've been having a lot of fun writing outside of the computer ecosystem and taking a more tactile approach to my song writing.  Go check it out - more coming soon.",
   },
   {
     title:"Archive 002: Pragmatic",
     createdOn:"February 05, 2025",
     imgSrc:"/blogImg/gladkill-archives-pragmatic.jpg",
-    featured:false,
+    featured:true,
     links:[
       {name:'Listen Here',
         url:"https://patreon.com/gladkill",
@@ -43,7 +43,7 @@ const blogPosts = [
     title:"Archive 001: Systems Critical",
     createdOn:"January 22, 2025",
     imgSrc:"/blogImg/gladkill-archives-systems-critical.jpg",
-    featured:false,
+    featured:true,
     links:[
       {name:'Listen Here',
         url:"https://patreon.com/gladkill",
@@ -56,7 +56,7 @@ const blogPosts = [
     title:"Gladkill Patreon Announce",
     createdOn:"January 16, 2025",
     imgSrc:"/blogImg/gladkill-patreon-announce.jpg",
-    featured:false,
+    featured:true,
     links:[
       {name:'Sign Up Free',
         url:"https://patreon.com/gladkill",
@@ -316,7 +316,7 @@ body: "My new single 'Dissociate' is out now, everywhere you listen to music. It
     title:"Los Angeles Show Announce",
     createdOn:"February 21, 2023",
     imgSrc:"/blogImg/wormhole-la-2023.jpg",
-    featured:true,
+    featured:false,
     links:[
       {name:'Tickets',
       url:'https://www.eventbrite.com/e/317-dtla-shenanigans-ft-wormhole-music-group-bass-waffles-tickets-557303799667?fbclid=IwAR3OvsnJuUJGy8OeW3RVBp9qm2n09Px0kx9fp1mKo76BsLrFknCzafMAR58'
@@ -328,7 +328,7 @@ body: "My new single 'Dissociate' is out now, everywhere you listen to music. It
     title:"Triple A Agency",
     createdOn:"January 6, 2023",
     imgSrc:"/blogImg/triple-a.jpg",
-    featured:true,
+    featured:false,
     links:[
       {name:'Triple A Agency',
       url:'https://https://triplea.agency/'
@@ -340,7 +340,7 @@ body: "My new single 'Dissociate' is out now, everywhere you listen to music. It
     title:"Gladkill - 'Orbital' ",
     createdOn:"September 13, 2022",
     imgSrc:"/blogImg/orbital-cover.jpeg",
-    featured:true,
+    featured:false,
     links:[
       {name:'Bandcamp',
       url:'https://gladkill.bandcamp.com/track/orbital'
@@ -354,7 +354,7 @@ body: "My new single 'Dissociate' is out now, everywhere you listen to music. It
     title:"Pantheon Live Show Announce",
     createdOn:"September 13, 2022",
     imgSrc:"/blogImg/pantheon-announce.jpeg",
-    featured:true,
+    featured:false,
     links:[
       {name:'tickets',
       url:'https://www.eventbrite.com/e/pantheon-tickets-386517553407'
@@ -391,7 +391,7 @@ body: "My new single 'Dissociate' is out now, everywhere you listen to music. It
     title:"Gladkill - 'Cold Comfort' EP",
     createdOn:"May 27, 2022",
     imgSrc:"/blogImg/cold-comfort-cover.jpg",
-    featured:true,
+    featured:false,
     links:[
       {name:'Stream/Listen',
       url:'https://open.spotify.com/album/0yu8O63x0ZUkUoUEUEPldx'
@@ -402,7 +402,7 @@ body: "My new single 'Dissociate' is out now, everywhere you listen to music. It
     title:"Gladkill - Wardubs S3 - 'Destined'",
     createdOn:"April 21, 2022",
     imgSrc:"/blogImg/gladkill-wardub-cover.jpg",
-    featured:true,
+    featured:false,
     links:[
       {name:'Stream/Listen',
       url:'https://soundcloud.com/gladkill/destined-wardub-s3-reply-to-aekae'
