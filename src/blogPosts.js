@@ -8,6 +8,95 @@ const blogPosts = [
   //   body:"",
   // },
   {
+    title:"Gladkill: Control",
+    createdOn:"December 4, 2025",
+    imgSrc:"/blogImg/gladkill-control-cover.jpg",
+    featured:false,
+    links:[
+      {name:'bandcamp',url:'https://gladkill.bandcamp.com/track/control'},
+      {name:'soundcloud', url: 'https://soundcloud.com/gladkill/control'},
+      {name: 'spotify',url:'https://open.spotify.com/album/3TSfZyQSvG822yUY9igcV6'}
+    ],    
+    body:"Presenting my newest single, 'Control'A melodic track mixing elements of bass & wave, reminiscent of my earlier 'Ghostwork' sound. Out now, everywhere you listen to music.",
+  },
+  {
+    title:"Dark Mode Volume 2: Tracklist and Download",
+    createdOn:"November 21, 2025",
+    imgSrc:"/blogImg/dark-mode-vol-2-tracklist.jpg",
+    featured:false,
+    links:[
+      {name:'bandcamp',url:'https://gladkill.bandcamp.com/track/dark-mode-volume-2'},
+      {name:'soundcloud', url: 'https://soundcloud.com/beatlabradio/beat-lab-537-gladkill-darkmode-vol-2'},
+    ],    
+    body:"Dark/Mode volume 2 track list now available, as well as exclusive free download via Bandcamp. Thanks for listening! ",
+  },
+  {
+    title:"Dark Mode Volume 2",
+    createdOn:"November 14, 2025",
+    imgSrc:"/blogImg/dark-mode-vol-2-cover.jpg",
+    featured:false,
+    links:[
+      {name:'listen via Beat Lab Radio', url: 'https://soundcloud.com/beatlabradio/beat-lab-537-gladkill-darkmode-vol-2'},
+    ],
+    body:"Gladkill presents the second volume of his Dark/Mode mix series - a curated collection of originals and remixes, as well as unreleased ID's from like-minded producers & tracks from some of Gladkill's favorite artists, ranging from wave, bass, hip-hop, phonk, trap, melodic beats, and everything in between. Dark/Mode serves as a perfect soundtrack for a night drive, an intimate evening, a vibey afterparty, and other assorted after-hours activities.",
+  },
+  {
+    title:"Gladkill: Over",
+    createdOn:"October 30, 2025",
+    imgSrc:"/blogImg/gladkill-over-cover.jpg",
+    featured:false,
+    links:[
+      {name:'bandcamp',url:'https://gladkill.bandcamp.com/track/over'},
+      {name:'soundcloud', url: 'https://soundcloud.com/gladkill/over'},
+      {name: 'spotify',url:'https://open.spotify.com/album/4U2SDQGdYOtsj1uWLHpEHA'}
+    ],
+    body:"Gladkill: Over - the new moody deep bass wave-influenced single, drawing influence from wave and melodic bass. Available now, everywhere you listen to music.",
+  },
+  {
+    title:"Eastghost b2b Gladkill - Symmetry Festival 2025",
+    createdOn:"October 6, 2025",
+    imgSrc:"/blogImg/b2b-symmetry-25.jpeg",
+    featured:false,
+    links:[],
+    body:"EASTGHOST b2b Gladkill set at Symmetry fest was one for the books. what a fun time. Shout out everyone who made it happen. Photography by the super talented Natalia / Intuitive Images",
+  },
+  {
+    title:"Gladkill ft. borisisntreal: Consecution",
+    createdOn:"June 20, 2025",
+    imgSrc:"/blogImg/borisisntreal-consecution-cover.jpg",
+    featured:false,
+    links:[
+      {name:'bandcamp',url:'https://borisisntreal.bandcamp.com/'},
+      {name:'soundcloud', url: 'https://soundcloud.com/borisisntreal/resonantshell'},
+      {name: 'spotify',url:'https://open.spotify.com/track/1HEHihmlFYtGhmefLS7ims'}
+    ],
+    body:"Consecution: A succession;  a sequence. A blending of aesthetics. A succession of sound. Jungle, wave, bass music, and breaks influences melded into a unique sonic experience. Originally appears on “Dark/Mode volume 1” mixtape in late 2024.",
+  },
+  {
+    title:"borisisntreal: resonantshell",
+    createdOn:"May 19, 2025",
+    imgSrc:"/blogImg/borisisntreal-resonantshell-cover.jpg",
+    featured:false,
+    links:[
+      {name:'bandcamp',url:'https://borisisntreal.bandcamp.com/'},
+      {name:'soundcloud', url: 'https://soundcloud.com/borisisntreal/resonantshell'},
+      {name: 'spotify',url:'https://open.spotify.com/track/2rPAOkINym79g0y4DYGDlQ'}
+    ],
+    body: "Exploring the concept that all of reality is a single consciousness experiencing itself. We are resonant shells: a pattern, an echo, a fragment of awareness reflecting the whole. This track captures that liminal space: where identity dissolves, and all that's left is the vibration of being. "
+  },
+  {
+    title:"borisisntreal",
+    createdOn:"May 12, 2025",
+    imgSrc:"/blogImg/bir-face-photo.jpg",
+    featured:false,
+    links:[
+      {name:'website',url:'https://borisisntreal.com'},
+      {name:'soundcloud', url: 'https://soundcloud.com/borisisntreal'},
+      {name: 'spotify',url:'https://open.spotify.com/artist/6iJpvr5lNYrjdCM5nJ7sRJ'}
+    ],
+    body:"Borisisntrealborisisntreal is the latest audio/visual project from Boris Gladkill. Merging experimental club music with interactive digital art, the project explores technology, identity, and the boundaries between sound and structure. Drawing from years of experience in the bass and electronic music scene, borisisntreal distills elements of breaks, beats, bass, and ambient into a minimal, intentional form.Debut single ‘resonantshell’ coming this Friday, May 16, 2025.",
+  },
+  {
     title:"Gladkill: HEXES",
     createdOn:"March 7, 2025",
     imgSrc:"/blogImg/hexes-cover.jpg",
