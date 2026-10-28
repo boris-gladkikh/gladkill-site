@@ -1,13 +1,221 @@
-.contactPic {
-  width: 100%;
+/* Contact — see artist-website-redesign/contact/Gladkill Rail - Contact Spec.md */
+
+/* Two equal columns that stack on narrow screens. Negative margins cancel .shell-main's
+   padding so the photo runs to the window's top, right and bottom edges. */
+.contact {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(440px, 1fr));
+  min-height: 100vh;
+  margin: -36px -32px -88px;
 }
 
- a {
-  transition: 200ms ease-in;
+.contact-content {
+  display: flex;
+  flex-direction: column;
+  gap: 56px;
+  min-width: 0;
+  padding: 36px 32px 64px;
 }
 
- a:hover {
-  color: tomato;
+.contact .page-title {
+  margin: 0;
+}
+
+.contact-section {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  padding-top: 28px;
+  border-top: 1px solid var(--rule-2);
+}
+
+.contact .section-label {
+  margin: 0;
+  font-weight: 400;
+}
+
+/* Press & booking */
+
+.contact-email {
+  display: flex;
+  flex-direction: column;
+  font-family: var(--font-display);
+  font-stretch: 70%;
+  font-weight: 700;
+  font-size: clamp(36px, 4.4vw, 64px);
+  line-height: 0.95;
+  text-transform: uppercase;
+  overflow-wrap: anywhere;
+  color: var(--ink);
   text-decoration: none;
+  transition: color 200ms var(--ease);
+}
 
+.contact-email:hover {
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+button.cta {
+  background: none;
+  cursor: pointer;
+}
+
+.contact-copy-mobile,
+.contact-copy-hint {
+  display: none;
+}
+
+/* Listen & follow */
+
+.contact-links {
+  margin: 0;
+  list-style: none;
+}
+
+.contact-links a {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 56px;
+  border-bottom: 1px solid #1A1A1A;
+  color: #CFCFCF;
+  text-decoration: none;
+  transition: color 200ms var(--ease);
+}
+
+.contact-links a:hover {
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+.contact-link-name {
+  font-family: var(--font-display);
+  font-stretch: 70%;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1;
+  text-transform: uppercase;
+  transition: transform 200ms var(--ease);
+}
+
+.contact-links a:hover .contact-link-name {
+  transform: translateX(8px);
+}
+
+.contact-link-arrow {
+  font-family: var(--font-mono);
+  font-size: 12px;
+  color: #666666;
+}
+
+.contact-footer {
+  display: none;
+}
+
+/* Photo: full column, pinned while the content scrolls */
+
+.contact-photo {
+  min-width: 0;
+  border-left: 1px solid var(--rule);
+}
+
+.contact-photo img {
+  position: sticky;
+  top: 0;
+  display: block;
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
+  object-position: center 25%;   /* portrait: keep the face in frame when the column crops it */
+}
+
+/* Mobile: title, full-bleed 4:5 photo, then the sections */
+@media screen and (max-width: 767px) {
+  .contact {
+    display: flex;
+    flex-direction: column;
+    min-height: 0;
+    margin: 0;
+  }
+
+  /* lets the photo sit between the title and the sections */
+  .contact-content {
+    display: contents;
+  }
+
+  .contact .page-title {
+    order: 1;
+    padding-bottom: 20px;
+  }
+
+  .contact-photo {
+    order: 2;
+    border-left: 0;
+  }
+
+  .contact-photo img {
+    position: static;
+    height: auto;
+    aspect-ratio: 4 / 5;   /* taller than the spec's 4:3, to suit the portrait photo */
+  }
+
+  .contact-section,
+  .contact-footer {
+    order: 3;
+  }
+
+  .contact-section {
+    gap: 16px;
+    margin: 0 20px;
+  }
+
+  .contact-press {
+    margin-top: 32px;
+    padding-top: 0;
+    border-top: 0;
+  }
+
+  .contact-follow {
+    margin-top: 48px;
+  }
+
+  .contact-email {
+    font-size: 44px;
+  }
+
+  .contact-copy-desktop {
+    display: none;
+  }
+
+  .contact-copy-mobile,
+  .contact-copy-hint {
+    display: inline;
+  }
+
+  .contact-copy-hint {
+    font-family: var(--font-mono);
+    font-size: 11px;
+    font-weight: 400;
+    color: var(--muted);
+  }
+
+  .contact-links a {
+    height: 52px;
+  }
+
+  .contact-link-name {
+    font-size: 22px;
+  }
+
+  .contact-footer {
+    display: block;
+    margin: 48px 20px 0;
+    padding: 24px 0 40px;
+    border-top: 1px solid var(--rule);
+    font-family: var(--font-mono);
+    font-size: 11px;
+    text-transform: uppercase;
+    color: #666666;
+  }
 }

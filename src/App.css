@@ -3,6 +3,21 @@
   padding:0;
 }
 
+/* "Rail" system tokens — see artist-website-redesign/Gladkill Rail - Front Page Spec.md */
+:root {
+  --bg: #000000;
+  --ink: #F2F2F2;
+  --ink-2: #D6D6D6;
+  --ink-3: #BBBBBB;
+  --muted: #888888;
+  --dim: #5C5C5C;
+  --faint: #555555;
+  --rule: #1C1C1C;
+  --rule-2: #222222;
+  --ease: cubic-bezier(.2, .7, .2, 1);
+  --font-display: 'Archivo', 'Helvetica Neue', Arial, sans-serif;
+  --font-mono: 'JetBrains Mono', Menlo, Consolas, monospace;
+}
 
 .container {
   display: flex;
@@ -11,5 +26,136 @@
   min-height: 1000px;
 }
 
+/* Legacy link styles, still used by pages not yet redesigned */
+a {
+  display: inline;
+  color: lightgray;
+}
 
+a:hover {
+  color:tomato;
+}
 
+h3 {
+  font-family: 'Quicksand', sans-serif;
+}
+
+/* Layout shell: rail | main */
+.shell {
+  display: grid;
+  grid-template-columns: 260px minmax(0, 1fr);
+  min-height: 100vh;
+  background: var(--bg);
+}
+
+.shell-main {
+  min-width: 0;
+  padding: 36px 32px 88px;
+}
+
+@media screen and (max-width: 767px) {
+  .shell {
+    display: block;
+  }
+
+  .shell-main {
+    padding: 0;
+  }
+}
+
+/* Shared page pieces */
+.page-title {
+  margin: 0 0 24px;
+  font-family: var(--font-display);
+  font-stretch: 70%;
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1;
+  text-transform: uppercase;
+  color: var(--ink);
+}
+
+.section-label {
+  margin: 0 0 16px;
+  font-family: var(--font-mono);
+  font-size: 12px;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+
+@media screen and (max-width: 767px) {
+  .page-title {
+    margin: 0;
+    padding: 24px 16px 16px;
+    font-size: 44px;
+  }
+
+  .section-label {
+    margin-bottom: 14px;
+    font-size: 11px;
+  }
+}
+
+/* Call-to-action buttons: white fill (primary) or white outline */
+.cta-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.cta {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  min-height: 52px;
+  padding: 0 22px;
+  border: 1px solid #FFFFFF;
+  font-family: var(--font-display);
+  font-stretch: 70%;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 1;
+  text-transform: uppercase;
+  white-space: nowrap;
+  color: #FFFFFF;
+  text-decoration: none;
+  transition:
+    background 200ms var(--ease),
+    color 200ms var(--ease);
+}
+
+.cta:hover,
+.cta.is-primary {
+  background: #FFFFFF;
+  color: #000000;
+  text-decoration: none;
+}
+
+.cta.is-primary:hover {
+  background: var(--ink-3);
+  border-color: var(--ink-3);
+  color: #000000;
+}
+
+@media screen and (max-width: 767px) {
+  .cta-row {
+    flex-direction: column;
+  }
+
+  .cta {
+    justify-content: space-between;
+    height: 52px;
+    padding: 0 18px;
+    font-size: 20px;
+  }
+
+  .cta:hover {
+    background: none;
+    color: #FFFFFF;
+  }
+
+  .cta.is-primary:hover {
+    background: #FFFFFF;
+    border-color: #FFFFFF;
+  }
+}

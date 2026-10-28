@@ -17,3 +17,17 @@
     max-width: 90%;
   }
 }
+#blog-detail-back-btn {
+  cursor: pointer;
+  color: white;
+  font-weight: 800;
+  margin: auto;
+  padding: 4px;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+  transition: 150ms all;
+}
+
+#blog-detail-back-btn:hover {
+  color: orangered;
+}

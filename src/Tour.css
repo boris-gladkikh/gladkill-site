@@ -1,0 +1,259 @@
+.tour {
+  display: flex;
+  flex-direction: column;
+  gap: 64px;
+}
+
+.tour .page-title {
+  margin: 0;
+}
+
+.tour-section-header {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 16px;
+  border-bottom: 1px solid var(--rule-2);
+  font-family: var(--font-mono);
+  font-size: 12px;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+
+/* Upcoming and past rows share the date | venue | action columns */
+.tour-up-row,
+.tour-past-row {
+  display: grid;
+  grid-template-columns: clamp(110px, 14vw, 180px) minmax(0, 1fr) auto;
+  column-gap: clamp(16px, 2.5vw, 32px);
+  align-items: center;
+}
+
+/* Upcoming */
+
+.tour-up-row {
+  padding: 24px 0;
+  border-bottom: 1px solid var(--rule-2);
+  color: var(--ink);
+  text-decoration: none;
+  transition: background 200ms var(--ease);
+}
+
+.tour-up-row.is-linked:hover {
+  background: #0D0D0D;
+  color: var(--ink);
+  text-decoration: none;
+}
+
+.tour-up-date,
+.tour-up-place {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  min-width: 0;
+}
+
+.tour-up-day {
+  font-family: var(--font-display);
+  font-stretch: 70%;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 0.9;
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+
+.tour-up-sub {
+  font-family: var(--font-mono);
+  font-size: 11px;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+
+.tour-up-venue {
+  font-family: var(--font-display);
+  font-stretch: 70%;
+  font-weight: 700;
+  font-size: clamp(24px, 2.2vw, 32px);
+  line-height: 1;
+  text-transform: uppercase;
+}
+
+.tour-up-city {
+  font-family: var(--font-display);
+  font-size: 16px;
+  color: #BDBDBD;
+}
+
+.cta.tour-tickets {
+  min-height: 48px;
+  font-size: 20px;
+}
+
+/* Empty state */
+
+.tour-empty {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+  padding: 40px 0;
+  border-bottom: 1px solid var(--rule-2);
+}
+
+.tour-empty-title {
+  margin: 0 0 8px;
+  font-family: var(--font-display);
+  font-stretch: 70%;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1;
+  text-transform: uppercase;
+  color: var(--ink);
+}
+
+.tour-empty-text {
+  margin: 0;
+  font-family: var(--font-display);
+  font-size: 17px;
+  color: #BDBDBD;
+}
+
+.tour-empty .cta {
+  min-height: 48px;
+}
+
+/* Past */
+
+.tour-past {
+  margin: 0;
+  list-style: none;
+}
+
+.tour-past-row {
+  padding: 16px 0;
+  border-bottom: 1px solid #161616;
+  color: #8C8C8C;
+}
+
+.tour-past-date,
+.tour-past-year {
+  font-family: var(--font-mono);
+  font-size: 13px;
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+
+.tour-past-year {
+  text-align: right;
+}
+
+.tour-past-place {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  column-gap: 16px;
+  row-gap: 2px;
+  min-width: 0;
+}
+
+.tour-past-venue {
+  font-family: var(--font-display);
+  font-stretch: 70%;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 1.1;
+  text-transform: uppercase;
+  color: #CFCFCF;
+}
+
+.tour-past-city {
+  font-family: var(--font-display);
+  font-size: 15px;
+}
+
+/* Mobile */
+@media screen and (max-width: 767px) {
+  .tour {
+    gap: 48px;
+  }
+
+  .tour-section {
+    padding: 0 20px;
+  }
+
+  .tour-section-header {
+    font-size: 11px;
+  }
+
+  .tour-up-row {
+    grid-template-columns: 112px minmax(0, 1fr);
+    column-gap: 12px;
+    row-gap: 16px;
+    padding: 20px 0;
+  }
+
+  .tour-up-day {
+    font-size: 27px;
+  }
+
+  .tour-up-sub {
+    font-size: 10px;
+  }
+
+  .tour-up-venue {
+    font-size: 24px;
+  }
+
+  .tour-up-city {
+    font-size: 14px;
+  }
+
+  .cta.tour-tickets {
+    grid-column: 1 / -1;
+    height: 48px;
+    font-size: 19px;
+  }
+
+  .tour-empty {
+    display: block;
+  }
+
+  .tour-empty-title {
+    font-size: 30px;
+  }
+
+  .tour-empty-text {
+    font-size: 15px;
+  }
+
+  .tour-empty .cta-row {
+    margin-top: 20px;
+  }
+
+  .tour-past-row {
+    grid-template-columns: 76px minmax(0, 1fr) auto;
+    column-gap: 12px;
+    align-items: start;
+    padding: 14px 0;
+  }
+
+  .tour-past-date,
+  .tour-past-year {
+    padding-top: 4px;
+    font-size: 11px;
+  }
+
+  .tour-past-place {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .tour-past-venue {
+    font-size: 19px;
+  }
+
+  .tour-past-city {
+    font-size: 13px;
+  }
+}

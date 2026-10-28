@@ -1,0 +1,159 @@
+.tile-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 6px;
+}
+
+.tile {
+  position: relative;
+  display: block;
+  overflow: hidden;
+  color: var(--ink);
+  text-decoration: none;
+  cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.tile:hover {
+  color: var(--ink);
+  text-decoration: none;
+}
+
+.tile:focus-visible {
+  outline: 1px solid var(--ink);
+  outline-offset: 2px;
+}
+
+.tile-media {
+  aspect-ratio: 1;
+  overflow: hidden;
+  background: #0A0A0A;
+}
+
+.tile-media img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transform: scale(1);
+  filter: brightness(1);
+  transition:
+    transform 800ms var(--ease),
+    filter 500ms var(--ease);
+}
+
+/* Desktop: artwork only at rest, caption rises in on hover / focus */
+.tile-caption {
+  position: absolute;
+  left: 16px;
+  right: 16px;
+  bottom: 14px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  opacity: 0;
+  transform: translateY(24px);
+  transition:
+    transform 450ms var(--ease),
+    opacity 300ms var(--ease);
+  pointer-events: none;
+}
+
+.tile-title {
+  font-family: var(--font-display);
+  font-stretch: 70%;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 1;
+  text-transform: uppercase;
+  text-wrap: balance;
+}
+
+.tile-meta {
+  font-family: var(--font-mono);
+  font-size: 11px;
+  text-transform: uppercase;
+  color: var(--ink-3);
+}
+
+.tile:focus-visible .tile-media img {
+  transform: scale(1.06);
+  filter: brightness(0.55);
+}
+
+.tile:focus-visible .tile-caption {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+@media (hover: hover) {
+  .tile:hover .tile-media img {
+    transform: scale(1.06);
+    filter: brightness(0.55);
+  }
+
+  .tile:hover .tile-caption {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Narrow desktop / tablet: 4 columns gets too small beside the rail */
+@media screen and (min-width: 768px) and (max-width: 1099px) {
+  .tile-grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  .tile-title {
+    font-size: 24px;
+  }
+}
+
+/* Mobile: 2 columns, captions always visible below the image */
+@media screen and (max-width: 767px) {
+  .tile-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    column-gap: 6px;
+    row-gap: 20px;
+    padding: 0 16px 40px;
+  }
+
+  .tile {
+    overflow: visible;
+    transition: opacity 200ms var(--ease);
+  }
+
+  .tile-caption {
+    position: static;
+    gap: 4px;
+    margin-top: 8px;
+    opacity: 1;
+    transform: none;
+    transition: none;
+  }
+
+  .tile-title {
+    font-size: 17px;
+    line-height: 1.05;
+  }
+
+  .tile-meta {
+    font-size: 10px;
+    color: var(--muted);
+  }
+
+  .tile-media img {
+    transition:
+      transform 200ms var(--ease),
+      filter 200ms var(--ease);
+  }
+
+  .tile.is-pressed .tile-media img {
+    transform: scale(1.06);
+    filter: brightness(0.55);
+  }
+
+  .tile-grid.has-pressed .tile:not(.is-pressed) {
+    opacity: 0.45;
+  }
+}

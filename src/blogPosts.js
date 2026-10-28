@@ -1,6 +1,8 @@
 const blogPosts = [
   // {
   //   title:"",
+  //   kind:"",          // RELEASE, MIX, SHOW, ARCHIVE, VIDEO or NEWS
+  //   tracks:[],        // optional, mix posts only
   //   createdOn:"",
   //   imgSrc:"",
   //   featured:false,
@@ -9,6 +11,7 @@ const blogPosts = [
   // },
   {
     title:"Gladkill: Control",
+    kind:"RELEASE",
     createdOn:"December 4, 2025",
     imgSrc:"/blogImg/gladkill-control-cover.jpg",
     featured:false,
@@ -21,6 +24,36 @@ const blogPosts = [
   },
   {
     title:"Dark Mode Volume 2: Tracklist and Download",
+    kind:"MIX",
+    tracks:[
+      "Gladkill - ID",
+      "Juche - Forgive",
+      "Planet V - Stay",
+      "Nipsey Hussle - Double Up",
+      "Backwhen & Everyst - Halo",
+      "Gladkill - ID",
+      "Kay.xo - Begin Again (Nick Neutronz remix)",
+      "Kareful - This City",
+      "TF Marz - Language (W Jevon Ives)",
+      "Gladkill - Over (out now)",
+      "Nick Neutronz - ID",
+      "Eastghost - ID",
+      "Ivy Lab - Left With You",
+      "Everyst - Avalon",
+      "Gladkill - ID",
+      "Seraph. - Pulse",
+      "Gladkill - ID",
+      "Pacific Patterns - ID",
+      "Ozer - Blow My High (feat Sussy)",
+      "Future - Brazzier (Gladkill RMX)",
+      "ESCPE - Nitewalk",
+      "Gladkill - ID",
+      "Soudiere & Roland Jones - Don't Be Scared",
+      "Gladkill - ID",
+      "Alex Unger - Made In The East",
+      "OAKK - Moving On",
+      "Gladkill - ID",
+    ],
     createdOn:"November 21, 2025",
     imgSrc:"/blogImg/dark-mode-vol-2-tracklist.jpg",
     featured:false,
@@ -32,6 +65,7 @@ const blogPosts = [
   },
   {
     title:"Dark Mode Volume 2",
+    kind:"MIX",
     createdOn:"November 14, 2025",
     imgSrc:"/blogImg/dark-mode-vol-2-cover.jpg",
     featured:false,
@@ -42,6 +76,7 @@ const blogPosts = [
   },
   {
     title:"Gladkill: Over",
+    kind:"RELEASE",
     createdOn:"October 30, 2025",
     imgSrc:"/blogImg/gladkill-over-cover.jpg",
     featured:false,
@@ -54,6 +89,7 @@ const blogPosts = [
   },
   {
     title:"Eastghost b2b Gladkill - Symmetry Festival 2025",
+    kind:"SHOW",
     createdOn:"October 6, 2025",
     imgSrc:"/blogImg/b2b-symmetry-25.jpeg",
     featured:false,
@@ -62,6 +98,7 @@ const blogPosts = [
   },
   {
     title:"Gladkill ft. borisisntreal: Consecution",
+    kind:"RELEASE",
     createdOn:"June 20, 2025",
     imgSrc:"/blogImg/borisisntreal-consecution-cover.jpg",
     featured:false,
@@ -74,6 +111,7 @@ const blogPosts = [
   },
   {
     title:"borisisntreal: resonantshell",
+    kind:"RELEASE",
     createdOn:"May 19, 2025",
     imgSrc:"/blogImg/borisisntreal-resonantshell-cover.jpg",
     featured:false,
@@ -86,6 +124,7 @@ const blogPosts = [
   },
   {
     title:"borisisntreal",
+    kind:"NEWS",
     createdOn:"May 12, 2025",
     imgSrc:"/blogImg/bir-face-photo.jpg",
     featured:false,
@@ -94,10 +133,11 @@ const blogPosts = [
       {name:'soundcloud', url: 'https://soundcloud.com/borisisntreal'},
       {name: 'spotify',url:'https://open.spotify.com/artist/6iJpvr5lNYrjdCM5nJ7sRJ'}
     ],
-    body:"Borisisntrealborisisntreal is the latest audio/visual project from Boris Gladkill. Merging experimental club music with interactive digital art, the project explores technology, identity, and the boundaries between sound and structure. Drawing from years of experience in the bass and electronic music scene, borisisntreal distills elements of breaks, beats, bass, and ambient into a minimal, intentional form.Debut single ‘resonantshell’ coming this Friday, May 16, 2025.",
+    body:"borisisntreal is the latest audio/visual project from Boris Gladkill. Merging experimental club music with interactive digital art, the project explores technology, identity, and the boundaries between sound and structure. Drawing from years of experience in the bass and electronic music scene, borisisntreal distills elements of breaks, beats, bass, and ambient into a minimal, intentional form.Debut single ‘resonantshell’ coming this Friday, May 16, 2025.",
   },
   {
     title:"Gladkill: HEXES",
+    kind:"RELEASE",
     createdOn:"March 7, 2025",
     imgSrc:"/blogImg/hexes-cover.jpg",
     featured:true,
@@ -109,6 +149,7 @@ const blogPosts = [
   },
   {
     title:"Gladkill Hardware Series 001",
+    kind:"VIDEO",
     createdOn:"February 26, 2025",
     imgSrc:"/blogImg/hardware-series-001.jpg",
     featured:true,
@@ -117,6 +158,7 @@ const blogPosts = [
   },
   {
     title:"Archive 002: Pragmatic",
+    kind:"ARCHIVE",
     createdOn:"February 05, 2025",
     imgSrc:"/blogImg/gladkill-archives-pragmatic.jpg",
     featured:true,
@@ -130,6 +172,7 @@ const blogPosts = [
   },
   {
     title:"Archive 001: Systems Critical",
+    kind:"ARCHIVE",
     createdOn:"January 22, 2025",
     imgSrc:"/blogImg/gladkill-archives-systems-critical.jpg",
     featured:true,
@@ -143,6 +186,7 @@ const blogPosts = [
   },
   {
     title:"Gladkill Patreon Announce",
+    kind:"NEWS",
     createdOn:"January 16, 2025",
     imgSrc:"/blogImg/gladkill-patreon-announce.jpg",
     featured:true,
@@ -156,6 +200,7 @@ const blogPosts = [
   },
   {
     title:"Symmetry Festival 2024",
+    kind:"SHOW",
     createdOn:"September 11, 2024",
     imgSrc:"/blogImg/symmetry-artist-card-2024.jpg",
     featured:false,
@@ -169,6 +214,7 @@ const blogPosts = [
   },
   {
     title:"'Dark Mode Volume 1'",
+    kind:"MIX",
     createdOn:"September 9, 2024",
     imgSrc:"/blogImg/dark-mode-cover.jpg",
     featured:false,
@@ -185,6 +231,7 @@ const blogPosts = [
   },
   {
     title:"Fall 2024 Shows & Releases",
+    kind:"NEWS",
     createdOn:"August 29, 2024",
     imgSrc:"/blogImg/fall-2024-shows-releases.jpg",
     featured:false,
@@ -194,6 +241,7 @@ const blogPosts = [
   },
   {
     title:"Reno, NV Show Announced",
+    kind:"SHOW",
     createdOn:"August 28, 2024",
     imgSrc:"/blogImg/reno-afterburn-2024.jpg",
     featured:false,
@@ -203,6 +251,7 @@ const blogPosts = [
   },
   {
     title:"Future Unknown",
+    kind:"RELEASE",
     createdOn:"July 10, 2024",
     imgSrc:"/blogImg/future-unknown-cover.jpg",
     featured:false,
@@ -222,6 +271,7 @@ const blogPosts = [
   },
   {
     title:"Beat Lab Radio 10 Yr Anniversary Announced",
+    kind:"SHOW",
     createdOn:"May 15, 2024",
     imgSrc:"/blogImg/beat-lab-10-year.jpg",
     featured:false,
@@ -231,6 +281,7 @@ const blogPosts = [
   },
   {
     title:"Gladkill - Entropy",
+    kind:"RELEASE",
     createdOn:"February 21, 2024",
     imgSrc:"/blogImg/entropy-cover.jpg",
     featured:false,
@@ -251,6 +302,7 @@ const blogPosts = [
   },
   {
     title:"Gladkill - On The Way",
+    kind:"RELEASE",
     createdOn:"January 31, 2024",
     imgSrc:"/blogImg/on-the-way-cover.jpg",
     featured:false,
@@ -271,6 +323,7 @@ const blogPosts = [
   },
   {
     title:"Washington D.C. Show Announced",
+    kind:"SHOW",
     createdOn:"July 11, 2023",
     imgSrc:"/blogImg/dc-show-2023.jpg",
     featured:false,
@@ -279,6 +332,7 @@ const blogPosts = [
   },
   {
     title:"Wormhole Showcase in San Francisco Announced",
+    kind:"SHOW",
     createdOn:"June 30, 2023",
     imgSrc:"/blogImg/wormhole-showcase-2023.jpg",
     featured:false,
@@ -287,6 +341,7 @@ const blogPosts = [
   },
   {
     title:"Support for Daily Bread and Big K.R.I.T Announced",
+    kind:"SHOW",
     createdOn:"June 14, 2023",
     imgSrc:"/blogImg/daily-bread-2023.jpg",
     featured:false,
@@ -296,6 +351,7 @@ const blogPosts = [
   },
   {
     title:"Stilldream Festival Announced",
+    kind:"SHOW",
     createdOn:"May 31, 2023",
     imgSrc:"/blogImg/stilldream-2023-announce.jpg",
     featured:false,
@@ -304,6 +360,7 @@ const blogPosts = [
   },
   {
     title:"New Single - Sever",
+    kind:"RELEASE",
     createdOn:"May 19, 2023",
     imgSrc:"/blogImg/sever-cover.jpg",
     featured:false,
@@ -323,6 +380,7 @@ const blogPosts = [
   },
   {
     title:"Infrasound 2023 Announced",
+    kind:"SHOW",
     createdOn:"May 8, 2023",
     imgSrc:"/blogImg/infrasound-2023.jpg",
     featured:false,
@@ -331,6 +389,7 @@ const blogPosts = [
   },
   {
     title:"Portland Surprise Show Announced",
+    kind:"SHOW",
     createdOn:"may 5, 2023",
     imgSrc:"/blogImg/portland-secret-2023.jpg",
     featured:false,
@@ -339,6 +398,7 @@ const blogPosts = [
   },
   {
     title:"Gladkill x ESCPE: Ancient",
+    kind:"RELEASE",
     createdOn:"March 29, 2023",
     imgSrc:"/blogImg/gladkill-escpe-ancient.jpg",
     featured:false,
@@ -347,6 +407,7 @@ const blogPosts = [
   },
   {
     title:"Denver, CO Show Announced",
+    kind:"SHOW",
     createdOn:"March 23, 2023",
     imgSrc:"/blogImg/denver-april-2023.jpg",
     featured:false,
@@ -355,6 +416,7 @@ const blogPosts = [
   },
   {
     title:"SMOKE (Wardub Season 4)",
+    kind:"RELEASE",
     createdOn:"March 15, 2023",
     imgSrc:"/blogImg/smoke-cover-2023.jpg",
     featured:false,
@@ -374,6 +436,7 @@ const blogPosts = [
   },
   {
     title:"Portland OR Show Announced",
+    kind:"SHOW",
     createdOn:"March 14, 2023",
     imgSrc:"/blogImg/portland-april-2023.jpg",
     featured:false,
@@ -383,6 +446,7 @@ const blogPosts = [
   },
   {
     title:"Gladkill - Dissociate",
+    kind:"RELEASE",
     createdOn:"February 24, 2023",
     imgSrc:"/blogImg/dissociate-cover.jpg",
     featured:false,
@@ -403,6 +467,7 @@ body: "My new single 'Dissociate' is out now, everywhere you listen to music. It
   },
   {
     title:"Los Angeles Show Announce",
+    kind:"SHOW",
     createdOn:"February 21, 2023",
     imgSrc:"/blogImg/wormhole-la-2023.jpg",
     featured:false,
@@ -415,6 +480,7 @@ body: "My new single 'Dissociate' is out now, everywhere you listen to music. It
   },
   {
     title:"Triple A Agency",
+    kind:"NEWS",
     createdOn:"January 6, 2023",
     imgSrc:"/blogImg/triple-a.jpg",
     featured:false,
@@ -427,6 +493,7 @@ body: "My new single 'Dissociate' is out now, everywhere you listen to music. It
   },
   {
     title:"Gladkill - 'Orbital' ",
+    kind:"RELEASE",
     createdOn:"September 13, 2022",
     imgSrc:"/blogImg/orbital-cover.jpeg",
     featured:false,
@@ -441,6 +508,7 @@ body: "My new single 'Dissociate' is out now, everywhere you listen to music. It
   },
   {
     title:"Pantheon Live Show Announce",
+    kind:"SHOW",
     createdOn:"September 13, 2022",
     imgSrc:"/blogImg/pantheon-announce.jpeg",
     featured:false,
@@ -452,6 +520,7 @@ body: "My new single 'Dissociate' is out now, everywhere you listen to music. It
   },
   {
     title:"Potions Live Show Announce",
+    kind:"SHOW",
     createdOn:"August 25, 2022",
     imgSrc:"/blogImg/potions-cervantes-show-flyer.jpeg",
     featured:false,
@@ -463,6 +532,7 @@ body: "My new single 'Dissociate' is out now, everywhere you listen to music. It
   },
   {
     title:"Gladkill - Vibe Digital Stream",
+    kind:"SHOW",
     createdOn:"May 28, 2022",
     imgSrc:"/blogImg/vibe-digital-stream.jpeg",
     featured:false,
@@ -478,6 +548,7 @@ body: "My new single 'Dissociate' is out now, everywhere you listen to music. It
   },
   {
     title:"Gladkill - 'Cold Comfort' EP",
+    kind:"RELEASE",
     createdOn:"May 27, 2022",
     imgSrc:"/blogImg/cold-comfort-cover.jpg",
     featured:false,
@@ -489,6 +560,7 @@ body: "My new single 'Dissociate' is out now, everywhere you listen to music. It
   },
   {
     title:"Gladkill - Wardubs S3 - 'Destined'",
+    kind:"RELEASE",
     createdOn:"April 21, 2022",
     imgSrc:"/blogImg/gladkill-wardub-cover.jpg",
     featured:false,
@@ -500,6 +572,7 @@ body: "My new single 'Dissociate' is out now, everywhere you listen to music. It
   },
   {
     title:"Gladkill - 'Expired'",
+    kind:"RELEASE",
     createdOn:"April 19, 2022",
     imgSrc:"/blogImg/gladkill-expired-cover.jpg",
     featured:false,
@@ -512,6 +585,7 @@ body: "My new single 'Dissociate' is out now, everywhere you listen to music. It
   },
   {
     title:"'Ghost In The Machine' EP",
+    kind:"RELEASE",
     createdOn:"February 22, 2022",
     imgSrc:"/blogImg/gladkill-ghost-in-machine-cover.jpg",
     featured:false,
@@ -527,6 +601,7 @@ body: "My new single 'Dissociate' is out now, everywhere you listen to music. It
   },
   {
     title: "Gladkill Merch is back!",
+    kind:"NEWS",
     createdOn: "December 22, 2021",
     imgSrc: "/blogImg/gladkill-merch-2021.jpg",
     featured: false,
@@ -540,6 +615,7 @@ body: "My new single 'Dissociate' is out now, everywhere you listen to music. It
   },
   {
     title: "Gladkill Live - Reflections NYE, Portland OR -  December 31 2021",
+    kind:"SHOW",
     createdOn: "October 21, 2021",
     imgSrc: "/blogImg/reflections-nye-portland.jpg",
     featured: false,
@@ -553,6 +629,7 @@ body: "My new single 'Dissociate' is out now, everywhere you listen to music. It
   },
   {
     title: "Gladkill Live - NYC, December 17 2021",
+    kind:"SHOW",
     createdOn: "September 15, 2021",
     imgSrc: "/blogImg/vibe-digital-nyc.png",
     featured: false,
@@ -566,6 +643,7 @@ body: "My new single 'Dissociate' is out now, everywhere you listen to music. It
   },
   {
     title: "Gladkill Live - Oakland, CA November 26 2021",
+    kind:"SHOW",
     createdOn: "September 14, 2021",
     imgSrc: "/blogImg/wormhole-oakland-9-year.jpeg",
     featured: false,
@@ -579,6 +657,7 @@ body: "My new single 'Dissociate' is out now, everywhere you listen to music. It
   },
   {
     title: "Gladkill Live - Denver, CO September 8 2021",
+    kind:"SHOW",
     createdOn: "August 30, 2021",
     imgSrc: "/blogImg/denver-flyer-sep-2021.jpeg",
     featured: false,
@@ -592,6 +671,7 @@ body: "My new single 'Dissociate' is out now, everywhere you listen to music. It
   },
   {
     title: "Gladkill Live - Eugene, OR September 2 2021",
+    kind:"SHOW",
     createdOn: "August 20, 2021",
     imgSrc: "/blogImg/eugene-flyer-sep-2021.png",
     featured: false,
@@ -605,6 +685,7 @@ body: "My new single 'Dissociate' is out now, everywhere you listen to music. It
   },
   {
     title: "Mobilecoin Radio Live Stream",
+    kind:"SHOW",
     createdOn: "June 21, 2021",
     imgSrc: "/blogImg/mobilecoinradio.png",
     featured: false,
@@ -619,6 +700,7 @@ body: "My new single 'Dissociate' is out now, everywhere you listen to music. It
   },
   {
     title: "July SoCal Show Announcement!",
+    kind:"SHOW",
     createdOn: "June 2, 2021",
     imgSrc: "/blogImg/kb-flyer.jpeg",
     featured: false,
@@ -633,6 +715,7 @@ body: "My new single 'Dissociate' is out now, everywhere you listen to music. It
   },
   {
     title: "Ossuary Out Now!",
+    kind:"RELEASE",
     createdOn: "May 18, 2021",
     imgSrc: "/covers/ossuary-cover.jpg",
     featured: false,
@@ -650,6 +733,7 @@ body: "My new single 'Dissociate' is out now, everywhere you listen to music. It
   },
   {
     title: "Analog Whispers - Second Single From 'Ossuary'.",
+    kind:"RELEASE",
     createdOn: "May 4, 2021",
     imgSrc: "/blogImg/analog-whispers-cover.jpg",
     links: [
@@ -672,6 +756,7 @@ body: "My new single 'Dissociate' is out now, everywhere you listen to music. It
   },
   {
     title: "Ashes - First Single From 'Ossuary'.",
+    kind:"RELEASE",
     createdOn: "May 4, 2021",
     imgSrc: "/blogImg/ashes-cover.jpg",
     featured: false,
@@ -693,6 +778,7 @@ body: "My new single 'Dissociate' is out now, everywhere you listen to music. It
   },
   {
     title: "Gladkill Is Now On Audius.",
+    kind:"NEWS",
     createdOn: "May 4, 2021",
     imgSrc: "/blogImg/audius-admat.jpg",
     links: [
@@ -705,6 +791,7 @@ body: "My new single 'Dissociate' is out now, everywhere you listen to music. It
   },
   {
     title: "Satellite Respond: August Falls",
+    kind:"RELEASE",
     createdOn: "December 15th, 2020",
     imgSrc: "/blogImg/sr-august-falls-cover.jpg",
     links: [
@@ -729,6 +816,7 @@ body: "My new single 'Dissociate' is out now, everywhere you listen to music. It
   },
   {
     title: "Satellite Respond: Medusa",
+    kind:"RELEASE",
     createdOn: "October 26th, 2020",
     imgSrc: "/blogImg/sr-medusa-cover.jpg",
     links: [
@@ -750,6 +838,7 @@ body: "My new single 'Dissociate' is out now, everywhere you listen to music. It
   },
   {
     title: "Satellite Respond: Fugue State",
+    kind:"RELEASE",
     createdOn: "September 22th, 2020",
     imgSrc: "/blogImg/sr-fugue-state-cover.jpg",
     links: [
@@ -771,6 +860,7 @@ body: "My new single 'Dissociate' is out now, everywhere you listen to music. It
   },
   {
     title: "Sophrosyne Sound",
+    kind:"NEWS",
     createdOn: "August 12th, 2020",
     imgSrc: "/blogImg/sophro-mini-2.jpg",
     links: [
@@ -788,6 +878,7 @@ body: "My new single 'Dissociate' is out now, everywhere you listen to music. It
   },
   {
     title: "Welcome To The New Site.",
+    kind:"NEWS",
     createdOn: "July 10th, 2020",
     imgSrc: "/blogImg/gk-tree.jpg",
     body:
@@ -795,6 +886,7 @@ body: "My new single 'Dissociate' is out now, everywhere you listen to music. It
   },
   {
     title: "Coven Collection Now Available!",
+    kind:"RELEASE",
     createdOn: "March 20th, 2020",
     imgSrc: "/blogImg/coven-cover-mini.jpg",
     links: [

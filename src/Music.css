@@ -1,0 +1,53 @@
+.music-header {
+  margin-bottom: 28px;
+}
+
+.music-header .page-title {
+  margin-bottom: 12px;
+}
+
+.music-note {
+  margin: 0;
+  font-family: var(--font-mono);
+  font-size: 12px;
+  line-height: 1.6;
+  color: var(--muted);
+}
+
+.music-note a {
+  color: var(--ink);
+  text-decoration: none;
+  border-bottom: 1px solid var(--faint);
+  transition: border-color 200ms var(--ease);
+}
+
+.music-note a:hover {
+  color: var(--ink);
+  text-decoration: none;
+  border-bottom-color: var(--ink);
+}
+
+@media screen and (min-width: 768px) {
+  .tile-grid.music-grid {
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .music-header {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 0;
+    padding: 24px 16px 20px;
+  }
+
+  .music-header .page-title {
+    margin: 0;
+    padding: 0;
+  }
+
+  .music-note {
+    font-size: 11px;
+  }
+}

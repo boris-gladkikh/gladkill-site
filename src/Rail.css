@@ -1,0 +1,195 @@
+/* Desktop rail */
+
+.rail {
+  border-right: 1px solid var(--rule);
+}
+
+.rail-inner {
+  position: sticky;
+  top: 0;
+  height: 100vh;
+  max-height: 1000px;
+  padding: 36px 32px;
+  display: flex;
+  flex-direction: column;
+  gap: 56px;
+}
+
+.rail-logo {
+  display: block;
+  width: 180px;
+}
+
+.rail-logo img,
+.topbar-logo img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.rail-nav {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.rail-nav a,
+.mobile-menu-nav a {
+  display: block;
+  font-family: var(--font-display);
+  font-stretch: 70%;
+  text-transform: uppercase;
+  color: var(--dim);
+  text-decoration: none;
+  transition: color 250ms var(--ease);
+}
+
+.rail-nav a {
+  font-size: 34px;
+  line-height: 1.1;
+  font-weight: 600;
+}
+
+.rail-nav a:hover,
+.rail-nav a:focus-visible,
+.rail-nav a.active,
+.mobile-menu-nav a.active {
+  color: var(--ink);
+  text-decoration: none;
+}
+
+.rail-socials {
+  margin-top: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.rail-socials a,
+.mobile-menu-socials a {
+  display: block;
+  font-family: var(--font-mono);
+  font-size: 12px;
+  line-height: 1.8;
+  text-decoration: none;
+  transition: color 250ms var(--ease);
+}
+
+.rail-socials a {
+  color: #666666;
+}
+
+.rail-socials a:hover,
+.mobile-menu-socials a:hover {
+  color: var(--ink);
+  text-decoration: none;
+}
+
+/* Mobile top bar + menu (below 768px) */
+
+.topbar,
+.mobile-menu,
+.page-socials {
+  display: none;
+}
+
+@media screen and (max-width: 767px) {
+  .rail {
+    display: none;
+  }
+
+  .topbar {
+    position: sticky;
+    top: 0;
+    z-index: 20;
+    height: 60px;
+    padding: 0 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: var(--bg);
+    border-bottom: 1px solid var(--rule);
+  }
+
+  .topbar-logo {
+    display: block;
+    width: 112px;
+  }
+
+  .topbar-toggle {
+    margin-right: -16px;
+    padding: 12px 16px;
+    background: none;
+    border: 0;
+    color: var(--ink);
+    font-family: var(--font-display);
+    font-stretch: 70%;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 1;
+    text-transform: uppercase;
+    cursor: pointer;
+  }
+
+  .mobile-menu {
+    position: fixed;
+    top: 60px;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 19;
+    display: flex;
+    flex-direction: column;
+    background: var(--bg);
+    overflow-y: auto;
+  }
+
+  .mobile-menu-nav {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    padding: 40px 20px;
+  }
+
+  .mobile-menu-nav a {
+    font-size: 60px;
+    line-height: 1.02;
+    font-weight: 700;
+    min-height: 60px;
+  }
+
+  .mobile-menu-socials {
+    margin-top: auto;
+    display: flex;
+    gap: 24px;
+    padding: 24px 20px 40px;
+    border-top: 1px solid var(--rule);
+  }
+
+  .mobile-menu-socials a {
+    color: var(--muted);
+  }
+}
+
+/* Footer socials at the end of a page (mobile only; desktop has the rail) */
+@media screen and (max-width: 767px) {
+  .page-socials {
+    display: flex;
+    flex-wrap: wrap;   /* four labels can outgrow a narrow phone */
+    gap: 12px 24px;
+    margin: 0 20px;
+    padding: 24px 0 40px;
+    border-top: 1px solid var(--rule);
+  }
+
+  .page-socials a {
+    font-family: var(--font-mono);
+    font-size: 12px;
+    color: var(--muted);
+    text-decoration: none;
+  }
+
+  .page-socials a:hover {
+    color: var(--ink);
+    text-decoration: none;
+  }
+}
