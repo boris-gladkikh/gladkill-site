@@ -18,8 +18,14 @@ const livePhotos = [
 ];
 
 const listenLinks = [
-  { label: "Spotify", url: "https://open.spotify.com/artist/7Kpco2hTnFKHUP1Gj8dA17" },
-  { label: "Apple Music", url: "https://itunes.apple.com/us/artist/gladkill/424432116" },
+  {
+    label: "Spotify",
+    url: "https://open.spotify.com/artist/7Kpco2hTnFKHUP1Gj8dA17",
+  },
+  {
+    label: "Apple Music",
+    url: "https://itunes.apple.com/us/artist/gladkill/424432116",
+  },
   { label: "SoundCloud", url: "https://soundcloud.com/gladkill" },
   { label: "Bandcamp", url: "https://gladkill.bandcamp.com/" },
   { label: "Facebook", url: "https://www.facebook.com/gladkill/" },
@@ -41,7 +47,10 @@ function LiveStrip() {
     const start = strip.scrollLeft + cards[0].offsetLeft;
     let nearest = 0;
     cards.forEach((card, i) => {
-      if (Math.abs(card.offsetLeft - start) < Math.abs(cards[nearest].offsetLeft - start)) {
+      if (
+        Math.abs(card.offsetLeft - start) <
+        Math.abs(cards[nearest].offsetLeft - start)
+      ) {
         nearest = i;
       }
     });
@@ -208,26 +217,20 @@ function About() {
       </header>
 
       <section className="about-section about-bio">
-        <p className="section-label">Bio</p>
-        <p className="about-lead">
-          Refusing to stick to the comfort of a single musical genre, Gladkill
-          has rewarded audiences through the sheer diversity of his
-          compositions, as he deftly moves between dominating dance floors with
-          his sultry, bass-heavy club sounds, to captivating home stereo
-          speakers with more downtempo and melodic material.
-        </p>
+        {/* <p className="section-label">Bio</p> */}
+        <p className="about-lead">Gladkill makes melodic bass music.</p>
         <p className="about-bio-more">
-          With over 10 years of extensive touring and releases, Gladkill has
-          risen to legacy artist status with a diverse catalog that spans over
-          several genres, flavors and interpretations of the melodic bass sound
-          he has helped pioneer. With new releases and exciting performances in
-          store for 2026 and beyond, Gladkill continues to carve his own path
-          in the ever-changing landscape of underground electronic music.
+          Gladkill's depth of sound and diversity can be witnessed throughout his
+          extensive catalog, spanning releases across multiple genres, including
+          dubstep, wave, chill trap, UKG, future bass, lo-fi hip hop, idm,
+          uptempo and more. With over 10 years of extensive touring and releases,
+          Gladkill continues to carve his own path in the ever-changing
+          landscape of underground electronic music.
         </p>
       </section>
 
       <section className="about-section about-live">
-        <p className="section-label">Live</p>
+        {/* <p className="section-label">Live</p> */}
         <LiveStrip />
       </section>
 
@@ -243,7 +246,7 @@ function About() {
       </section>
 
       <section className="about-section about-listen">
-        <p className="section-label">Listen &amp; follow</p>
+        {/* <p className="section-label">Listen &amp; follow</p> */}
         <div className="listen-grid">
           {listenLinks.map((link) => (
             <a

@@ -10,6 +10,89 @@ const blogPosts = [
   //   body:"",
   // },
   {
+    title:"Nipsey Hussle - Racks in the Middle (Gladkill Edit)",
+    kind:"RELEASE",
+    createdOn:"September 29, 2026",
+    imgSrc:"/blogImg/nipsey-racks-cover.jpg",
+    featured:false,
+    links:[
+      {name:'soundcloud', url: 'https://soundcloud.com/gladkill/racks-edit'},
+      {name:'patreon', url: 'https://patreon.com/gladkill'},
+    ],   
+    body:"stoked to have released the first remix of my Edit Series - Nipsey Hussle - Racks in the Middle (Gladkill Edit) on soundcloud and Patreon!"
+  },
+  {
+    title:"Gladkill: You Are The Knife",
+    kind:"RELEASE",
+    createdOn:"April 30, 2026",
+    imgSrc:"/blogImg/you-are-the-knife-cover.jpg",
+    featured:false,
+    links:[
+      {name:'bandcamp',url:'https://gladkill.bandcamp.com/track/you-are-the-knife'},
+      {name:'soundcloud', url: 'https://soundcloud.com/gladkill/youaretheknife'},
+      {name: 'spotify',url:'https://open.spotify.com/album/3TSfZyQSvG822yUY9igcV6'}
+    ],   
+    body: "Presenting the new single from Gladkill, 'You Are The Knife'. Melancholy bass and wave - 'You are the knife I turn inside myself'."
+  },
+  {
+    title:"Gladkill: The Art Of Letting Go",
+    kind:"RELEASE",
+    createdOn:"April 30, 2026",
+    imgSrc:"/blogImg/the-art-of-letting-go-cover.jpg",
+    featured:false,
+    links:[
+      {name:'bandcamp',url:'https://gladkill.bandcamp.com/track/the-art-of-letting-go'},
+      {name:'soundcloud', url: 'https://soundcloud.com/gladkill/artoflettinggo'},
+      {name: 'spotify',url:'https://open.spotify.com/track/7AMQc9AU2dmft6qe68nIE0?autoplay_ok=1'}
+    ],   
+    body: "Presenting the new single from Gladkill, 'The Art Of Letting Go'. A melodic meditation on the art of detachment. Availbale Now, everywhere you listen to music."
+  },
+  {
+    title:"Symmetry Festival 2026",
+    kind:"NEWS",
+    createdOn:"April 14, 2026",
+    imgSrc:"/blogImg/symmetry-flyer-26.jpg",
+    featured:false,
+    links:[
+      {name:'Symmetry Fest', url: 'https://symmetryfestival.com/'},
+    ],
+    body: "Coming back to Symmetry Festival this year - so stoked to play some music for my fam and friends. Always a pleasure to be invited back to this really special event and I can't wait to see how it's grown this year."
+  },
+  {
+    title:"Synthetic Memories - Gladkill Sample Pack",
+    kind:"NEWS",
+    createdOn:"March 30, 2026",
+    imgSrc:"/blogImg/sample-pack-001.jpg",
+    featured:false,
+    links:[
+      {name:'patreon', url: 'https://patreon.com/gladkill'},
+    ],
+    body: "Stoked to share my first sample pack - Synthetic Memories.58 sounds, basses, melodies, atmospheric samples, and FM synthesized drums & percussion . Available to all paying Patrons $5 and above, or as a one-time purchase for non subscribers."
+  },
+  {
+    title:"KATO - Turn The Lights Off (Gladkill Edit)",
+    kind:"RELEASE",
+    createdOn:"February 27, 2026",
+    imgSrc:"/blogImg/kato-rmx-promo.jpg",
+    featured:false,
+    links:[
+      {name:'patreon', url: 'https://patreon.com/gladkill'},
+    ],
+    body: "Been making flips of some tracks I'm feeling and I'll be throwing them up on my Patreon for paying members. First up- yeah it's become a meme track but Kato's 'Turn The Lights Off' is a banger. My edit is now available exclusively via Patreon."  
+  },
+  {
+    title:"Hardware Sessions 2026",
+    kind:"NEWS",
+    createdOn:"February 11, 2026",
+    imgSrc:"/blogImg/gk-hw-sessions.jpg",
+    featured:false,
+    links:[
+      {name:'youtube',url:'https://www.youtube.com/@gladkillofficial'},
+      {name:'patreon', url: 'https://patreon.com/gladkill'},
+    ],  
+    body:"What's up yall, I’ve been really putting some work into my Patreon content this year. Aside from the weekly hardware performance videos, I'm working on production tutorials / videos explaining my song-writing approach, sound design sessions, and mixing and engineering tips. I’ve also got a grip of remixes and bootlegs that I wrote over the last year that I’ll be posting exclusively there (since you can’t really post remixes anywhere else without getting copyright strikes!) First one of those is coming next week. The thing I’m most excited about - I’ve been working on a series of sample / melody packs created with a lot of my audio hardware, and the first volume is coming your way in March! And of course, lots of new music coming soon as well. Thank you for listening!"
+  },
+  {
     title:"Gladkill: Control",
     kind:"RELEASE",
     createdOn:"December 4, 2025",
