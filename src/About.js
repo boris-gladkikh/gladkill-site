@@ -2,6 +2,7 @@ import React, { useEffect, useLayoutEffect, useRef, useState } from "react";
 import "./About.css";
 import featuredReleases from "./featuredReleases";
 import { SocialLinks } from "./Rail";
+import Lightbox from "./Lightbox";
 import heroImg from "./img/gk-denver-eternal.jpg";
 import liveLib from "./img/gk-live-lib.jpg";
 import liveMissionOne from "./img/gk-live-mission-ballroom-2023-one.jpg";
@@ -35,6 +36,8 @@ const listenLinks = [
 function LiveStrip() {
   const stripRef = useRef(null);
   const [active, setActive] = useState(0);
+  const [viewing, setViewing] = useState(null);
+  const count = livePhotos.length;
 
   const onScroll = () => {
     const strip = stripRef.current;
@@ -69,10 +72,16 @@ function LiveStrip() {
   return (
     <>
       <div className="live-strip" ref={stripRef} onScroll={onScroll}>
-        {livePhotos.map((photo) => (
-          <div className="live-card" key={photo.src}>
+        {livePhotos.map((photo, i) => (
+          <button
+            type="button"
+            className="live-card"
+            key={photo.src}
+            aria-label={`Expand photo ${i + 1} of ${count}`}
+            onClick={() => setViewing(i)}
+          >
             <img src={photo.src} alt={photo.alt} loading="lazy" />
-          </div>
+          </button>
         ))}
       </div>
       <div className="live-dots">
@@ -87,6 +96,19 @@ function LiveStrip() {
           />
         ))}
       </div>
+      {viewing !== null && (
+        <Lightbox
+          photos={livePhotos}
+          index={viewing}
+          onPrev={() => setViewing((viewing - 1 + count) % count)}
+          onNext={() => setViewing((viewing + 1) % count)}
+          onClose={() => {
+            // Leave the strip on the photo that was last open.
+            scrollTo(viewing);
+            setViewing(null);
+          }}
+        />
+      )}
     </>
   );
 }

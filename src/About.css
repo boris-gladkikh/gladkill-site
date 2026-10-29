@@ -63,9 +63,17 @@
 .live-card {
   flex: 0 0 calc(25% - 3px);
   height: 420px;
+  padding: 0;
+  border: 0;
   overflow: hidden;
   background: #0A0A0A;
   scroll-snap-align: start;
+  cursor: zoom-in;
+}
+
+.live-card:focus-visible {
+  outline: 1px solid #FFFFFF;
+  outline-offset: -1px;
 }
 
 .live-card:first-child {
@@ -77,6 +85,14 @@
   width: 100%;
   height: 100%;
   object-fit: cover;
+  transition: transform 500ms var(--ease), filter 500ms var(--ease);
+}
+
+@media (hover: hover) {
+  .live-card:hover img {
+    transform: scale(1.03);
+    filter: brightness(0.85);
+  }
 }
 
 .live-dots {
